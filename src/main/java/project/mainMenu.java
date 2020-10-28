@@ -27,25 +27,35 @@ public class mainMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        ch1Button = new javax.swing.JButton();
-        ch2Button = new javax.swing.JButton();
-        ch3Button = new javax.swing.JButton();
+        eButton = new javax.swing.JButton();
+        titleLabel = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
         ch4Button = new javax.swing.JButton();
         ch5Button = new javax.swing.JButton();
         ch6Button = new javax.swing.JButton();
         ch7Button = new javax.swing.JButton();
         ch8Button = new javax.swing.JButton();
-        ch1Label = new javax.swing.JLabel();
-        ch2Label = new javax.swing.JLabel();
-        ch3Label = new javax.swing.JLabel();
-        ch4Label = new javax.swing.JLabel();
-        ch5Label = new javax.swing.JLabel();
-        ch6Label = new javax.swing.JLabel();
-        ch7Label = new javax.swing.JLabel();
-        ch8Label = new javax.swing.JLabel();
-        eButton = new javax.swing.JButton();
-        titleLabel = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        ch1Button = new javax.swing.JButton();
+        ch2Button = new javax.swing.JButton();
+        ch3Button = new javax.swing.JButton();
+        jTabbedPane2 = new javax.swing.JTabbedPane();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea6 = new javax.swing.JTextArea();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
         menuBar = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         menuExit = new javax.swing.JMenuItem();
@@ -57,26 +67,19 @@ public class mainMenu extends javax.swing.JFrame {
         setLocation(new java.awt.Point(500, 200));
         setResizable(false);
 
-        ch1Button.setText("Chapter 1");
-        ch1Button.addActionListener(new java.awt.event.ActionListener() {
+        eButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        eButton.setText("Exit");
+        eButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ch1ButtonActionPerformed(evt);
+                eButtonActionPerformed(evt);
             }
         });
 
-        ch2Button.setText("Chapter 2");
-        ch2Button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ch2ButtonActionPerformed(evt);
-            }
-        });
+        titleLabel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        titleLabel.setText("Welcome to ISO 17025-2017 WFF-MCL");
 
-        ch3Button.setText("Chapter 3");
-        ch3Button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ch3ButtonActionPerformed(evt);
-            }
-        });
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
+        jLabel1.setText("Created By: Daniel Simes & Ed Woodring");
 
         ch4Button.setText("Chapter 4");
         ch4Button.addActionListener(new java.awt.event.ActionListener() {
@@ -113,35 +116,156 @@ public class mainMenu extends javax.swing.JFrame {
             }
         });
 
-        ch1Label.setText("jLabel1");
-
-        ch2Label.setText("jLabel2");
-
-        ch3Label.setText("jLabel3");
-
-        ch4Label.setText("jLabel4");
-
-        ch5Label.setText("jLabel5");
-
-        ch6Label.setText("jLabel6");
-
-        ch7Label.setText("jLabel7");
-
-        ch8Label.setText("jLabel8");
-
-        eButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        eButton.setText("Exit");
-        eButton.addActionListener(new java.awt.event.ActionListener() {
+        ch1Button.setText("Chapter 1");
+        ch1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                eButtonActionPerformed(evt);
+                ch1ButtonActionPerformed(evt);
             }
         });
 
-        titleLabel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        titleLabel.setText("Welcome to ISO 17025 Main Menu");
+        ch2Button.setText("Chapter 2");
+        ch2Button.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ch2ButtonActionPerformed(evt);
+            }
+        });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
-        jLabel1.setText("Created By: Daniel Simes & Ed Woodring");
+        ch3Button.setText("Chapter 3");
+        ch3Button.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ch3ButtonActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap(15, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(ch7Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ch6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ch5Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ch4Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ch3Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ch2Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ch1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(ch8Button, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(ch1Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch2Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch3Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch4Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch5Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch6Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch7Button)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ch8Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jTabbedPane2.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jTextArea1.setLineWrap(true);
+        jTextArea1.setRows(5);
+        jTextArea1.setText("This is where Chapter 1 data and information is held in order to read what the chapter is about.");
+        jTextArea1.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(jTextArea1);
+
+        jTabbedPane2.addTab("Chapter 1", jScrollPane2);
+
+        jTextArea2.setEditable(false);
+        jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea2.setLineWrap(true);
+        jTextArea2.setRows(5);
+        jTextArea2.setText("This is where Chapter 2 data and information is held in order to read what the chapter is about.");
+        jTextArea2.setWrapStyleWord(true);
+        jScrollPane3.setViewportView(jTextArea2);
+
+        jTabbedPane2.addTab("Chapter 2", jScrollPane3);
+
+        jTextArea3.setEditable(false);
+        jTextArea3.setColumns(20);
+        jTextArea3.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea3.setLineWrap(true);
+        jTextArea3.setRows(5);
+        jTextArea3.setText("This is where Chapter 3 data and information is held in order to read what the chapter is about.");
+        jTextArea3.setWrapStyleWord(true);
+        jScrollPane4.setViewportView(jTextArea3);
+
+        jTabbedPane2.addTab("Chapter 3", jScrollPane4);
+
+        jTextArea4.setEditable(false);
+        jTextArea4.setColumns(20);
+        jTextArea4.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea4.setLineWrap(true);
+        jTextArea4.setRows(5);
+        jTextArea4.setText("This is where Chapter 4 data and information is held in order to read what the chapter is about.");
+        jTextArea4.setWrapStyleWord(true);
+        jScrollPane5.setViewportView(jTextArea4);
+
+        jTabbedPane2.addTab("Chapter 4", jScrollPane5);
+
+        jTextArea5.setEditable(false);
+        jTextArea5.setColumns(20);
+        jTextArea5.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea5.setLineWrap(true);
+        jTextArea5.setRows(5);
+        jTextArea5.setText("This is where Chapter 5 data and information is held in order to read what the chapter is about.");
+        jTextArea5.setWrapStyleWord(true);
+        jScrollPane6.setViewportView(jTextArea5);
+
+        jTabbedPane2.addTab("Chapter 5", jScrollPane6);
+
+        jTextArea6.setEditable(false);
+        jTextArea6.setColumns(20);
+        jTextArea6.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea6.setLineWrap(true);
+        jTextArea6.setRows(5);
+        jTextArea6.setText("This is where Chapter 6 data and information is held in order to read what the chapter is about.");
+        jTextArea6.setWrapStyleWord(true);
+        jScrollPane7.setViewportView(jTextArea6);
+
+        jTabbedPane2.addTab("Chapter 6", jScrollPane7);
+
+        jTextArea7.setEditable(false);
+        jTextArea7.setColumns(20);
+        jTextArea7.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea7.setLineWrap(true);
+        jTextArea7.setRows(5);
+        jTextArea7.setText("This is where Chapter 7 data and information is held in order to read what the chapter is about.");
+        jTextArea7.setWrapStyleWord(true);
+        jScrollPane8.setViewportView(jTextArea7);
+
+        jTabbedPane2.addTab("Chapter 7", jScrollPane8);
+
+        jTextArea8.setEditable(false);
+        jTextArea8.setColumns(20);
+        jTextArea8.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea8.setLineWrap(true);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("This is where Chapter 8 data and information is held in order to read what the chapter is about.");
+        jTextArea8.setWrapStyleWord(true);
+        jScrollPane9.setViewportView(jTextArea8);
+
+        jTabbedPane2.addTab("Chapter 8", jScrollPane9);
 
         jMenu1.setText("File");
 
@@ -174,38 +298,22 @@ public class mainMenu extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(92, 92, 92)
-                .addComponent(titleLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(eButton, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(205, 205, 205))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(ch1Label, javax.swing.GroupLayout.DEFAULT_SIZE, 330, Short.MAX_VALUE)
-                    .addComponent(ch2Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch3Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch4Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch5Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch6Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch7Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch8Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(ch7Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch5Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch4Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch3Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch2Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(ch8Button, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(149, 149, 149)
+                        .addComponent(eButton, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 507, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(168, 168, 168)
+                .addComponent(titleLabel)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -213,41 +321,13 @@ public class mainMenu extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(titleLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ch1Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch1Button))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ch2Label, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)
-                    .addComponent(ch2Button))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ch3Button)
-                    .addComponent(ch3Label))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ch4Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch4Button))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ch5Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch5Button))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ch6Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch6Button))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ch7Label, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ch7Button))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ch8Label, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ch8Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(36, 36, 36)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(eButton, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -260,55 +340,6 @@ public class mainMenu extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_eButtonActionPerformed
 
-    private void ch1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch1ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter1 ch1 = new chapter1();
-        ch1.setVisible(true);
-        
-    }//GEN-LAST:event_ch1ButtonActionPerformed
-
-    private void ch2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch2ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter2 ch2 = new chapter2();
-        ch2.setVisible(true);
-    }//GEN-LAST:event_ch2ButtonActionPerformed
-
-    private void ch3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch3ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter3 ch3 = new chapter3();
-        ch3.setVisible(true);
-    }//GEN-LAST:event_ch3ButtonActionPerformed
-
-    private void ch4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch4ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter4 ch4 = new chapter4();
-        ch4.setVisible(true);
-    }//GEN-LAST:event_ch4ButtonActionPerformed
-
-    private void ch5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch5ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter5 ch5 = new chapter5();
-        ch5.setVisible(true);
-    }//GEN-LAST:event_ch5ButtonActionPerformed
-
-    private void ch6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch6ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter6 ch6 = new chapter6();
-        ch6.setVisible(true);
-    }//GEN-LAST:event_ch6ButtonActionPerformed
-
-    private void ch7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch7ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter7 ch7 = new chapter7();
-        ch7.setVisible(true);
-    }//GEN-LAST:event_ch7ButtonActionPerformed
-
-    private void ch8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch8ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter8 ch8 = new chapter8();
-        ch8.setVisible(true);
-    }//GEN-LAST:event_ch8ButtonActionPerformed
-
     private void menuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuExitActionPerformed
         // TODO add your handling code here:
         System.exit(0);
@@ -319,6 +350,54 @@ public class mainMenu extends javax.swing.JFrame {
         AboutForm aboutInfo = new AboutForm();
         aboutInfo.setVisible(true);
     }//GEN-LAST:event_aboutMenuActionPerformed
+
+    private void ch8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch8ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter8 ch8 = new chapter8();
+        ch8.setVisible(true);
+    }//GEN-LAST:event_ch8ButtonActionPerformed
+
+    private void ch7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch7ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter7 ch7 = new chapter7();
+        ch7.setVisible(true);
+    }//GEN-LAST:event_ch7ButtonActionPerformed
+
+    private void ch6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch6ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter6 ch6 = new chapter6();
+        ch6.setVisible(true);
+    }//GEN-LAST:event_ch6ButtonActionPerformed
+
+    private void ch5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch5ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter5 ch5 = new chapter5();
+        ch5.setVisible(true);
+    }//GEN-LAST:event_ch5ButtonActionPerformed
+
+    private void ch4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch4ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter4 ch4 = new chapter4();
+        ch4.setVisible(true);
+    }//GEN-LAST:event_ch4ButtonActionPerformed
+
+    private void ch3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch3ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter3 ch3 = new chapter3();
+        ch3.setVisible(true);
+    }//GEN-LAST:event_ch3ButtonActionPerformed
+
+    private void ch2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch2ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter2 ch2 = new chapter2();
+        ch2.setVisible(true);
+    }//GEN-LAST:event_ch2ButtonActionPerformed
+
+    private void ch1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch1ButtonActionPerformed
+        // TODO add your handling code here:
+        chapter1 ch1 = new chapter1();
+        ch1.setVisible(true);
+    }//GEN-LAST:event_ch1ButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -369,25 +448,35 @@ public class mainMenu extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem aboutMenu;
     private javax.swing.JButton ch1Button;
-    private javax.swing.JLabel ch1Label;
     private javax.swing.JButton ch2Button;
-    private javax.swing.JLabel ch2Label;
     private javax.swing.JButton ch3Button;
-    private javax.swing.JLabel ch3Label;
     private javax.swing.JButton ch4Button;
-    private javax.swing.JLabel ch4Label;
     private javax.swing.JButton ch5Button;
-    private javax.swing.JLabel ch5Label;
     private javax.swing.JButton ch6Button;
-    private javax.swing.JLabel ch6Label;
     private javax.swing.JButton ch7Button;
-    private javax.swing.JLabel ch7Label;
     private javax.swing.JButton ch8Button;
-    private javax.swing.JLabel ch8Label;
     private javax.swing.JButton eButton;
     private javax.swing.JMenu helpMenu;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem menuExit;
     private javax.swing.JLabel titleLabel;
