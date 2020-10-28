@@ -29,7 +29,7 @@ public class chapter4 extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("ISO 17025 Chapter 4");
         setLocation(new java.awt.Point(500, 200));
 
