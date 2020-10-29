@@ -27,18 +27,17 @@ public class mainMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        eButton = new javax.swing.JButton();
         titleLabel = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         ch4Button = new javax.swing.JButton();
         ch5Button = new javax.swing.JButton();
         ch6Button = new javax.swing.JButton();
         ch7Button = new javax.swing.JButton();
-        ch8Button = new javax.swing.JButton();
         ch1Button = new javax.swing.JButton();
         ch2Button = new javax.swing.JButton();
         ch3Button = new javax.swing.JButton();
+        finalThoughtsButton = new javax.swing.JButton();
+        jSeparator1 = new javax.swing.JSeparator();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
@@ -56,6 +55,13 @@ public class mainMenu extends javax.swing.JFrame {
         jTextArea7 = new javax.swing.JTextArea();
         jScrollPane9 = new javax.swing.JScrollPane();
         jTextArea8 = new javax.swing.JTextArea();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        eButton = new javax.swing.JButton();
+        sNewAuditButton = new javax.swing.JButton();
+        openAuditButton = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         menuBar = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         menuExit = new javax.swing.JMenuItem();
@@ -63,120 +69,117 @@ public class mainMenu extends javax.swing.JFrame {
         aboutMenu = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("ISO 17025 Main Menu");
+        setTitle("ISO 17025-2017 Main Menu");
         setLocation(new java.awt.Point(500, 200));
         setResizable(false);
 
-        eButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        eButton.setText("Exit");
-        eButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                eButtonActionPerformed(evt);
-            }
-        });
-
         titleLabel.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        titleLabel.setText("Welcome to ISO 17025-2017 WFF-MCL");
+        titleLabel.setText("Internal Audit Report ISO 17025-2017 WFF-MCL");
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
-        jLabel1.setText("Created By: Daniel Simes & Ed Woodring");
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Internal Audit Report Steps"));
 
-        ch4Button.setText("Chapter 4");
+        ch4Button.setText("Step 4: Verify the Effectiveness of the Process");
         ch4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch4ButtonActionPerformed(evt);
             }
         });
 
-        ch5Button.setText("Chapter 5");
+        ch5Button.setText("Step 5: Summarize Findings for CAR System");
         ch5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch5ButtonActionPerformed(evt);
             }
         });
 
-        ch6Button.setText("Chapter 6");
+        ch6Button.setText("Step 6 Review Audit Report and Submnit");
         ch6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch6ButtonActionPerformed(evt);
             }
         });
 
-        ch7Button.setText("Chapter 7");
+        ch7Button.setText("Notes Page");
         ch7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch7ButtonActionPerformed(evt);
             }
         });
 
-        ch8Button.setText("Chapter 8");
-        ch8Button.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ch8ButtonActionPerformed(evt);
-            }
-        });
-
-        ch1Button.setText("Chapter 1");
+        ch1Button.setText("Step 1: Audit Plan");
         ch1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch1ButtonActionPerformed(evt);
             }
         });
 
-        ch2Button.setText("Chapter 2");
+        ch2Button.setText("Step 2: Documentation vs. Requirements");
         ch2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch2ButtonActionPerformed(evt);
             }
         });
 
-        ch3Button.setText("Chapter 3");
+        ch3Button.setText("Step 3: Actual Practice vs Requirements");
         ch3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ch3ButtonActionPerformed(evt);
             }
         });
 
+        finalThoughtsButton.setText("Final Thoughts");
+        finalThoughtsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                finalThoughtsButtonActionPerformed(evt);
+            }
+        });
+
+        jSeparator1.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(15, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(ch7Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch5Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch4Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch3Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch2Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ch1Button, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(ch8Button, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap())
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(ch7Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ch6Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ch5Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ch4Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ch3Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ch2Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ch1Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(finalThoughtsButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jSeparator1, javax.swing.GroupLayout.Alignment.TRAILING)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(ch1Button)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ch2Button)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ch3Button)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ch4Button)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ch5Button)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(ch6Button)
+                .addGap(18, 18, 18)
+                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(ch7Button)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(ch8Button, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(finalThoughtsButton)
+                .addGap(0, 71, Short.MAX_VALUE))
         );
 
+        jTabbedPane2.setBorder(javax.swing.BorderFactory.createTitledBorder("Chapter Regulations"));
         jTabbedPane2.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
         jTextArea1.setEditable(false);
@@ -184,7 +187,7 @@ public class mainMenu extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("This is where Chapter 1 data and information is held in order to read what the chapter is about.");
+        jTextArea1.setText("1 Scope:\n\nThis document specifies the general requirements for the competence, impartiality and consistent operation of laboratories.\n\nThis document is applicable to all organizations performing laboratory activities, regardless of the number of personnel.\n\nLaboratory customers, regulatory authorities, organizations and schemes using peer-assessment, accreditation bodies, and others use this document in confirming or recognizing the competence of laboratories.\n");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane2.setViewportView(jTextArea1);
 
@@ -192,10 +195,10 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea2.setEditable(false);
         jTextArea2.setColumns(20);
-        jTextArea2.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea2.setLineWrap(true);
         jTextArea2.setRows(5);
-        jTextArea2.setText("This is where Chapter 2 data and information is held in order to read what the chapter is about.");
+        jTextArea2.setText("2 Normative References:\n\nThe following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.\n\nISO/IEC Guide 99, International vocabulary of Metrology — Basic and general concepts and associated terms (VIM)1).\n\nISO/IEC 17000, Conformity assessment — Vocabulary and general principles.\n");
         jTextArea2.setWrapStyleWord(true);
         jScrollPane3.setViewportView(jTextArea2);
 
@@ -203,10 +206,10 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea3.setEditable(false);
         jTextArea3.setColumns(20);
-        jTextArea3.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea3.setLineWrap(true);
         jTextArea3.setRows(5);
-        jTextArea3.setText("This is where Chapter 3 data and information is held in order to read what the chapter is about.");
+        jTextArea3.setText("3 Terms and Definitions:\n\nFor the purposes of this document, the terms and definitions given in ISO/IEC Guide 99 and ISO/IEC 17000 and the following apply.\n\nISO and IEC maintain terminological databases for use in standardization at the following addresses:\n\n— ISO Online browsing platform: available at https://www.iso.org/obp\n— IEC Electropedia: available at http://www.electropedia.org/\n\n3.1 Impartiality:\n\nPresence of Objectivity\n\nNote 1 to entry: Objectivity means that conflicts of interest do not exist, or are resolved so as not to adversely influence subsequent activities of the laboratory (3.6).\n\nNote 2 to entry: Other terms that are useful in conveying the element of impartiality include “freedom from\", \"conflict of interests”, “freedom from bias”, “lack of prejudice”, “neutrality”, “fairness”, “open-mindedness”, “evenhandedness”, “detachment”, “balance”.\n\n[SOURCE: ISO/IEC 17021‑1:2015, 3.2, modified — The words “the certification body” have been replaced by “the laboratory” in Note 1 to entry, and the word “independence” has been deleted from the list in Note 2 to entry].\n\n3.2 Complaint:\n\nexpression of dissatisfaction by any person or organization to a laboratory (3.6), relating to the activities or results of that laboratory, where a response is expected.\n\n[SOURCE: ISO/IEC 17000:2004, 6.5, modified — The words “other than appeal” have been deleted, and the words “a conformity assessment body or accreditation body, relating to the activities of that body” have been replaced by “a laboratory, relating to the activities or results of that laboratory”].\n\n3.3 Interlaboratory Comparison:\n\norganization, performance and evaluation of measurements or tests on the same or similar items by two or more laboratories in accordance with predetermined conditions\n\n[SOURCE: ISO/IEC 17043:2010, 3.4]\n\n3.4 Intralaboratory Comparison:\n\norganization, performance and evaluation of measurements or tests on the same or similar items within the same laboratory (3.6) in accordance with predetermined conditions.\n\n3.5 Proficiency Testing:\n\nevaluation of participant performance against pre-established criteria by means of interlaboratory comparisons (3.3)\n\n[SOURCE: ISO/IEC 17043:2010, 3.7, modified — Notes to entry have been deleted.]\n\n3.6 Laboratory:\n\nbody that performs one or more of the following activities:\n— testing;\n— calibration;\n— sampling, associated with subsequent testing or calibration.\n\nNote 1 to entry: In the context of this document, “laboratory activities” refer to the three above-mentioned activities.\n\n3.7 Decision Rule:\n\nrule that describes how measurement uncertainty is accounted for when stating conformity with a specified requirement.\n\n3.8 Verification:\n\nprovision of objective evidence that a given item fulfils specified requirements.\n\nEXAMPLE 1 Confirmation that a given reference material as claimed is homogeneous for the quantity value and measurement procedure concerned, down to a measurement portion having a mass of 10 mg.\n\nEXAMPLE 2 Confirmation that performance properties or legal requirements of a measuring system are achieved.\n\nEXAMPLE 3 Confirmation that a target measurement uncertainty can be met.\n\nNote 1 to entry: When applicable, measurement uncertainty should be taken into consideration.\n\nNote 2 to entry: The item may be, for example, a process, measurement procedure, material, compound, or measuring system.\n\nNote 3 to entry: The specified requirements may be, for example, that a manufacturer's specifications are met.\n\nNote 4 to entry: Verification in legal metrology, as defined in VIML, and in conformity assessment in general, pertains to the examination and marking and/or issuing of a verification certificate for a measuring system.\n\nNote 5 to entry: Verification should not be confused with calibration. Not every verification is a validation (3.9).\n\nNote 6 to entry: In chemistry, verification of the identity of the entity involved, or of activity, requires a description of the structure or properties of that entity or activity.\n\n[SOURCE: ISO/IEC Guide 99:2007, 2.44]\n\n3.9 Validation:\n\nverification (3.8), where the specified requirements are adequate for an intended use.\n\nEXAMPLE A measurement procedure, ordinarily used for the measurement of mass concentration of nitrogen in water, may be validated also for measurement of mass concentration of nitrogen in human serum.\n\n[SOURCE: ISO/IEC Guide 99:2007, 2.45]);\n");
         jTextArea3.setWrapStyleWord(true);
         jScrollPane4.setViewportView(jTextArea3);
 
@@ -214,10 +217,10 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea4.setEditable(false);
         jTextArea4.setColumns(20);
-        jTextArea4.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea4.setLineWrap(true);
         jTextArea4.setRows(5);
-        jTextArea4.setText("This is where Chapter 4 data and information is held in order to read what the chapter is about.");
+        jTextArea4.setText("4 General Requirements:\n\n4.1 Impartiality:\n\n4.1.1 Laboratory activities shall be undertaken impartially and structured and managed so as to safeguard impartiality.\n\n4.1.2 The laboratory management shall be committed to impartiality.\n\n4.1.3 The laboratory shall be responsible for the impartiality of its laboratory activities and shall not allow commercial, financial or other pressures to compromise impartiality.\n\n4.1.4 The laboratory shall identify risks to its impartiality on an on-going basis. This shall include those risks that arise from its activities, or from its relationships, or from the relationships of its personnel. However, such relationships do not necessarily present a laboratory with a risk to impartiality.\n\nNOTE A relationship that threatens the impartiality of the laboratory can be based on ownership, governance, management, personnel, shared resources, finances, contracts, marketing (including branding), and payment of a sales commission or other inducement for the referral of new customers, etc.\n\n4.1.5 If a risk to impartiality is identified, the laboratory shall be able to demonstrate how it eliminates; or minimizes such risk.\n\n4.2 Confidentiality:\n\n4.2.1 The laboratory shall be responsible, through legally enforceable commitments, for the management of all information obtained or created during the performance of laboratory activities. The laboratory shall inform the customer in advance, of the information it intends to place in the public domain. Except for information that the customer makes publicly available, or when agreed between the laboratory and the customer (e.g. for the purpose of responding to complaints), all other information considered proprietary information and shall be regarded as confidential.\n\n4.2.2 When the laboratory is required by law or authorized by contractual arrangements to release confidential information, the customer or individual concerned shall, unless prohibited by law, be notified of the information provided.\n\n4.2.3 Information about the customer obtained from sources other than the customer (e.g. complainant, regulators) shall be confidential between the customer and the laboratory. The provider (source) of this information shall be confidential to the laboratory and shall not be shared with the customer, unless agreed by the source.\n\n4.2.4 Personnel, including any committee members, contractors, personnel of external bodies, or individuals acting on the laboratory's behalf, shall keep confidential all information obtained or created during the performance of laboratory activities, except as required by law.\n");
         jTextArea4.setWrapStyleWord(true);
         jScrollPane5.setViewportView(jTextArea4);
 
@@ -225,10 +228,10 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea5.setEditable(false);
         jTextArea5.setColumns(20);
-        jTextArea5.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea5.setLineWrap(true);
         jTextArea5.setRows(5);
-        jTextArea5.setText("This is where Chapter 5 data and information is held in order to read what the chapter is about.");
+        jTextArea5.setText("5 Structural Requirements:\n                \n5.1 The laboratory shall be a legal entity, or a defined part of a legal entity, that is legally responsible for its laboratory activities.\n                \nNOTE For the purposes of this document, a governmental laboratory is deemed to be a legal entity on the basis of its governmental status.\n                \n5.2 The laboratory shall identify management that has overall responsibility for the laboratory.\n                \n5.3 The laboratory shall define and document the range of laboratory activities for which it conforms with this document. The laboratory shall only claim conformity with this document for this range of laboratory activities, which excludes externally provided laboratory activities on an ongoing basis.\n\n5.4 Laboratory activities shall be carried out in such a way as to meet the requirements of this document, the laboratory’s customers, regulatory authorities and organizations providing recognition. This shall include laboratory activities performed in all its permanent facilities, at sites away from its permanent facilities, in associated temporary or mobile facilities or at a customer's facility.\n\n5.5 The laboratory shall:\n\na) define the organization and management structure of the laboratory, its place in any parent organization, and the relationships between management, technical operations and support services;\n\nb) specify the responsibility, authority and interrelationship of all personnel who manage, perform or verify work affecting the results of laboratory activities;\n\nc) document its procedures to the extent necessary to ensure the consistent application of its laboratory activities and the validity of the results.\n\n5.6 The laboratory shall have personnel who, irrespective of other responsibilities, have the authority and resources needed to carry out their duties, including:\n\na) implementation, maintenance and improvement of the management system;\n\nb) identification of deviations from the management system or from the procedures for performing laboratory activities;\n\nc) initiation of actions to prevent or minimize such deviations;\n\nd) reporting to laboratory management on the performance of the management system and any need for improvement;\n      e) ensuring the effectiveness of laboratory activities.\n\n5.7 Laboratory management shall ensure that:\n\n\na) communication takes place regarding the effectiveness of the management system and the importance of meeting customers' and other requirements;\n\nb) the integrity of the management system is maintained when changes to the management system are planned and implemented.\n");
         jTextArea5.setWrapStyleWord(true);
         jScrollPane6.setViewportView(jTextArea5);
 
@@ -236,7 +239,7 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea6.setEditable(false);
         jTextArea6.setColumns(20);
-        jTextArea6.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea6.setLineWrap(true);
         jTextArea6.setRows(5);
         jTextArea6.setText("This is where Chapter 6 data and information is held in order to read what the chapter is about.");
@@ -247,7 +250,7 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea7.setEditable(false);
         jTextArea7.setColumns(20);
-        jTextArea7.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea7.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea7.setLineWrap(true);
         jTextArea7.setRows(5);
         jTextArea7.setText("This is where Chapter 7 data and information is held in order to read what the chapter is about.");
@@ -258,7 +261,7 @@ public class mainMenu extends javax.swing.JFrame {
 
         jTextArea8.setEditable(false);
         jTextArea8.setColumns(20);
-        jTextArea8.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jTextArea8.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea8.setLineWrap(true);
         jTextArea8.setRows(5);
         jTextArea8.setText("This is where Chapter 8 data and information is held in order to read what the chapter is about.");
@@ -266,6 +269,80 @@ public class mainMenu extends javax.swing.JFrame {
         jScrollPane9.setViewportView(jTextArea8);
 
         jTabbedPane2.addTab("Chapter 8", jScrollPane9);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
+        jLabel1.setText("Created By: Daniel Simes & Ed Woodring");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Program Options"));
+
+        eButton.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        eButton.setText("Exit Program");
+        eButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                eButtonActionPerformed(evt);
+            }
+        });
+
+        sNewAuditButton.setText("Start New Audit");
+        sNewAuditButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sNewAuditButtonActionPerformed(evt);
+            }
+        });
+
+        openAuditButton.setText("Open Previous Audits");
+        openAuditButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                openAuditButtonActionPerformed(evt);
+            }
+        });
+
+        jButton1.setText("Build Report");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(eButton))
+                    .addComponent(sNewAuditButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(openAuditButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(sNewAuditButton)
+                .addGap(28, 28, 28)
+                .addComponent(openAuditButton)
+                .addGap(29, 29, 29)
+                .addComponent(jButton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addComponent(eButton, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
 
         jMenu1.setText("File");
 
@@ -298,21 +375,22 @@ public class mainMenu extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(149, 149, 149)
-                        .addComponent(eButton, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addContainerGap()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(63, 63, 63)
+                                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 507, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(168, 168, 168)
-                .addComponent(titleLabel)
+                        .addGap(89, 89, 89)
+                        .addComponent(titleLabel)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -321,17 +399,18 @@ public class mainMenu extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(titleLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
+                .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(eButton, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
-        pack();
+        setSize(new java.awt.Dimension(611, 773));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -351,53 +430,64 @@ public class mainMenu extends javax.swing.JFrame {
         aboutInfo.setVisible(true);
     }//GEN-LAST:event_aboutMenuActionPerformed
 
-    private void ch8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch8ButtonActionPerformed
-        // TODO add your handling code here:
-        chapter8 ch8 = new chapter8();
-        ch8.setVisible(true);
-    }//GEN-LAST:event_ch8ButtonActionPerformed
-
     private void ch7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch7ButtonActionPerformed
         // TODO add your handling code here:
-        chapter7 ch7 = new chapter7();
+        NotesPage ch7 = new NotesPage();
         ch7.setVisible(true);
     }//GEN-LAST:event_ch7ButtonActionPerformed
 
     private void ch6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch6ButtonActionPerformed
         // TODO add your handling code here:
-        chapter6 ch6 = new chapter6();
+        Step6 ch6 = new Step6();
         ch6.setVisible(true);
     }//GEN-LAST:event_ch6ButtonActionPerformed
 
     private void ch5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch5ButtonActionPerformed
         // TODO add your handling code here:
-        chapter5 ch5 = new chapter5();
+        Step5 ch5 = new Step5();
         ch5.setVisible(true);
     }//GEN-LAST:event_ch5ButtonActionPerformed
 
     private void ch4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch4ButtonActionPerformed
         // TODO add your handling code here:
-        chapter4 ch4 = new chapter4();
+        Step4 ch4 = new Step4();
         ch4.setVisible(true);
     }//GEN-LAST:event_ch4ButtonActionPerformed
 
     private void ch3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch3ButtonActionPerformed
         // TODO add your handling code here:
-        chapter3 ch3 = new chapter3();
+        Step3 ch3 = new Step3();
         ch3.setVisible(true);
     }//GEN-LAST:event_ch3ButtonActionPerformed
 
     private void ch2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch2ButtonActionPerformed
         // TODO add your handling code here:
-        chapter2 ch2 = new chapter2();
+        Step2 ch2 = new Step2();
         ch2.setVisible(true);
     }//GEN-LAST:event_ch2ButtonActionPerformed
 
     private void ch1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ch1ButtonActionPerformed
         // TODO add your handling code here:
-        chapter1 ch1 = new chapter1();
+        Step1 ch1 = new Step1();
         ch1.setVisible(true);
     }//GEN-LAST:event_ch1ButtonActionPerformed
+
+    private void sNewAuditButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sNewAuditButtonActionPerformed
+        // TODO add your handling code here:
+        Step1 newAudit = new Step1();
+        newAudit.setVisible(true);
+    }//GEN-LAST:event_sNewAuditButtonActionPerformed
+
+    private void openAuditButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_openAuditButtonActionPerformed
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_openAuditButtonActionPerformed
+
+    private void finalThoughtsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_finalThoughtsButtonActionPerformed
+        // TODO add your handling code here:
+        FinalThoughts fThoughts = new FinalThoughts();
+        fThoughts.setVisible(true);
+    }//GEN-LAST:event_finalThoughtsButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -454,12 +544,15 @@ public class mainMenu extends javax.swing.JFrame {
     private javax.swing.JButton ch5Button;
     private javax.swing.JButton ch6Button;
     private javax.swing.JButton ch7Button;
-    private javax.swing.JButton ch8Button;
     private javax.swing.JButton eButton;
+    private javax.swing.JButton finalThoughtsButton;
     private javax.swing.JMenu helpMenu;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -468,6 +561,7 @@ public class mainMenu extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
@@ -479,6 +573,8 @@ public class mainMenu extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea8;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem menuExit;
+    private javax.swing.JButton openAuditButton;
+    private javax.swing.JButton sNewAuditButton;
     private javax.swing.JLabel titleLabel;
     // End of variables declaration//GEN-END:variables
 }

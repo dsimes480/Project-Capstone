@@ -83,7 +83,7 @@
               <Font name="Times New Roman" size="36" style="3"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="About the Project"/>
+            <Property name="text" type="java.lang.String" value="About the Program"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">

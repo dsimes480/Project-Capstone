@@ -9,12 +9,12 @@ package project;
  *
  * @author acidb
  */
-public class chapter1 extends javax.swing.JFrame {
+public class Step6 extends javax.swing.JFrame {
 
     /**
-     * Creates new form ch1
+     * Creates new form chapter6
      */
-    public chapter1() {
+    public Step6() {
         initComponents();
     }
 
@@ -28,11 +28,11 @@ public class chapter1 extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        notesPageButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("ISO 17025 Chapter 1");
+        setTitle("ISO 17025-2017 Internal Audit Step 6");
         setLocation(new java.awt.Point(500, 200));
-        setName("Chapter 1"); // NOI18N
 
         jButton1.setText("Close");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -41,20 +41,31 @@ public class chapter1 extends javax.swing.JFrame {
             }
         });
 
+        notesPageButton.setText("Notes Page and Save");
+        notesPageButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                notesPageButtonActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(164, 164, 164)
+                .addGap(96, 96, 96)
                 .addComponent(jButton1)
-                .addContainerGap(179, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                .addComponent(notesPageButton)
+                .addGap(78, 78, 78))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(330, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addContainerGap(268, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(notesPageButton))
                 .addContainerGap())
         );
 
@@ -65,6 +76,13 @@ public class chapter1 extends javax.swing.JFrame {
         // TODO add your handling code here:
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void notesPageButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notesPageButtonActionPerformed
+        // TODO add your handling code here:
+        NotesPage ch7 = new NotesPage();
+        ch7.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_notesPageButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -83,13 +101,13 @@ public class chapter1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(chapter1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Step6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(chapter1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Step6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(chapter1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Step6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(chapter1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Step6.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -97,12 +115,13 @@ public class chapter1 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new chapter1().setVisible(true);
+                new Step6().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton notesPageButton;
     // End of variables declaration//GEN-END:variables
 }

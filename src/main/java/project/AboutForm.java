@@ -38,7 +38,7 @@ public class AboutForm extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("About the Project");
+        jLabel1.setText("About the Program");
 
         aboutTextArea.setEditable(false);
         aboutTextArea.setColumns(200);
