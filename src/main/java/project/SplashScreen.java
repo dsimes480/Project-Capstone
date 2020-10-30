@@ -40,7 +40,7 @@ public class SplashScreen extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("ISO 17025 Splash Screen");
+        setTitle("ISO 17025-2017 Splash Screen");
         setBackground(new java.awt.Color(0, 255, 0));
         setResizable(false);
 
@@ -89,7 +89,7 @@ public class SplashScreen extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea1);
 
         jLabel6.setFont(new java.awt.Font("Times New Roman", 3, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(102, 255, 102));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 51));
         jLabel6.setText("Internal Audit Report");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -103,12 +103,9 @@ public class SplashScreen extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 507, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jScrollPane1)
-                        .addContainerGap())))
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 507, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()

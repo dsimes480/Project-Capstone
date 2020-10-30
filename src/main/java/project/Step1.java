@@ -277,7 +277,7 @@ public class Step1 extends javax.swing.JFrame {
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("Step 1");
+        hf.jLabel2.setText("How to Complete Step 1");
         hf.helpTextArea.setText("Step 1 Instructions go hear.");
     }//GEN-LAST:event_step1HelpActionPerformed
 
