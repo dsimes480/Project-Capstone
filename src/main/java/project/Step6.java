@@ -28,39 +28,39 @@ public class Step6 extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        previousButton = new javax.swing.JButton();
+        closeButton = new javax.swing.JButton();
         notesPageButton = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jLabel2 = new javax.swing.JLabel();
-        fNameTextField = new javax.swing.JTextField();
+        submissionTF = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        sNameTextField = new javax.swing.JTextField();
+        approvedTF = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        step6Help = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("ISO 17025-2017 Internal Audit Step 6");
         setLocation(new java.awt.Point(500, 200));
         setResizable(false);
 
-        jButton2.setText("Previous");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        previousButton.setText("Previous");
+        previousButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                previousButtonActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Save & Close");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        closeButton.setText("Save & Close");
+        closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                closeButtonActionPerformed(evt);
             }
         });
 
@@ -77,9 +77,9 @@ public class Step6 extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton2)
+                .addComponent(previousButton)
                 .addGap(59, 59, 59)
-                .addComponent(jButton1)
+                .addComponent(closeButton)
                 .addGap(38, 38, 38)
                 .addComponent(notesPageButton)
                 .addGap(30, 30, 30))
@@ -89,8 +89,8 @@ public class Step6 extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton1)
+                    .addComponent(previousButton)
+                    .addComponent(closeButton)
                     .addComponent(notesPageButton))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -110,10 +110,10 @@ public class Step6 extends javax.swing.JFrame {
 
         jLabel2.setText("Audit report reviewed and ready for submission:");
 
-        fNameTextField.setText("Enter Name Here");
-        fNameTextField.addFocusListener(new java.awt.event.FocusAdapter() {
+        submissionTF.setText("Enter Name Here");
+        submissionTF.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                fNameTextFieldFocusGained(evt);
+                submissionTFFocusGained(evt);
             }
         });
 
@@ -121,10 +121,10 @@ public class Step6 extends javax.swing.JFrame {
 
         jLabel4.setText("Audit report reviewed and approved by:");
 
-        sNameTextField.setText("Enter Name Here");
-        sNameTextField.addFocusListener(new java.awt.event.FocusAdapter() {
+        approvedTF.setText("Enter Name Here");
+        approvedTF.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                sNameTextFieldFocusGained(evt);
+                approvedTFFocusGained(evt);
             }
         });
 
@@ -135,13 +135,13 @@ public class Step6 extends javax.swing.JFrame {
 
         jMenu2.setText("Help");
 
-        jMenuItem1.setText("Help");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        step6Help.setText("Help");
+        step6Help.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                step6HelpActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem1);
+        jMenu2.add(step6Help);
 
         jMenuBar1.add(jMenu2);
 
@@ -167,12 +167,12 @@ public class Step6 extends javax.swing.JFrame {
                                         .addComponent(jLabel5))
                                     .addGroup(layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(sNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(approvedTF, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addComponent(jLabel1)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(fNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(submissionTF, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(226, 226, 226)
                                 .addComponent(jLabel3)))
@@ -189,13 +189,13 @@ public class Step6 extends javax.swing.JFrame {
                 .addGap(44, 44, 44)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(fNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(submissionTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
                 .addGap(38, 38, 38)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(sNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(approvedTF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
@@ -207,10 +207,10 @@ public class Step6 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_closeButtonActionPerformed
 
     private void notesPageButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notesPageButtonActionPerformed
         // TODO add your handling code here:
@@ -219,30 +219,30 @@ public class Step6 extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_notesPageButtonActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
         Step5 ch5 = new Step5();
         ch5.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_previousButtonActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void step6HelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_step6HelpActionPerformed
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
         hf.helpLabel.setText("How to complete Step 6");
         hf.helpTextArea.setText("This is where the instructions go to complete Step 6.");
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_step6HelpActionPerformed
 
-    private void fNameTextFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_fNameTextFieldFocusGained
+    private void submissionTFFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_submissionTFFocusGained
         // TODO add your handling code here:
-        fNameTextField.setText("");
-    }//GEN-LAST:event_fNameTextFieldFocusGained
+        submissionTF.setText("");
+    }//GEN-LAST:event_submissionTFFocusGained
 
-    private void sNameTextFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_sNameTextFieldFocusGained
+    private void approvedTFFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_approvedTFFocusGained
         // TODO add your handling code here:
-        sNameTextField.setText("");
-    }//GEN-LAST:event_sNameTextFieldFocusGained
+        approvedTF.setText("");
+    }//GEN-LAST:event_approvedTFFocusGained
 
     /**
      * @param args the command line arguments
@@ -281,9 +281,8 @@ public class Step6 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField fNameTextField;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JTextField approvedTF;
+    private javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -292,11 +291,12 @@ public class Step6 extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JButton notesPageButton;
-    private javax.swing.JTextField sNameTextField;
+    private javax.swing.JButton previousButton;
+    private javax.swing.JMenuItem step6Help;
+    private javax.swing.JTextField submissionTF;
     // End of variables declaration//GEN-END:variables
 }

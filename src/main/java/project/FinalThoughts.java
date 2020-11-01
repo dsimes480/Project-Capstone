@@ -37,7 +37,7 @@ public class FinalThoughts extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        ftHelpMenu = new javax.swing.JMenuItem();
+        finalThoughtHelp = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("ISO 17025-2017 Internal Audit Final Thoughts ");
@@ -115,13 +115,13 @@ public class FinalThoughts extends javax.swing.JFrame {
 
         jMenu2.setText("Help");
 
-        ftHelpMenu.setText("Help");
-        ftHelpMenu.addActionListener(new java.awt.event.ActionListener() {
+        finalThoughtHelp.setText("Help");
+        finalThoughtHelp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ftHelpMenuActionPerformed(evt);
+                finalThoughtHelpActionPerformed(evt);
             }
         });
-        jMenu2.add(ftHelpMenu);
+        jMenu2.add(finalThoughtHelp);
 
         jMenuBar1.add(jMenu2);
 
@@ -163,13 +163,13 @@ public class FinalThoughts extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_PreviousButtonActionPerformed
 
-    private void ftHelpMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ftHelpMenuActionPerformed
+    private void finalThoughtHelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_finalThoughtHelpActionPerformed
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
         hf.helpLabel.setText("How to complete the Final Thoughts Form");
         hf.helpTextArea.setText("This is where instructions go to complete the Final Thoughts Form.");
-    }//GEN-LAST:event_ftHelpMenuActionPerformed
+    }//GEN-LAST:event_finalThoughtHelpActionPerformed
 
     /**
      * @param args the command line arguments
@@ -215,8 +215,8 @@ public class FinalThoughts extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton PreviousButton;
+    private javax.swing.JMenuItem finalThoughtHelp;
     private javax.swing.JTextArea finalThoughtsTA;
-    private javax.swing.JMenuItem ftHelpMenu;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;

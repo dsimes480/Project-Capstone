@@ -29,7 +29,7 @@ public class NotesPage extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         previousButton = new javax.swing.JButton();
-        cButton = new javax.swing.JButton();
+        closeButton = new javax.swing.JButton();
         NextButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -38,7 +38,7 @@ public class NotesPage extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        notesHelpMenu = new javax.swing.JMenuItem();
+        notesHelp = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("ISO 17025-2017 Internal Audit Notes Page");
@@ -52,10 +52,10 @@ public class NotesPage extends javax.swing.JFrame {
             }
         });
 
-        cButton.setText("Close");
-        cButton.addActionListener(new java.awt.event.ActionListener() {
+        closeButton.setText("Close");
+        closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cButtonActionPerformed(evt);
+                closeButtonActionPerformed(evt);
             }
         });
 
@@ -74,8 +74,8 @@ public class NotesPage extends javax.swing.JFrame {
                 .addGap(64, 64, 64)
                 .addComponent(previousButton)
                 .addGap(70, 70, 70)
-                .addComponent(cButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
+                .addComponent(closeButton)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
                 .addComponent(NextButton)
                 .addGap(34, 34, 34))
         );
@@ -85,7 +85,7 @@ public class NotesPage extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(previousButton)
-                    .addComponent(cButton)
+                    .addComponent(closeButton)
                     .addComponent(NextButton))
                 .addContainerGap())
         );
@@ -126,13 +126,13 @@ public class NotesPage extends javax.swing.JFrame {
 
         jMenu2.setText("Help");
 
-        notesHelpMenu.setText("Help");
-        notesHelpMenu.addActionListener(new java.awt.event.ActionListener() {
+        notesHelp.setText("Help");
+        notesHelp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                notesHelpMenuActionPerformed(evt);
+                notesHelpActionPerformed(evt);
             }
         });
-        jMenu2.add(notesHelpMenu);
+        jMenu2.add(notesHelp);
 
         jMenuBar1.add(jMenu2);
 
@@ -161,10 +161,10 @@ public class NotesPage extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
+    private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_cButtonActionPerformed
+    }//GEN-LAST:event_closeButtonActionPerformed
 
     private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
         // TODO add your handling code here:
@@ -180,13 +180,13 @@ public class NotesPage extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_previousButtonActionPerformed
 
-    private void notesHelpMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notesHelpMenuActionPerformed
+    private void notesHelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notesHelpActionPerformed
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
         hf.helpLabel.setText("How to complete the Notes Page");
         hf.helpTextArea.setText("This is where the instructions go to help complete the Notes Page.");
-    }//GEN-LAST:event_notesHelpMenuActionPerformed
+    }//GEN-LAST:event_notesHelpActionPerformed
 
     /**
      * @param args the command line arguments
@@ -228,7 +228,7 @@ public class NotesPage extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton NextButton;
-    private javax.swing.JButton cButton;
+    private javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
@@ -236,7 +236,7 @@ public class NotesPage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JMenuItem notesHelpMenu;
+    private javax.swing.JMenuItem notesHelp;
     private javax.swing.JTextArea notesPageTA;
     private javax.swing.JButton previousButton;
     // End of variables declaration//GEN-END:variables

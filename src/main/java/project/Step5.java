@@ -39,7 +39,7 @@ public class Step5 extends javax.swing.JFrame {
         buttonGroup10 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         previousButton = new javax.swing.JButton();
-        cButton = new javax.swing.JButton();
+        closeButton = new javax.swing.JButton();
         nextButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         step5tb = new javax.swing.JTabbedPane();
@@ -184,11 +184,11 @@ public class Step5 extends javax.swing.JFrame {
         step5Q5rbMinor = new javax.swing.JRadioButton();
         step5Q5rbDefault = new javax.swing.JRadioButton();
         jLabel4 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
+        addTabButton = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        step5Help = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("ISO 17025-2017 Internal Audit Step 5");
@@ -202,10 +202,10 @@ public class Step5 extends javax.swing.JFrame {
             }
         });
 
-        cButton.setText("Save & Close");
-        cButton.addActionListener(new java.awt.event.ActionListener() {
+        closeButton.setText("Save & Close");
+        closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cButtonActionPerformed(evt);
+                closeButtonActionPerformed(evt);
             }
         });
 
@@ -224,7 +224,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addGap(107, 107, 107)
                 .addComponent(previousButton)
                 .addGap(103, 103, 103)
-                .addComponent(cButton)
+                .addComponent(closeButton)
                 .addGap(95, 95, 95)
                 .addComponent(nextButton)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -235,7 +235,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(previousButton)
-                    .addComponent(cButton)
+                    .addComponent(closeButton)
                     .addComponent(nextButton))
                 .addContainerGap())
         );
@@ -366,15 +366,15 @@ public class Step5 extends javax.swing.JFrame {
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(step5Q1TypeRBp)
-                            .addComponent(step5Q1TypeRBc)
-                            .addComponent(step5Q1TypeRBofi))
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(step5Q1TypeRBdefault)))
+                        .addComponent(step5Q1TypeRBdefault))
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(step5Q1TypeRBc)
+                            .addComponent(step5Q1TypeRBofi)
+                            .addComponent(step5Q1TypeRBp, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel10Layout.setVerticalGroup(
@@ -383,10 +383,10 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(step5Q1TypeRBc)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(step5Q1TypeRBp)
+                .addComponent(step5Q1TypeRBp, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(step5Q1TypeRBofi)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6, Short.MAX_VALUE)
                 .addComponent(step5Q1TypeRBdefault)
                 .addContainerGap())
         );
@@ -1472,7 +1472,7 @@ public class Step5 extends javax.swing.JFrame {
 
         jLabel4.setText("STEP FIVE: Summarize Findings for CAR system");
 
-        jButton3.setText("Add Tab");
+        addTabButton.setText("Add Tab");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -1485,7 +1485,7 @@ public class Step5 extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel4)
                         .addGap(49, 49, 49)
-                        .addComponent(jButton3)
+                        .addComponent(addTabButton)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -1495,7 +1495,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(jButton3))
+                    .addComponent(addTabButton))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step5tb)
                 .addContainerGap())
@@ -1506,13 +1506,13 @@ public class Step5 extends javax.swing.JFrame {
 
         jMenu2.setText("Help");
 
-        jMenuItem1.setText("Help");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        step5Help.setText("Help");
+        step5Help.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                step5HelpActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem1);
+        jMenu2.add(step5Help);
 
         jMenuBar1.add(jMenu2);
 
@@ -1541,10 +1541,10 @@ public class Step5 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
+    private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_cButtonActionPerformed
+    }//GEN-LAST:event_closeButtonActionPerformed
 
     private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
         // TODO add your handling code here:
@@ -1553,13 +1553,13 @@ public class Step5 extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_nextButtonActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void step5HelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_step5HelpActionPerformed
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
         hf.helpLabel.setText("How to complete Step 5");
         hf.helpTextArea.setText("This is where the instructions go for Step 5.");
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_step5HelpActionPerformed
 
     private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
@@ -1649,6 +1649,7 @@ public class Step5 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton addTabButton;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup10;
     private javax.swing.ButtonGroup buttonGroup2;
@@ -1659,13 +1660,12 @@ public class Step5 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup7;
     private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.ButtonGroup buttonGroup9;
-    private javax.swing.JButton cButton;
     private javax.swing.JTextField carTextField1;
     private javax.swing.JTextField carTextField2;
     private javax.swing.JTextField carTextField3;
     private javax.swing.JTextField carTextField4;
     private javax.swing.JTextField carTextField5;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1705,7 +1705,6 @@ public class Step5 extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -1755,6 +1754,7 @@ public class Step5 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JButton nextButton;
     private javax.swing.JButton previousButton;
+    private javax.swing.JMenuItem step5Help;
     private javax.swing.JTextArea step5Q1ClauseTA;
     private javax.swing.JTextArea step5Q1EviTA;
     private javax.swing.JTextArea step5Q1FindingsTA;

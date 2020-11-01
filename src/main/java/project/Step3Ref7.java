@@ -58,10 +58,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jTextArea1 = new javax.swing.JTextArea();
         step3Ref2tp = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
-        step3Ref1TabPane7 = new javax.swing.JTabbedPane();
+        step3Ref2Q1TP = new javax.swing.JTabbedPane();
         jPanel58 = new javax.swing.JPanel();
         jScrollPane22 = new javax.swing.JScrollPane();
-        jTextArea22 = new javax.swing.JTextArea();
+        step3Ref7Q1TA = new javax.swing.JTextArea();
         jPanel59 = new javax.swing.JPanel();
         step3Ref7Q1rbYes = new javax.swing.JRadioButton();
         step3Ref7Q1rbNo = new javax.swing.JRadioButton();
@@ -71,10 +71,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jScrollPane23 = new javax.swing.JScrollPane();
         step3Ref7Q1NotesTA = new javax.swing.JTextArea();
         jPanel3 = new javax.swing.JPanel();
-        step3Ref1TabPane8 = new javax.swing.JTabbedPane();
+        step3Ref2Q2TP = new javax.swing.JTabbedPane();
         jPanel61 = new javax.swing.JPanel();
         jScrollPane24 = new javax.swing.JScrollPane();
-        jTextArea24 = new javax.swing.JTextArea();
+        step3Ref8Q1TA = new javax.swing.JTextArea();
         jPanel62 = new javax.swing.JPanel();
         step3Ref8Q1rbYes = new javax.swing.JRadioButton();
         step3Ref8Q1rbNo = new javax.swing.JRadioButton();
@@ -85,7 +85,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref8Q1NotesTA = new javax.swing.JTextArea();
         jPanel76 = new javax.swing.JPanel();
         jScrollPane34 = new javax.swing.JScrollPane();
-        jTextArea34 = new javax.swing.JTextArea();
+        step3Ref8Q2TA = new javax.swing.JTextArea();
         jPanel77 = new javax.swing.JPanel();
         step3Ref8Q2rbYes = new javax.swing.JRadioButton();
         step3Ref8Q2rbNo = new javax.swing.JRadioButton();
@@ -96,7 +96,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref8Q2NotesTA = new javax.swing.JTextArea();
         jPanel79 = new javax.swing.JPanel();
         jScrollPane36 = new javax.swing.JScrollPane();
-        jTextArea36 = new javax.swing.JTextArea();
+        step3Ref8Q3TA = new javax.swing.JTextArea();
         jPanel80 = new javax.swing.JPanel();
         step3Ref8Q3rbYes = new javax.swing.JRadioButton();
         step3Ref8Q3rbNo = new javax.swing.JRadioButton();
@@ -104,10 +104,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref8Q3rbObs = new javax.swing.JRadioButton();
         jPanel81 = new javax.swing.JPanel();
         jScrollPane37 = new javax.swing.JScrollPane();
-        step3Ref8NotesTA = new javax.swing.JTextArea();
+        step3Ref8Q3NotesTA = new javax.swing.JTextArea();
         jPanel82 = new javax.swing.JPanel();
         jScrollPane38 = new javax.swing.JScrollPane();
-        jTextArea38 = new javax.swing.JTextArea();
+        step3Ref8Q4TA = new javax.swing.JTextArea();
         jPanel83 = new javax.swing.JPanel();
         step3Ref8Q4rbYes = new javax.swing.JRadioButton();
         step3Ref8Q4rbNo = new javax.swing.JRadioButton();
@@ -118,7 +118,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref8Q4NotesTA = new javax.swing.JTextArea();
         jPanel85 = new javax.swing.JPanel();
         jScrollPane40 = new javax.swing.JScrollPane();
-        jTextArea40 = new javax.swing.JTextArea();
+        step3Ref8Q5TA = new javax.swing.JTextArea();
         jPanel86 = new javax.swing.JPanel();
         step3Ref8Q5rbYes = new javax.swing.JRadioButton();
         step3Ref8Q5rbNo = new javax.swing.JRadioButton();
@@ -129,20 +129,20 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref8Q5NotesTA = new javax.swing.JTextArea();
         jPanel88 = new javax.swing.JPanel();
         jScrollPane42 = new javax.swing.JScrollPane();
-        jTextArea42 = new javax.swing.JTextArea();
+        step3Ref8Q6TA = new javax.swing.JTextArea();
         jPanel89 = new javax.swing.JPanel();
-        jRadioButton61 = new javax.swing.JRadioButton();
-        jRadioButton62 = new javax.swing.JRadioButton();
-        jRadioButton63 = new javax.swing.JRadioButton();
-        jRadioButton96 = new javax.swing.JRadioButton();
+        step3Ref8Q6rbYes = new javax.swing.JRadioButton();
+        step3Ref8Q6rbNo = new javax.swing.JRadioButton();
+        step3Ref8Q6rbNA = new javax.swing.JRadioButton();
+        step3Ref8Q6rbobs = new javax.swing.JRadioButton();
         jPanel90 = new javax.swing.JPanel();
         jScrollPane43 = new javax.swing.JScrollPane();
-        jTextArea43 = new javax.swing.JTextArea();
+        step3Ref8Q6NotesTA = new javax.swing.JTextArea();
         jPanel4 = new javax.swing.JPanel();
-        step3Ref1TabPane9 = new javax.swing.JTabbedPane();
+        step3Ref2Q3TP = new javax.swing.JTabbedPane();
         jPanel73 = new javax.swing.JPanel();
         jScrollPane32 = new javax.swing.JScrollPane();
-        jTextArea32 = new javax.swing.JTextArea();
+        step3Ref9Q1TA = new javax.swing.JTextArea();
         jPanel74 = new javax.swing.JPanel();
         step3Ref9Q1rbYes = new javax.swing.JRadioButton();
         step3Ref9Q1rbNo = new javax.swing.JRadioButton();
@@ -152,10 +152,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jScrollPane33 = new javax.swing.JScrollPane();
         step3Ref9Q1NotesTA = new javax.swing.JTextArea();
         jPanel5 = new javax.swing.JPanel();
-        step3Ref1TabPane10 = new javax.swing.JTabbedPane();
+        step3Ref2Q4TP = new javax.swing.JTabbedPane();
         jPanel91 = new javax.swing.JPanel();
         jScrollPane44 = new javax.swing.JScrollPane();
-        jTextArea44 = new javax.swing.JTextArea();
+        step3Ref10Q1TA = new javax.swing.JTextArea();
         jPanel92 = new javax.swing.JPanel();
         step3Ref10Q1rbYes = new javax.swing.JRadioButton();
         step3Ref10Q1rbNo = new javax.swing.JRadioButton();
@@ -166,7 +166,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref10Q1NotesTA = new javax.swing.JTextArea();
         jPanel94 = new javax.swing.JPanel();
         jScrollPane46 = new javax.swing.JScrollPane();
-        jTextArea46 = new javax.swing.JTextArea();
+        step3Ref10Q2TA = new javax.swing.JTextArea();
         jPanel95 = new javax.swing.JPanel();
         step3Ref10Q2rbYes = new javax.swing.JRadioButton();
         step3Ref10Q2rbNo = new javax.swing.JRadioButton();
@@ -177,7 +177,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref10Q2NotesTA = new javax.swing.JTextArea();
         jPanel97 = new javax.swing.JPanel();
         jScrollPane48 = new javax.swing.JScrollPane();
-        jTextArea48 = new javax.swing.JTextArea();
+        step3Ref10Q3TA = new javax.swing.JTextArea();
         jPanel98 = new javax.swing.JPanel();
         step3Ref10Q3rbYes = new javax.swing.JRadioButton();
         step3Ref10Q3rbNo = new javax.swing.JRadioButton();
@@ -188,7 +188,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref10Q3NotesTA = new javax.swing.JTextArea();
         jPanel100 = new javax.swing.JPanel();
         jScrollPane50 = new javax.swing.JScrollPane();
-        jTextArea50 = new javax.swing.JTextArea();
+        step3Ref10Q4TA = new javax.swing.JTextArea();
         jPanel101 = new javax.swing.JPanel();
         step3Ref10Q4rbYes = new javax.swing.JRadioButton();
         step3Ref10Q4rbNo = new javax.swing.JRadioButton();
@@ -199,7 +199,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref10Q4NotesTA = new javax.swing.JTextArea();
         jPanel103 = new javax.swing.JPanel();
         jScrollPane52 = new javax.swing.JScrollPane();
-        jTextArea52 = new javax.swing.JTextArea();
+        step3Ref10Q5TA = new javax.swing.JTextArea();
         jPanel104 = new javax.swing.JPanel();
         step3Ref10Q5rbYes = new javax.swing.JRadioButton();
         step3Ref10Q5rbNo = new javax.swing.JRadioButton();
@@ -209,10 +209,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jScrollPane53 = new javax.swing.JScrollPane();
         step3Ref10Q5NotesTA = new javax.swing.JTextArea();
         jPanel6 = new javax.swing.JPanel();
-        step3Ref1TabPane2 = new javax.swing.JTabbedPane();
+        step3Ref2Q5TP = new javax.swing.JTabbedPane();
         jPanel34 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
+        step3Ref11Q1TA = new javax.swing.JTextArea();
         jPanel35 = new javax.swing.JPanel();
         step3Ref11Q1rbYes = new javax.swing.JRadioButton();
         step3Ref11Q1rbNo = new javax.swing.JRadioButton();
@@ -223,7 +223,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref11Q1NotesTA = new javax.swing.JTextArea();
         jPanel49 = new javax.swing.JPanel();
         jScrollPane16 = new javax.swing.JScrollPane();
-        jTextArea16 = new javax.swing.JTextArea();
+        step3Ref11Q2TA = new javax.swing.JTextArea();
         jPanel50 = new javax.swing.JPanel();
         step3Ref11Q2rbYes = new javax.swing.JRadioButton();
         step3Ref11Q2rbNo = new javax.swing.JRadioButton();
@@ -234,7 +234,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref11Q2NotesTA = new javax.swing.JTextArea();
         jPanel109 = new javax.swing.JPanel();
         jScrollPane56 = new javax.swing.JScrollPane();
-        jTextArea56 = new javax.swing.JTextArea();
+        step3Ref11Q3TA = new javax.swing.JTextArea();
         jPanel110 = new javax.swing.JPanel();
         step3Ref11Q3rbYes = new javax.swing.JRadioButton();
         step3Ref11Q3rbNo = new javax.swing.JRadioButton();
@@ -244,10 +244,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jScrollPane57 = new javax.swing.JScrollPane();
         step3Ref11Q3NotesTA = new javax.swing.JTextArea();
         jPanel7 = new javax.swing.JPanel();
-        step3Ref1TabPane11 = new javax.swing.JTabbedPane();
+        step3Ref2Q6TP = new javax.swing.JTabbedPane();
         jPanel27 = new javax.swing.JPanel();
         jScrollPane58 = new javax.swing.JScrollPane();
-        jTextArea58 = new javax.swing.JTextArea();
+        step3Ref12Q1TA = new javax.swing.JTextArea();
         jPanel33 = new javax.swing.JPanel();
         step3Ref12Q1rbYes = new javax.swing.JRadioButton();
         step3Ref12Q1rbNo = new javax.swing.JRadioButton();
@@ -255,12 +255,12 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref12Q1rbObs = new javax.swing.JRadioButton();
         jPanel112 = new javax.swing.JPanel();
         jScrollPane59 = new javax.swing.JScrollPane();
-        step3Ref12Q1rbNotesTA = new javax.swing.JTextArea();
+        step3Ref12Q1NotesTA = new javax.swing.JTextArea();
         jPanel8 = new javax.swing.JPanel();
-        step3Ref1TabPane12 = new javax.swing.JTabbedPane();
+        step3Ref2Q7TP = new javax.swing.JTabbedPane();
         jPanel113 = new javax.swing.JPanel();
         jScrollPane60 = new javax.swing.JScrollPane();
-        jTextArea60 = new javax.swing.JTextArea();
+        step3Ref13Q1TA = new javax.swing.JTextArea();
         jPanel114 = new javax.swing.JPanel();
         step3Ref13Q1rbYes = new javax.swing.JRadioButton();
         step3Ref13Q1rbNo = new javax.swing.JRadioButton();
@@ -271,7 +271,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref13Q1NotesTA = new javax.swing.JTextArea();
         jPanel116 = new javax.swing.JPanel();
         jScrollPane62 = new javax.swing.JScrollPane();
-        jTextArea62 = new javax.swing.JTextArea();
+        step3Ref13Q2TA = new javax.swing.JTextArea();
         jPanel117 = new javax.swing.JPanel();
         step3Ref13Q2rbYes = new javax.swing.JRadioButton();
         step3Ref13Q2rbNo = new javax.swing.JRadioButton();
@@ -281,10 +281,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jScrollPane63 = new javax.swing.JScrollPane();
         step3Ref13Q2NotesTA = new javax.swing.JTextArea();
         jPanel9 = new javax.swing.JPanel();
-        step3Ref1TabPane13 = new javax.swing.JTabbedPane();
+        step3Ref2Q8TP = new javax.swing.JTabbedPane();
         jPanel119 = new javax.swing.JPanel();
         jScrollPane64 = new javax.swing.JScrollPane();
-        jTextArea64 = new javax.swing.JTextArea();
+        step3Ref14Q1TA = new javax.swing.JTextArea();
         jPanel120 = new javax.swing.JPanel();
         step3Ref14Q1rbYes = new javax.swing.JRadioButton();
         step3Ref14Q1rbNo = new javax.swing.JRadioButton();
@@ -295,7 +295,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref14Q1NotesTA = new javax.swing.JTextArea();
         jPanel122 = new javax.swing.JPanel();
         jScrollPane66 = new javax.swing.JScrollPane();
-        jTextArea66 = new javax.swing.JTextArea();
+        step3Ref14Q2TA = new javax.swing.JTextArea();
         jPanel123 = new javax.swing.JPanel();
         step3Ref14Q2rbYes = new javax.swing.JRadioButton();
         step3Ref14Q2rbNo = new javax.swing.JRadioButton();
@@ -306,7 +306,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref14Q2NotesTA = new javax.swing.JTextArea();
         jPanel125 = new javax.swing.JPanel();
         jScrollPane68 = new javax.swing.JScrollPane();
-        jTextArea68 = new javax.swing.JTextArea();
+        step3Ref14Q3TA = new javax.swing.JTextArea();
         jPanel126 = new javax.swing.JPanel();
         step3Ref14Q3rbYes = new javax.swing.JRadioButton();
         step3Ref14Q3rbNo = new javax.swing.JRadioButton();
@@ -316,10 +316,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jScrollPane69 = new javax.swing.JScrollPane();
         step3Ref14Q3NotesTA = new javax.swing.JTextArea();
         jPanel10 = new javax.swing.JPanel();
-        step3Ref1TabPane14 = new javax.swing.JTabbedPane();
+        step3Ref2Q9TP = new javax.swing.JTabbedPane();
         jPanel128 = new javax.swing.JPanel();
         jScrollPane70 = new javax.swing.JScrollPane();
-        jTextArea70 = new javax.swing.JTextArea();
+        step3Ref15Q1TA = new javax.swing.JTextArea();
         jPanel129 = new javax.swing.JPanel();
         step3Ref15Q1rbYes = new javax.swing.JRadioButton();
         step3Ref15Q1rbNo = new javax.swing.JRadioButton();
@@ -330,18 +330,18 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref15Q1NotesTA = new javax.swing.JTextArea();
         jPanel131 = new javax.swing.JPanel();
         jScrollPane72 = new javax.swing.JScrollPane();
-        jTextArea72 = new javax.swing.JTextArea();
+        step3Ref15Q2TA = new javax.swing.JTextArea();
         jPanel132 = new javax.swing.JPanel();
         step3Ref15Q2rbYes = new javax.swing.JRadioButton();
         step3Ref15Q2rbNo = new javax.swing.JRadioButton();
         step3Ref15Q2rbNA = new javax.swing.JRadioButton();
-        Obs = new javax.swing.JRadioButton();
+        step3Ref15Q2rbObs = new javax.swing.JRadioButton();
         jPanel133 = new javax.swing.JPanel();
         jScrollPane73 = new javax.swing.JScrollPane();
         step3Ref15Q2NotesTA = new javax.swing.JTextArea();
         jPanel134 = new javax.swing.JPanel();
         jScrollPane74 = new javax.swing.JScrollPane();
-        jTextArea74 = new javax.swing.JTextArea();
+        step3Ref15Q3TA = new javax.swing.JTextArea();
         jPanel135 = new javax.swing.JPanel();
         step3Ref15Q3rbYes = new javax.swing.JRadioButton();
         step3Ref15Q3rbNo = new javax.swing.JRadioButton();
@@ -352,7 +352,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref15Q3NotesTA = new javax.swing.JTextArea();
         jPanel137 = new javax.swing.JPanel();
         jScrollPane76 = new javax.swing.JScrollPane();
-        jTextArea76 = new javax.swing.JTextArea();
+        step3Ref15Q4TA = new javax.swing.JTextArea();
         jPanel138 = new javax.swing.JPanel();
         step3Ref15Q4rbYes = new javax.swing.JRadioButton();
         step3Ref15Q4rbNo = new javax.swing.JRadioButton();
@@ -361,13 +361,13 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jPanel139 = new javax.swing.JPanel();
         jScrollPane77 = new javax.swing.JScrollPane();
         step3Ref15Q4NotesTA = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        nextButton = new javax.swing.JButton();
+        previousButton = new javax.swing.JButton();
+        closeButton = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        step3HelpPT2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -386,18 +386,18 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref2tp.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
         step3Ref2tp.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        step3Ref1TabPane7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane7.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane7.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q1TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q1TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q1TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea22.setEditable(false);
-        jTextArea22.setColumns(20);
-        jTextArea22.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea22.setLineWrap(true);
-        jTextArea22.setRows(5);
-        jTextArea22.setText("Does the laboratory perform reviews of requests, contract and tenders, and document appropriately.\t");
-        jTextArea22.setWrapStyleWord(true);
-        jScrollPane22.setViewportView(jTextArea22);
+        step3Ref7Q1TA.setEditable(false);
+        step3Ref7Q1TA.setColumns(20);
+        step3Ref7Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref7Q1TA.setLineWrap(true);
+        step3Ref7Q1TA.setRows(5);
+        step3Ref7Q1TA.setText("Does the laboratory perform reviews of requests, contract and tenders, and document appropriately.\t");
+        step3Ref7Q1TA.setWrapStyleWord(true);
+        jScrollPane22.setViewportView(step3Ref7Q1TA);
 
         jPanel59.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -434,7 +434,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref7Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(step3Ref7Q1rbNA)
+                .addComponent(step3Ref7Q1rbNA, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref7Q1rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
@@ -492,7 +492,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(102, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane7.addTab("Question 1", jPanel58);
+        step3Ref2Q1TP.addTab("Question 1", jPanel58);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -500,31 +500,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane7)
+                .addComponent(step3Ref2Q1TP)
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q1TP, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(56, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.1", jPanel2);
 
-        step3Ref1TabPane8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane8.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane8.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q2TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q2TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q2TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea24.setEditable(false);
-        jTextArea24.setColumns(20);
-        jTextArea24.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea24.setLineWrap(true);
-        jTextArea24.setRows(5);
-        jTextArea24.setText("Does the laboratory select the appropriate methods for testing/calibration");
-        jTextArea24.setWrapStyleWord(true);
-        jScrollPane24.setViewportView(jTextArea24);
+        step3Ref8Q1TA.setEditable(false);
+        step3Ref8Q1TA.setColumns(20);
+        step3Ref8Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q1TA.setLineWrap(true);
+        step3Ref8Q1TA.setRows(5);
+        step3Ref8Q1TA.setText("Does the laboratory select the appropriate methods for testing/calibration");
+        step3Ref8Q1TA.setWrapStyleWord(true);
+        jScrollPane24.setViewportView(step3Ref8Q1TA);
 
         jPanel62.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -619,16 +619,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(106, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane8.addTab("Question 1", jPanel61);
+        step3Ref2Q2TP.addTab("Question 1", jPanel61);
 
-        jTextArea34.setEditable(false);
-        jTextArea34.setColumns(20);
-        jTextArea34.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea34.setLineWrap(true);
-        jTextArea34.setRows(5);
-        jTextArea34.setText("Does the laboratory control access to procedures?");
-        jTextArea34.setWrapStyleWord(true);
-        jScrollPane34.setViewportView(jTextArea34);
+        step3Ref8Q2TA.setEditable(false);
+        step3Ref8Q2TA.setColumns(20);
+        step3Ref8Q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q2TA.setLineWrap(true);
+        step3Ref8Q2TA.setRows(5);
+        step3Ref8Q2TA.setText("Does the laboratory control access to procedures?");
+        step3Ref8Q2TA.setWrapStyleWord(true);
+        jScrollPane34.setViewportView(step3Ref8Q2TA);
 
         jPanel77.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -723,16 +723,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(106, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane8.addTab("Question 2", jPanel76);
+        step3Ref2Q2TP.addTab("Question 2", jPanel76);
 
-        jTextArea36.setEditable(false);
-        jTextArea36.setColumns(20);
-        jTextArea36.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea36.setLineWrap(true);
-        jTextArea36.setRows(5);
-        jTextArea36.setText("Does the laboratory limit access to obsolete procedures/revisions?");
-        jTextArea36.setWrapStyleWord(true);
-        jScrollPane36.setViewportView(jTextArea36);
+        step3Ref8Q3TA.setEditable(false);
+        step3Ref8Q3TA.setColumns(20);
+        step3Ref8Q3TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q3TA.setLineWrap(true);
+        step3Ref8Q3TA.setRows(5);
+        step3Ref8Q3TA.setText("Does the laboratory limit access to obsolete procedures/revisions?");
+        step3Ref8Q3TA.setWrapStyleWord(true);
+        jScrollPane36.setViewportView(step3Ref8Q3TA);
 
         jPanel80.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -777,12 +777,12 @@ public class Step3Ref7 extends javax.swing.JFrame {
 
         jPanel81.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        step3Ref8NotesTA.setColumns(20);
-        step3Ref8NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        step3Ref8NotesTA.setLineWrap(true);
-        step3Ref8NotesTA.setRows(5);
-        step3Ref8NotesTA.setWrapStyleWord(true);
-        jScrollPane37.setViewportView(step3Ref8NotesTA);
+        step3Ref8Q3NotesTA.setColumns(20);
+        step3Ref8Q3NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q3NotesTA.setLineWrap(true);
+        step3Ref8Q3NotesTA.setRows(5);
+        step3Ref8Q3NotesTA.setWrapStyleWord(true);
+        jScrollPane37.setViewportView(step3Ref8Q3NotesTA);
 
         javax.swing.GroupLayout jPanel81Layout = new javax.swing.GroupLayout(jPanel81);
         jPanel81.setLayout(jPanel81Layout);
@@ -827,16 +827,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(106, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane8.addTab("Question 3", jPanel79);
+        step3Ref2Q2TP.addTab("Question 3", jPanel79);
 
-        jTextArea38.setEditable(false);
-        jTextArea38.setColumns(20);
-        jTextArea38.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea38.setLineWrap(true);
-        jTextArea38.setRows(5);
-        jTextArea38.setText("Does the laboratory validate procedures/software for calibration?");
-        jTextArea38.setWrapStyleWord(true);
-        jScrollPane38.setViewportView(jTextArea38);
+        step3Ref8Q4TA.setEditable(false);
+        step3Ref8Q4TA.setColumns(20);
+        step3Ref8Q4TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q4TA.setLineWrap(true);
+        step3Ref8Q4TA.setRows(5);
+        step3Ref8Q4TA.setText("Does the laboratory validate procedures/software for calibration?");
+        step3Ref8Q4TA.setWrapStyleWord(true);
+        jScrollPane38.setViewportView(step3Ref8Q4TA);
 
         jPanel83.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -931,16 +931,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(106, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane8.addTab("Question 4", jPanel82);
+        step3Ref2Q2TP.addTab("Question 4", jPanel82);
 
-        jTextArea40.setEditable(false);
-        jTextArea40.setColumns(20);
-        jTextArea40.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea40.setLineWrap(true);
-        jTextArea40.setRows(5);
-        jTextArea40.setText("Does the laboratory use manufacturer procedures, or use nationally/internationally recognized processes/methods for testing/calibration?");
-        jTextArea40.setWrapStyleWord(true);
-        jScrollPane40.setViewportView(jTextArea40);
+        step3Ref8Q5TA.setEditable(false);
+        step3Ref8Q5TA.setColumns(20);
+        step3Ref8Q5TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q5TA.setLineWrap(true);
+        step3Ref8Q5TA.setRows(5);
+        step3Ref8Q5TA.setText("Does the laboratory use manufacturer procedures, or use nationally/internationally recognized processes/methods for testing/calibration?");
+        step3Ref8Q5TA.setWrapStyleWord(true);
+        jScrollPane40.setViewportView(step3Ref8Q5TA);
 
         jPanel86.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1035,31 +1035,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(106, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane8.addTab("Question 5", jPanel85);
+        step3Ref2Q2TP.addTab("Question 5", jPanel85);
 
-        jTextArea42.setEditable(false);
-        jTextArea42.setColumns(20);
-        jTextArea42.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea42.setLineWrap(true);
-        jTextArea42.setRows(5);
-        jTextArea42.setText("Does the laboratory maintain a log of procedure/software validation?");
-        jTextArea42.setWrapStyleWord(true);
-        jScrollPane42.setViewportView(jTextArea42);
+        step3Ref8Q6TA.setEditable(false);
+        step3Ref8Q6TA.setColumns(20);
+        step3Ref8Q6TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q6TA.setLineWrap(true);
+        step3Ref8Q6TA.setRows(5);
+        step3Ref8Q6TA.setText("Does the laboratory maintain a log of procedure/software validation?");
+        step3Ref8Q6TA.setWrapStyleWord(true);
+        jScrollPane42.setViewportView(step3Ref8Q6TA);
 
         jPanel89.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup26.add(jRadioButton61);
-        jRadioButton61.setText("Yes");
+        buttonGroup26.add(step3Ref8Q6rbYes);
+        step3Ref8Q6rbYes.setText("Yes");
 
-        buttonGroup26.add(jRadioButton62);
-        jRadioButton62.setText("No");
+        buttonGroup26.add(step3Ref8Q6rbNo);
+        step3Ref8Q6rbNo.setText("No");
 
-        buttonGroup26.add(jRadioButton63);
-        jRadioButton63.setSelected(true);
-        jRadioButton63.setText("N/A");
+        buttonGroup26.add(step3Ref8Q6rbNA);
+        step3Ref8Q6rbNA.setSelected(true);
+        step3Ref8Q6rbNA.setText("N/A");
 
-        buttonGroup26.add(jRadioButton96);
-        jRadioButton96.setText("Obs");
+        buttonGroup26.add(step3Ref8Q6rbobs);
+        step3Ref8Q6rbobs.setText("Obs");
 
         javax.swing.GroupLayout jPanel89Layout = new javax.swing.GroupLayout(jPanel89);
         jPanel89.setLayout(jPanel89Layout);
@@ -1067,34 +1067,34 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel89Layout.createSequentialGroup()
                 .addGroup(jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton61)
-                    .addComponent(jRadioButton62)
-                    .addComponent(jRadioButton63)
-                    .addComponent(jRadioButton96))
+                    .addComponent(step3Ref8Q6rbYes)
+                    .addComponent(step3Ref8Q6rbNo)
+                    .addComponent(step3Ref8Q6rbNA)
+                    .addComponent(step3Ref8Q6rbobs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel89Layout.setVerticalGroup(
             jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel89Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton61)
+                .addComponent(step3Ref8Q6rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton62)
+                .addComponent(step3Ref8Q6rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton63)
+                .addComponent(step3Ref8Q6rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton96)
+                .addComponent(step3Ref8Q6rbobs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel90.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea43.setColumns(20);
-        jTextArea43.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea43.setLineWrap(true);
-        jTextArea43.setRows(5);
-        jTextArea43.setWrapStyleWord(true);
-        jScrollPane43.setViewportView(jTextArea43);
+        step3Ref8Q6NotesTA.setColumns(20);
+        step3Ref8Q6NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref8Q6NotesTA.setLineWrap(true);
+        step3Ref8Q6NotesTA.setRows(5);
+        step3Ref8Q6NotesTA.setWrapStyleWord(true);
+        jScrollPane43.setViewportView(step3Ref8Q6NotesTA);
 
         javax.swing.GroupLayout jPanel90Layout = new javax.swing.GroupLayout(jPanel90);
         jPanel90.setLayout(jPanel90Layout);
@@ -1139,7 +1139,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(106, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane8.addTab("Question 6", jPanel88);
+        step3Ref2Q2TP.addTab("Question 6", jPanel88);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -1147,31 +1147,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane8)
+                .addComponent(step3Ref2Q2TP)
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q2TP, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(52, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.2", jPanel3);
 
-        step3Ref1TabPane9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane9.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane9.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q3TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q3TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q3TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea32.setEditable(false);
-        jTextArea32.setColumns(20);
-        jTextArea32.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea32.setLineWrap(true);
-        jTextArea32.setRows(5);
-        jTextArea32.setText("Does the laboratory maintain technical records?  Do the records include evaluations of Measurment Uncertainty?");
-        jTextArea32.setWrapStyleWord(true);
-        jScrollPane32.setViewportView(jTextArea32);
+        step3Ref9Q1TA.setEditable(false);
+        step3Ref9Q1TA.setColumns(20);
+        step3Ref9Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref9Q1TA.setLineWrap(true);
+        step3Ref9Q1TA.setRows(5);
+        step3Ref9Q1TA.setText("Does the laboratory maintain technical records?  Do the records include evaluations of Measurment Uncertainty?");
+        step3Ref9Q1TA.setWrapStyleWord(true);
+        jScrollPane32.setViewportView(step3Ref9Q1TA);
 
         jPanel74.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1266,7 +1266,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(103, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane9.addTab("Question 1", jPanel73);
+        step3Ref2Q3TP.addTab("Question 1", jPanel73);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -1274,31 +1274,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane9)
+                .addComponent(step3Ref2Q3TP)
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q3TP, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(55, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.5 - 7.6", jPanel4);
 
-        step3Ref1TabPane10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane10.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane10.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q4TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q4TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q4TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea44.setEditable(false);
-        jTextArea44.setColumns(20);
-        jTextArea44.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea44.setLineWrap(true);
-        jTextArea44.setRows(5);
-        jTextArea44.setText("Does the laboratory have a procedure for monitoring results?");
-        jTextArea44.setWrapStyleWord(true);
-        jScrollPane44.setViewportView(jTextArea44);
+        step3Ref10Q1TA.setEditable(false);
+        step3Ref10Q1TA.setColumns(20);
+        step3Ref10Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref10Q1TA.setLineWrap(true);
+        step3Ref10Q1TA.setRows(5);
+        step3Ref10Q1TA.setText("Does the laboratory have a procedure for monitoring results?");
+        step3Ref10Q1TA.setWrapStyleWord(true);
+        jScrollPane44.setViewportView(step3Ref10Q1TA);
 
         jPanel92.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1393,16 +1393,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(110, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane10.addTab("Question 1", jPanel91);
+        step3Ref2Q4TP.addTab("Question 1", jPanel91);
 
-        jTextArea46.setEditable(false);
-        jTextArea46.setColumns(20);
-        jTextArea46.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea46.setLineWrap(true);
-        jTextArea46.setRows(5);
-        jTextArea46.setText("Does the laboratory track trends?");
-        jTextArea46.setWrapStyleWord(true);
-        jScrollPane46.setViewportView(jTextArea46);
+        step3Ref10Q2TA.setEditable(false);
+        step3Ref10Q2TA.setColumns(20);
+        step3Ref10Q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref10Q2TA.setLineWrap(true);
+        step3Ref10Q2TA.setRows(5);
+        step3Ref10Q2TA.setText("Does the laboratory track trends?");
+        step3Ref10Q2TA.setWrapStyleWord(true);
+        jScrollPane46.setViewportView(step3Ref10Q2TA);
 
         jPanel95.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1497,16 +1497,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(110, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane10.addTab("Question 2", jPanel94);
+        step3Ref2Q4TP.addTab("Question 2", jPanel94);
 
-        jTextArea48.setEditable(false);
-        jTextArea48.setColumns(20);
-        jTextArea48.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea48.setLineWrap(true);
-        jTextArea48.setRows(5);
-        jTextArea48.setText("Does the laboratory perform process reviews?");
-        jTextArea48.setWrapStyleWord(true);
-        jScrollPane48.setViewportView(jTextArea48);
+        step3Ref10Q3TA.setEditable(false);
+        step3Ref10Q3TA.setColumns(20);
+        step3Ref10Q3TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref10Q3TA.setLineWrap(true);
+        step3Ref10Q3TA.setRows(5);
+        step3Ref10Q3TA.setText("Does the laboratory perform process reviews?");
+        step3Ref10Q3TA.setWrapStyleWord(true);
+        jScrollPane48.setViewportView(step3Ref10Q3TA);
 
         jPanel98.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1601,16 +1601,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(110, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane10.addTab("Question 3", jPanel97);
+        step3Ref2Q4TP.addTab("Question 3", jPanel97);
 
-        jTextArea50.setEditable(false);
-        jTextArea50.setColumns(20);
-        jTextArea50.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea50.setLineWrap(true);
-        jTextArea50.setRows(5);
-        jTextArea50.setText("Does the laboratory track nonconformities?");
-        jTextArea50.setWrapStyleWord(true);
-        jScrollPane50.setViewportView(jTextArea50);
+        step3Ref10Q4TA.setEditable(false);
+        step3Ref10Q4TA.setColumns(20);
+        step3Ref10Q4TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref10Q4TA.setLineWrap(true);
+        step3Ref10Q4TA.setRows(5);
+        step3Ref10Q4TA.setText("Does the laboratory track nonconformities?");
+        step3Ref10Q4TA.setWrapStyleWord(true);
+        jScrollPane50.setViewportView(step3Ref10Q4TA);
 
         jPanel101.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1647,7 +1647,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref10Q4rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(step3Ref10Q4rbNA)
+                .addComponent(step3Ref10Q4rbNA, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref10Q4rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
@@ -1705,16 +1705,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(110, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane10.addTab("Question 4", jPanel100);
+        step3Ref2Q4TP.addTab("Question 4", jPanel100);
 
-        jTextArea52.setEditable(false);
-        jTextArea52.setColumns(20);
-        jTextArea52.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea52.setLineWrap(true);
-        jTextArea52.setRows(5);
-        jTextArea52.setText("Does the laboratory participate in Proficiency or Interlaboratory comparisons?");
-        jTextArea52.setWrapStyleWord(true);
-        jScrollPane52.setViewportView(jTextArea52);
+        step3Ref10Q5TA.setEditable(false);
+        step3Ref10Q5TA.setColumns(20);
+        step3Ref10Q5TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref10Q5TA.setLineWrap(true);
+        step3Ref10Q5TA.setRows(5);
+        step3Ref10Q5TA.setText("Does the laboratory participate in Proficiency or Interlaboratory comparisons?");
+        step3Ref10Q5TA.setWrapStyleWord(true);
+        jScrollPane52.setViewportView(step3Ref10Q5TA);
 
         jPanel104.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1809,7 +1809,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(110, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane10.addTab("Question 5", jPanel103);
+        step3Ref2Q4TP.addTab("Question 5", jPanel103);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -1817,31 +1817,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane10)
+                .addComponent(step3Ref2Q4TP)
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q4TP, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(48, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.7", jPanel5);
 
-        step3Ref1TabPane2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane2.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane2.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q5TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q5TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q5TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea6.setEditable(false);
-        jTextArea6.setColumns(20);
-        jTextArea6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea6.setLineWrap(true);
-        jTextArea6.setRows(5);
-        jTextArea6.setText("Does the laboratory review results prior to release?");
-        jTextArea6.setWrapStyleWord(true);
-        jScrollPane6.setViewportView(jTextArea6);
+        step3Ref11Q1TA.setEditable(false);
+        step3Ref11Q1TA.setColumns(20);
+        step3Ref11Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref11Q1TA.setLineWrap(true);
+        step3Ref11Q1TA.setRows(5);
+        step3Ref11Q1TA.setText("Does the laboratory review results prior to release?");
+        step3Ref11Q1TA.setWrapStyleWord(true);
+        jScrollPane6.setViewportView(step3Ref11Q1TA);
 
         jPanel35.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -1936,16 +1936,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(101, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane2.addTab("Reporting Results 1", jPanel34);
+        step3Ref2Q5TP.addTab("Reporting Results 1", jPanel34);
 
-        jTextArea16.setEditable(false);
-        jTextArea16.setColumns(20);
-        jTextArea16.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea16.setLineWrap(true);
-        jTextArea16.setRows(5);
-        jTextArea16.setText("Does the laboratory provide results unambiguously?");
-        jTextArea16.setWrapStyleWord(true);
-        jScrollPane16.setViewportView(jTextArea16);
+        step3Ref11Q2TA.setEditable(false);
+        step3Ref11Q2TA.setColumns(20);
+        step3Ref11Q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref11Q2TA.setLineWrap(true);
+        step3Ref11Q2TA.setRows(5);
+        step3Ref11Q2TA.setText("Does the laboratory provide results unambiguously?");
+        step3Ref11Q2TA.setWrapStyleWord(true);
+        jScrollPane16.setViewportView(step3Ref11Q2TA);
 
         jPanel50.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2040,16 +2040,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(101, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane2.addTab("Reporting Results 2", jPanel49);
+        step3Ref2Q5TP.addTab("Reporting Results 2", jPanel49);
 
-        jTextArea56.setEditable(false);
-        jTextArea56.setColumns(20);
-        jTextArea56.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea56.setLineWrap(true);
-        jTextArea56.setRows(5);
-        jTextArea56.setText("Does the laboratory retain reports?");
-        jTextArea56.setWrapStyleWord(true);
-        jScrollPane56.setViewportView(jTextArea56);
+        step3Ref11Q3TA.setEditable(false);
+        step3Ref11Q3TA.setColumns(20);
+        step3Ref11Q3TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref11Q3TA.setLineWrap(true);
+        step3Ref11Q3TA.setRows(5);
+        step3Ref11Q3TA.setText("Does the laboratory retain reports?");
+        step3Ref11Q3TA.setWrapStyleWord(true);
+        jScrollPane56.setViewportView(step3Ref11Q3TA);
 
         jPanel110.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2144,7 +2144,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(101, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane2.addTab("Reporting Results 3", jPanel109);
+        step3Ref2Q5TP.addTab("Reporting Results 3", jPanel109);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -2152,31 +2152,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane2)
+                .addComponent(step3Ref2Q5TP)
                 .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 412, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q5TP, javax.swing.GroupLayout.PREFERRED_SIZE, 412, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(57, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.8", jPanel6);
 
-        step3Ref1TabPane11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane11.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane11.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q6TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q6TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q6TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea58.setEditable(false);
-        jTextArea58.setColumns(20);
-        jTextArea58.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea58.setLineWrap(true);
-        jTextArea58.setRows(5);
-        jTextArea58.setText("Does the laboratory provide information in calibration certificates identified by ISO 17025 in addition to applicable government, regulatory, or contractual requirements");
-        jTextArea58.setWrapStyleWord(true);
-        jScrollPane58.setViewportView(jTextArea58);
+        step3Ref12Q1TA.setEditable(false);
+        step3Ref12Q1TA.setColumns(20);
+        step3Ref12Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref12Q1TA.setLineWrap(true);
+        step3Ref12Q1TA.setRows(5);
+        step3Ref12Q1TA.setText("Does the laboratory provide information in calibration certificates identified by ISO 17025 in addition to applicable government, regulatory, or contractual requirements");
+        step3Ref12Q1TA.setWrapStyleWord(true);
+        jScrollPane58.setViewportView(step3Ref12Q1TA);
 
         jPanel33.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2221,12 +2221,12 @@ public class Step3Ref7 extends javax.swing.JFrame {
 
         jPanel112.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        step3Ref12Q1rbNotesTA.setColumns(20);
-        step3Ref12Q1rbNotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        step3Ref12Q1rbNotesTA.setLineWrap(true);
-        step3Ref12Q1rbNotesTA.setRows(5);
-        step3Ref12Q1rbNotesTA.setWrapStyleWord(true);
-        jScrollPane59.setViewportView(step3Ref12Q1rbNotesTA);
+        step3Ref12Q1NotesTA.setColumns(20);
+        step3Ref12Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref12Q1NotesTA.setLineWrap(true);
+        step3Ref12Q1NotesTA.setRows(5);
+        step3Ref12Q1NotesTA.setWrapStyleWord(true);
+        jScrollPane59.setViewportView(step3Ref12Q1NotesTA);
 
         javax.swing.GroupLayout jPanel112Layout = new javax.swing.GroupLayout(jPanel112);
         jPanel112.setLayout(jPanel112Layout);
@@ -2271,7 +2271,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane11.addTab("Question 1", jPanel27);
+        step3Ref2Q6TP.addTab("Question 1", jPanel27);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -2279,31 +2279,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane11)
+                .addComponent(step3Ref2Q6TP)
                 .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q6TP, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.8.2 - 7.8.6", jPanel7);
 
-        step3Ref1TabPane12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane12.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane12.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q7TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q7TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q7TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea60.setEditable(false);
-        jTextArea60.setColumns(20);
-        jTextArea60.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea60.setLineWrap(true);
-        jTextArea60.setRows(5);
-        jTextArea60.setText("Are opinions and interpretations reviewed and approved by appointed personnel?");
-        jTextArea60.setWrapStyleWord(true);
-        jScrollPane60.setViewportView(jTextArea60);
+        step3Ref13Q1TA.setEditable(false);
+        step3Ref13Q1TA.setColumns(20);
+        step3Ref13Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref13Q1TA.setLineWrap(true);
+        step3Ref13Q1TA.setRows(5);
+        step3Ref13Q1TA.setText("Are opinions and interpretations reviewed and approved by appointed personnel?");
+        step3Ref13Q1TA.setWrapStyleWord(true);
+        jScrollPane60.setViewportView(step3Ref13Q1TA);
 
         jPanel114.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2398,16 +2398,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane12.addTab("Question 1", jPanel113);
+        step3Ref2Q7TP.addTab("Question 1", jPanel113);
 
-        jTextArea62.setEditable(false);
-        jTextArea62.setColumns(20);
-        jTextArea62.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea62.setLineWrap(true);
-        jTextArea62.setRows(5);
-        jTextArea62.setText("Does the laboratory identify, document, track and report amendments to reports?");
-        jTextArea62.setWrapStyleWord(true);
-        jScrollPane62.setViewportView(jTextArea62);
+        step3Ref13Q2TA.setEditable(false);
+        step3Ref13Q2TA.setColumns(20);
+        step3Ref13Q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref13Q2TA.setLineWrap(true);
+        step3Ref13Q2TA.setRows(5);
+        step3Ref13Q2TA.setText("Does the laboratory identify, document, track and report amendments to reports?");
+        step3Ref13Q2TA.setWrapStyleWord(true);
+        jScrollPane62.setViewportView(step3Ref13Q2TA);
 
         jPanel117.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2502,7 +2502,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane12.addTab("Question 2", jPanel116);
+        step3Ref2Q7TP.addTab("Question 2", jPanel116);
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -2510,31 +2510,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane12)
+                .addComponent(step3Ref2Q7TP)
                 .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q7TP, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.8.7 - 7.8.8", jPanel8);
 
-        step3Ref1TabPane13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane13.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane13.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q8TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q8TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q8TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea64.setEditable(false);
-        jTextArea64.setColumns(20);
-        jTextArea64.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea64.setLineWrap(true);
-        jTextArea64.setRows(5);
-        jTextArea64.setText("Does the laboratory have a complaint program?");
-        jTextArea64.setWrapStyleWord(true);
-        jScrollPane64.setViewportView(jTextArea64);
+        step3Ref14Q1TA.setEditable(false);
+        step3Ref14Q1TA.setColumns(20);
+        step3Ref14Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref14Q1TA.setLineWrap(true);
+        step3Ref14Q1TA.setRows(5);
+        step3Ref14Q1TA.setText("Does the laboratory have a complaint program?");
+        step3Ref14Q1TA.setWrapStyleWord(true);
+        jScrollPane64.setViewportView(step3Ref14Q1TA);
 
         jPanel120.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2629,16 +2629,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane13.addTab("Complaints 1", jPanel119);
+        step3Ref2Q8TP.addTab("Complaints 1", jPanel119);
 
-        jTextArea66.setEditable(false);
-        jTextArea66.setColumns(20);
-        jTextArea66.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea66.setLineWrap(true);
-        jTextArea66.setRows(5);
-        jTextArea66.setText("Is the complaint program adhered to?");
-        jTextArea66.setWrapStyleWord(true);
-        jScrollPane66.setViewportView(jTextArea66);
+        step3Ref14Q2TA.setEditable(false);
+        step3Ref14Q2TA.setColumns(20);
+        step3Ref14Q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref14Q2TA.setLineWrap(true);
+        step3Ref14Q2TA.setRows(5);
+        step3Ref14Q2TA.setText("Is the complaint program adhered to?");
+        step3Ref14Q2TA.setWrapStyleWord(true);
+        jScrollPane66.setViewportView(step3Ref14Q2TA);
 
         jPanel123.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2733,16 +2733,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane13.addTab("Complaints 2", jPanel122);
+        step3Ref2Q8TP.addTab("Complaints 2", jPanel122);
 
-        jTextArea68.setEditable(false);
-        jTextArea68.setColumns(20);
-        jTextArea68.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea68.setLineWrap(true);
-        jTextArea68.setRows(5);
-        jTextArea68.setText("Are complaints logged, followed up, and reported as required?");
-        jTextArea68.setWrapStyleWord(true);
-        jScrollPane68.setViewportView(jTextArea68);
+        step3Ref14Q3TA.setEditable(false);
+        step3Ref14Q3TA.setColumns(20);
+        step3Ref14Q3TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref14Q3TA.setLineWrap(true);
+        step3Ref14Q3TA.setRows(5);
+        step3Ref14Q3TA.setText("Are complaints logged, followed up, and reported as required?");
+        step3Ref14Q3TA.setWrapStyleWord(true);
+        jScrollPane68.setViewportView(step3Ref14Q3TA);
 
         jPanel126.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2775,7 +2775,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel126Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel126Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref14Q3rbYes)
+                .addComponent(step3Ref14Q3rbYes, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref14Q3rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -2837,7 +2837,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane13.addTab("Complaints 3", jPanel125);
+        step3Ref2Q8TP.addTab("Complaints 3", jPanel125);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -2845,31 +2845,31 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane13)
+                .addComponent(step3Ref2Q8TP)
                 .addContainerGap())
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q8TP, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
         step3Ref2tp.addTab("7.9", jPanel9);
 
-        step3Ref1TabPane14.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane14.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane14.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref2Q9TP.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref2Q9TP.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref2Q9TP.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea70.setEditable(false);
-        jTextArea70.setColumns(20);
-        jTextArea70.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea70.setLineWrap(true);
-        jTextArea70.setRows(5);
-        jTextArea70.setText("Does the laboratory track nonconforming work?");
-        jTextArea70.setWrapStyleWord(true);
-        jScrollPane70.setViewportView(jTextArea70);
+        step3Ref15Q1TA.setEditable(false);
+        step3Ref15Q1TA.setColumns(20);
+        step3Ref15Q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref15Q1TA.setLineWrap(true);
+        step3Ref15Q1TA.setRows(5);
+        step3Ref15Q1TA.setText("Does the laboratory track nonconforming work?");
+        step3Ref15Q1TA.setWrapStyleWord(true);
+        jScrollPane70.setViewportView(step3Ref15Q1TA);
 
         jPanel129.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2906,8 +2906,8 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref15Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(step3Ref15Q1rbNA)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(step3Ref15Q1rbNA, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref15Q1rbObs)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -2964,16 +2964,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane14.addTab("Nonconforming work: 1", jPanel128);
+        step3Ref2Q9TP.addTab("Nonconforming work: 1", jPanel128);
 
-        jTextArea72.setEditable(false);
-        jTextArea72.setColumns(20);
-        jTextArea72.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea72.setLineWrap(true);
-        jTextArea72.setRows(5);
-        jTextArea72.setText("Does the laboratory take corrective action on nonconforming work?");
-        jTextArea72.setWrapStyleWord(true);
-        jScrollPane72.setViewportView(jTextArea72);
+        step3Ref15Q2TA.setEditable(false);
+        step3Ref15Q2TA.setColumns(20);
+        step3Ref15Q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref15Q2TA.setLineWrap(true);
+        step3Ref15Q2TA.setRows(5);
+        step3Ref15Q2TA.setText("Does the laboratory take corrective action on nonconforming work?");
+        step3Ref15Q2TA.setWrapStyleWord(true);
+        jScrollPane72.setViewportView(step3Ref15Q2TA);
 
         jPanel132.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -2987,8 +2987,8 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref15Q2rbNA.setSelected(true);
         step3Ref15Q2rbNA.setText("N/A");
 
-        buttonGroup23.add(Obs);
-        Obs.setText("Obs");
+        buttonGroup23.add(step3Ref15Q2rbObs);
+        step3Ref15Q2rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel132Layout = new javax.swing.GroupLayout(jPanel132);
         jPanel132.setLayout(jPanel132Layout);
@@ -2999,20 +2999,20 @@ public class Step3Ref7 extends javax.swing.JFrame {
                     .addComponent(step3Ref15Q2rbYes)
                     .addComponent(step3Ref15Q2rbNo)
                     .addComponent(step3Ref15Q2rbNA)
-                    .addComponent(Obs))
+                    .addComponent(step3Ref15Q2rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel132Layout.setVerticalGroup(
             jPanel132Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel132Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref15Q2rbYes)
+                .addComponent(step3Ref15Q2rbYes, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref15Q2rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(step3Ref15Q2rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Obs)
+                .addComponent(step3Ref15Q2rbObs)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -3068,16 +3068,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane14.addTab("Nonconforming work: 2", jPanel131);
+        step3Ref2Q9TP.addTab("Nonconforming work: 2", jPanel131);
 
-        jTextArea74.setEditable(false);
-        jTextArea74.setColumns(20);
-        jTextArea74.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea74.setLineWrap(true);
-        jTextArea74.setRows(5);
-        jTextArea74.setText("Is nonconforming work identified in a log and evaluated for trends?");
-        jTextArea74.setWrapStyleWord(true);
-        jScrollPane74.setViewportView(jTextArea74);
+        step3Ref15Q3TA.setEditable(false);
+        step3Ref15Q3TA.setColumns(20);
+        step3Ref15Q3TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref15Q3TA.setLineWrap(true);
+        step3Ref15Q3TA.setRows(5);
+        step3Ref15Q3TA.setText("Is nonconforming work identified in a log and evaluated for trends?");
+        step3Ref15Q3TA.setWrapStyleWord(true);
+        jScrollPane74.setViewportView(step3Ref15Q3TA);
 
         jPanel135.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -3172,16 +3172,16 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane14.addTab("Nonconforming work: 3", jPanel134);
+        step3Ref2Q9TP.addTab("Nonconforming work: 3", jPanel134);
 
-        jTextArea76.setEditable(false);
-        jTextArea76.setColumns(20);
-        jTextArea76.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea76.setLineWrap(true);
-        jTextArea76.setRows(5);
-        jTextArea76.setText("Are customers notified regarding impact due to nonconforming work?");
-        jTextArea76.setWrapStyleWord(true);
-        jScrollPane76.setViewportView(jTextArea76);
+        step3Ref15Q4TA.setEditable(false);
+        step3Ref15Q4TA.setColumns(20);
+        step3Ref15Q4TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref15Q4TA.setLineWrap(true);
+        step3Ref15Q4TA.setRows(5);
+        step3Ref15Q4TA.setText("Are customers notified regarding impact due to nonconforming work?");
+        step3Ref15Q4TA.setWrapStyleWord(true);
+        jScrollPane76.setViewportView(step3Ref15Q4TA);
 
         jPanel138.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -3276,12 +3276,12 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane14.addTab("Nonconforming work: 4", jPanel137);
+        step3Ref2Q9TP.addTab("Nonconforming work: 4", jPanel137);
 
-        jButton1.setText("Next & Save");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        nextButton.setText("Next & Save");
+        nextButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                nextButtonActionPerformed(evt);
             }
         });
 
@@ -3291,20 +3291,20 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane14)
+                .addComponent(step3Ref2Q9TP)
                 .addContainerGap())
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addGap(263, 263, 263)
-                .addComponent(jButton1)
+                .addComponent(nextButton)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(step3Ref2Q9TP, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(nextButton)
                 .addGap(30, 30, 30))
         );
 
@@ -3331,17 +3331,17 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGap(22, 22, 22))
         );
 
-        jButton2.setText("Previous");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        previousButton.setText("Previous");
+        previousButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                previousButtonActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Save & Close");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        closeButton.setText("Save & Close");
+        closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                closeButtonActionPerformed(evt);
             }
         });
 
@@ -3350,13 +3350,13 @@ public class Step3Ref7 extends javax.swing.JFrame {
 
         jMenu2.setText("Help");
 
-        jMenuItem1.setText("Help");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        step3HelpPT2.setText("Help");
+        step3HelpPT2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                step3HelpPT2ActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem1);
+        jMenu2.add(step3HelpPT2);
 
         jMenuBar1.add(jMenu2);
 
@@ -3369,9 +3369,9 @@ public class Step3Ref7 extends javax.swing.JFrame {
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(249, 249, 249)
-                .addComponent(jButton2)
+                .addComponent(previousButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton3)
+                .addComponent(closeButton)
                 .addGap(210, 210, 210))
         );
         layout.setVerticalGroup(
@@ -3380,8 +3380,8 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 517, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(previousButton)
+                    .addComponent(closeButton))
                 .addContainerGap())
         );
 
@@ -3389,32 +3389,32 @@ public class Step3Ref7 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
         // TODO add your handling code here:
         Step3Ref8 ref8 = new Step3Ref8();
         ref8.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_nextButtonActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_closeButtonActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
         Step3 ch3 = new Step3();
         ch3.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_previousButtonActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void step3HelpPT2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_step3HelpPT2ActionPerformed
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
         hf.helpLabel.setText("How to complete Step 3 Reference 7");
         hf.helpTextArea.setText("Instuctions for completing Step 3 Reference 7 goes here.");
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_step3HelpPT2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -3452,7 +3452,6 @@ public class Step3Ref7 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JRadioButton Obs;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup10;
     private javax.swing.ButtonGroup buttonGroup11;
@@ -3479,13 +3478,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup7;
     private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.ButtonGroup buttonGroup9;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton closeButton;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel100;
@@ -3574,10 +3570,6 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel97;
     private javax.swing.JPanel jPanel98;
     private javax.swing.JPanel jPanel99;
-    private javax.swing.JRadioButton jRadioButton61;
-    private javax.swing.JRadioButton jRadioButton62;
-    private javax.swing.JRadioButton jRadioButton63;
-    private javax.swing.JRadioButton jRadioButton96;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane16;
     private javax.swing.JScrollPane jScrollPane17;
@@ -3632,163 +3624,171 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane76;
     private javax.swing.JScrollPane jScrollPane77;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea16;
-    private javax.swing.JTextArea jTextArea22;
-    private javax.swing.JTextArea jTextArea24;
-    private javax.swing.JTextArea jTextArea32;
-    private javax.swing.JTextArea jTextArea34;
-    private javax.swing.JTextArea jTextArea36;
-    private javax.swing.JTextArea jTextArea38;
-    private javax.swing.JTextArea jTextArea40;
-    private javax.swing.JTextArea jTextArea42;
-    private javax.swing.JTextArea jTextArea43;
-    private javax.swing.JTextArea jTextArea44;
-    private javax.swing.JTextArea jTextArea46;
-    private javax.swing.JTextArea jTextArea48;
-    private javax.swing.JTextArea jTextArea50;
-    private javax.swing.JTextArea jTextArea52;
-    private javax.swing.JTextArea jTextArea56;
-    private javax.swing.JTextArea jTextArea58;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea60;
-    private javax.swing.JTextArea jTextArea62;
-    private javax.swing.JTextArea jTextArea64;
-    private javax.swing.JTextArea jTextArea66;
-    private javax.swing.JTextArea jTextArea68;
-    private javax.swing.JTextArea jTextArea70;
-    private javax.swing.JTextArea jTextArea72;
-    private javax.swing.JTextArea jTextArea74;
-    private javax.swing.JTextArea jTextArea76;
+    private javax.swing.JButton nextButton;
+    private javax.swing.JButton previousButton;
+    private javax.swing.JMenuItem step3HelpPT2;
     private javax.swing.JTextArea step3Ref10Q1NotesTA;
+    private javax.swing.JTextArea step3Ref10Q1TA;
     private javax.swing.JRadioButton step3Ref10Q1rbNA;
     private javax.swing.JRadioButton step3Ref10Q1rbNo;
     private javax.swing.JRadioButton step3Ref10Q1rbObs;
     private javax.swing.JRadioButton step3Ref10Q1rbYes;
     private javax.swing.JTextArea step3Ref10Q2NotesTA;
+    private javax.swing.JTextArea step3Ref10Q2TA;
     private javax.swing.JRadioButton step3Ref10Q2rbNA;
     private javax.swing.JRadioButton step3Ref10Q2rbNo;
     private javax.swing.JRadioButton step3Ref10Q2rbObs;
     private javax.swing.JRadioButton step3Ref10Q2rbYes;
     private javax.swing.JTextArea step3Ref10Q3NotesTA;
+    private javax.swing.JTextArea step3Ref10Q3TA;
     private javax.swing.JRadioButton step3Ref10Q3rbNA;
     private javax.swing.JRadioButton step3Ref10Q3rbNo;
     private javax.swing.JRadioButton step3Ref10Q3rbObs;
     private javax.swing.JRadioButton step3Ref10Q3rbYes;
     private javax.swing.JTextArea step3Ref10Q4NotesTA;
+    private javax.swing.JTextArea step3Ref10Q4TA;
     private javax.swing.JRadioButton step3Ref10Q4rbNA;
     private javax.swing.JRadioButton step3Ref10Q4rbNo;
     private javax.swing.JRadioButton step3Ref10Q4rbObs;
     private javax.swing.JRadioButton step3Ref10Q4rbYes;
     private javax.swing.JTextArea step3Ref10Q5NotesTA;
+    private javax.swing.JTextArea step3Ref10Q5TA;
     private javax.swing.JRadioButton step3Ref10Q5rbNA;
     private javax.swing.JRadioButton step3Ref10Q5rbNo;
     private javax.swing.JRadioButton step3Ref10Q5rbObs;
     private javax.swing.JRadioButton step3Ref10Q5rbYes;
     private javax.swing.JTextArea step3Ref11Q1NotesTA;
+    private javax.swing.JTextArea step3Ref11Q1TA;
     private javax.swing.JRadioButton step3Ref11Q1rbNA;
     private javax.swing.JRadioButton step3Ref11Q1rbNo;
     private javax.swing.JRadioButton step3Ref11Q1rbObs;
     private javax.swing.JRadioButton step3Ref11Q1rbYes;
     private javax.swing.JTextArea step3Ref11Q2NotesTA;
+    private javax.swing.JTextArea step3Ref11Q2TA;
     private javax.swing.JRadioButton step3Ref11Q2rbNA;
     private javax.swing.JRadioButton step3Ref11Q2rbNo;
     private javax.swing.JRadioButton step3Ref11Q2rbObs;
     private javax.swing.JRadioButton step3Ref11Q2rbYes;
     private javax.swing.JTextArea step3Ref11Q3NotesTA;
+    private javax.swing.JTextArea step3Ref11Q3TA;
     private javax.swing.JRadioButton step3Ref11Q3rbNA;
     private javax.swing.JRadioButton step3Ref11Q3rbNo;
     private javax.swing.JRadioButton step3Ref11Q3rbObs;
     private javax.swing.JRadioButton step3Ref11Q3rbYes;
+    private javax.swing.JTextArea step3Ref12Q1NotesTA;
+    private javax.swing.JTextArea step3Ref12Q1TA;
     private javax.swing.JRadioButton step3Ref12Q1rbNA;
     private javax.swing.JRadioButton step3Ref12Q1rbNo;
-    private javax.swing.JTextArea step3Ref12Q1rbNotesTA;
     private javax.swing.JRadioButton step3Ref12Q1rbObs;
     private javax.swing.JRadioButton step3Ref12Q1rbYes;
     private javax.swing.JTextArea step3Ref13Q1NotesTA;
+    private javax.swing.JTextArea step3Ref13Q1TA;
     private javax.swing.JRadioButton step3Ref13Q1rbNA;
     private javax.swing.JRadioButton step3Ref13Q1rbNo;
     private javax.swing.JRadioButton step3Ref13Q1rbObs;
     private javax.swing.JRadioButton step3Ref13Q1rbYes;
     private javax.swing.JTextArea step3Ref13Q2NotesTA;
+    private javax.swing.JTextArea step3Ref13Q2TA;
     private javax.swing.JRadioButton step3Ref13Q2rbNA;
     private javax.swing.JRadioButton step3Ref13Q2rbNo;
     private javax.swing.JRadioButton step3Ref13Q2rbObs;
     private javax.swing.JRadioButton step3Ref13Q2rbYes;
     private javax.swing.JTextArea step3Ref14Q1NotesTA;
+    private javax.swing.JTextArea step3Ref14Q1TA;
     private javax.swing.JRadioButton step3Ref14Q1rbNA;
     private javax.swing.JRadioButton step3Ref14Q1rbNo;
     private javax.swing.JRadioButton step3Ref14Q1rbObs;
     private javax.swing.JRadioButton step3Ref14Q1rbYes;
     private javax.swing.JTextArea step3Ref14Q2NotesTA;
+    private javax.swing.JTextArea step3Ref14Q2TA;
     private javax.swing.JRadioButton step3Ref14Q2rbNA;
     private javax.swing.JRadioButton step3Ref14Q2rbNo;
     private javax.swing.JRadioButton step3Ref14Q2rbObs;
     private javax.swing.JRadioButton step3Ref14Q2rbYes;
     private javax.swing.JTextArea step3Ref14Q3NotesTA;
+    private javax.swing.JTextArea step3Ref14Q3TA;
     private javax.swing.JRadioButton step3Ref14Q3rbNA;
     private javax.swing.JRadioButton step3Ref14Q3rbNo;
     private javax.swing.JRadioButton step3Ref14Q3rbObs;
     private javax.swing.JRadioButton step3Ref14Q3rbYes;
     private javax.swing.JTextArea step3Ref15Q1NotesTA;
+    private javax.swing.JTextArea step3Ref15Q1TA;
     private javax.swing.JRadioButton step3Ref15Q1rbNA;
     private javax.swing.JRadioButton step3Ref15Q1rbNo;
     private javax.swing.JRadioButton step3Ref15Q1rbObs;
     private javax.swing.JRadioButton step3Ref15Q1rbYes;
     private javax.swing.JTextArea step3Ref15Q2NotesTA;
+    private javax.swing.JTextArea step3Ref15Q2TA;
     private javax.swing.JRadioButton step3Ref15Q2rbNA;
     private javax.swing.JRadioButton step3Ref15Q2rbNo;
+    private javax.swing.JRadioButton step3Ref15Q2rbObs;
     private javax.swing.JRadioButton step3Ref15Q2rbYes;
     private javax.swing.JTextArea step3Ref15Q3NotesTA;
+    private javax.swing.JTextArea step3Ref15Q3TA;
     private javax.swing.JRadioButton step3Ref15Q3rbNA;
     private javax.swing.JRadioButton step3Ref15Q3rbNo;
     private javax.swing.JRadioButton step3Ref15Q3rbObs;
     private javax.swing.JRadioButton step3Ref15Q3rbYes;
     private javax.swing.JTextArea step3Ref15Q4NotesTA;
+    private javax.swing.JTextArea step3Ref15Q4TA;
     private javax.swing.JRadioButton step3Ref15Q4rbNA;
     private javax.swing.JRadioButton step3Ref15Q4rbNo;
     private javax.swing.JRadioButton step3Ref15Q4rbObs;
     private javax.swing.JRadioButton step3Ref15Q4rbYes;
-    private javax.swing.JTabbedPane step3Ref1TabPane10;
-    private javax.swing.JTabbedPane step3Ref1TabPane11;
-    private javax.swing.JTabbedPane step3Ref1TabPane12;
-    private javax.swing.JTabbedPane step3Ref1TabPane13;
-    private javax.swing.JTabbedPane step3Ref1TabPane14;
-    private javax.swing.JTabbedPane step3Ref1TabPane2;
-    private javax.swing.JTabbedPane step3Ref1TabPane7;
-    private javax.swing.JTabbedPane step3Ref1TabPane8;
-    private javax.swing.JTabbedPane step3Ref1TabPane9;
+    private javax.swing.JTabbedPane step3Ref2Q1TP;
+    private javax.swing.JTabbedPane step3Ref2Q2TP;
+    private javax.swing.JTabbedPane step3Ref2Q3TP;
+    private javax.swing.JTabbedPane step3Ref2Q4TP;
+    private javax.swing.JTabbedPane step3Ref2Q5TP;
+    private javax.swing.JTabbedPane step3Ref2Q6TP;
+    private javax.swing.JTabbedPane step3Ref2Q7TP;
+    private javax.swing.JTabbedPane step3Ref2Q8TP;
+    private javax.swing.JTabbedPane step3Ref2Q9TP;
     private javax.swing.JTabbedPane step3Ref2tp;
     private javax.swing.JTextArea step3Ref7Q1NotesTA;
+    private javax.swing.JTextArea step3Ref7Q1TA;
     private javax.swing.JRadioButton step3Ref7Q1rbNA;
     private javax.swing.JRadioButton step3Ref7Q1rbNo;
     private javax.swing.JRadioButton step3Ref7Q1rbObs;
     private javax.swing.JRadioButton step3Ref7Q1rbYes;
-    private javax.swing.JTextArea step3Ref8NotesTA;
     private javax.swing.JTextArea step3Ref8Q1NotesTA;
+    private javax.swing.JTextArea step3Ref8Q1TA;
     private javax.swing.JRadioButton step3Ref8Q1rbNA;
     private javax.swing.JRadioButton step3Ref8Q1rbNo;
     private javax.swing.JRadioButton step3Ref8Q1rbObs;
     private javax.swing.JRadioButton step3Ref8Q1rbYes;
     private javax.swing.JTextArea step3Ref8Q2NotesTA;
+    private javax.swing.JTextArea step3Ref8Q2TA;
     private javax.swing.JRadioButton step3Ref8Q2rbNA;
     private javax.swing.JRadioButton step3Ref8Q2rbNo;
     private javax.swing.JRadioButton step3Ref8Q2rbObs;
     private javax.swing.JRadioButton step3Ref8Q2rbYes;
+    private javax.swing.JTextArea step3Ref8Q3NotesTA;
+    private javax.swing.JTextArea step3Ref8Q3TA;
     private javax.swing.JRadioButton step3Ref8Q3rbNA;
     private javax.swing.JRadioButton step3Ref8Q3rbNo;
     private javax.swing.JRadioButton step3Ref8Q3rbObs;
     private javax.swing.JRadioButton step3Ref8Q3rbYes;
     private javax.swing.JTextArea step3Ref8Q4NotesTA;
+    private javax.swing.JTextArea step3Ref8Q4TA;
     private javax.swing.JRadioButton step3Ref8Q4rbNA;
     private javax.swing.JRadioButton step3Ref8Q4rbNo;
     private javax.swing.JRadioButton step3Ref8Q4rbObs;
     private javax.swing.JRadioButton step3Ref8Q4rbYes;
     private javax.swing.JTextArea step3Ref8Q5NotesTA;
+    private javax.swing.JTextArea step3Ref8Q5TA;
     private javax.swing.JRadioButton step3Ref8Q5rbNA;
     private javax.swing.JRadioButton step3Ref8Q5rbNo;
     private javax.swing.JRadioButton step3Ref8Q5rbObs;
     private javax.swing.JRadioButton step3Ref8Q5rbYes;
+    private javax.swing.JTextArea step3Ref8Q6NotesTA;
+    private javax.swing.JTextArea step3Ref8Q6TA;
+    private javax.swing.JRadioButton step3Ref8Q6rbNA;
+    private javax.swing.JRadioButton step3Ref8Q6rbNo;
+    private javax.swing.JRadioButton step3Ref8Q6rbYes;
+    private javax.swing.JRadioButton step3Ref8Q6rbobs;
     private javax.swing.JTextArea step3Ref9Q1NotesTA;
+    private javax.swing.JTextArea step3Ref9Q1TA;
     private javax.swing.JRadioButton step3Ref9Q1rbNA;
     private javax.swing.JRadioButton step3Ref9Q1rbNo;
     private javax.swing.JRadioButton step3Ref9Q1rbObs;

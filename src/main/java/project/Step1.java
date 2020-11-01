@@ -29,8 +29,8 @@ public class Step1 extends javax.swing.JFrame {
 
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        closeButton = new javax.swing.JButton();
+        nextButton = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -44,7 +44,7 @@ public class Step1 extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         auditorTextField = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        siteTextField = new javax.swing.JTextField();
+        auditSiteTextField = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         clausesStandardTextArea = new javax.swing.JTextArea();
@@ -74,24 +74,27 @@ public class Step1 extends javax.swing.JFrame {
         setName("Chapter 1"); // NOI18N
         setResizable(false);
 
-        jButton1.setText("Save & Close");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        closeButton.setText("Save & Close");
+        closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                closeButtonActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Next & Save");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        nextButton.setText("Next & Save");
+        nextButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                nextButtonActionPerformed(evt);
             }
         });
 
         jLabel1.setText("Process to Audit (Audit Scope):");
 
         auditTextArea.setColumns(20);
+        auditTextArea.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        auditTextArea.setLineWrap(true);
         auditTextArea.setRows(5);
+        auditTextArea.setWrapStyleWord(true);
         jScrollPane1.setViewportView(auditTextArea);
 
         jLabel2.setText("Audit Date(s):");
@@ -107,7 +110,10 @@ public class Step1 extends javax.swing.JFrame {
         jLabel7.setText("Applicable Clauses of ISO 17025-2017 Standard:");
 
         clausesStandardTextArea.setColumns(20);
+        clausesStandardTextArea.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        clausesStandardTextArea.setLineWrap(true);
         clausesStandardTextArea.setRows(5);
+        clausesStandardTextArea.setWrapStyleWord(true);
         jScrollPane2.setViewportView(clausesStandardTextArea);
 
         auditDocumentsTable.setAutoCreateRowSorter(true);
@@ -176,7 +182,7 @@ public class Step1 extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(siteTextField))
+                        .addComponent(auditSiteTextField))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1)
@@ -207,7 +213,7 @@ public class Step1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
-                    .addComponent(siteTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(auditSiteTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -240,9 +246,9 @@ public class Step1 extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(104, 104, 104)
-                .addComponent(jButton1)
+                .addComponent(closeButton)
                 .addGap(62, 62, 62)
-                .addComponent(jButton2)
+                .addComponent(nextButton)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
@@ -253,8 +259,8 @@ public class Step1 extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(closeButton)
+                    .addComponent(nextButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -262,17 +268,17 @@ public class Step1 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_closeButtonActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
         // TODO add your handling code here:
         Step2 ch2 = new Step2();
         ch2.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_nextButtonActionPerformed
 
     private void step1HelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_step1HelpActionPerformed
         // TODO add your handling code here:
@@ -324,11 +330,11 @@ public class Step1 extends javax.swing.JFrame {
     private javax.swing.JTextField auditDateTextField;
     private javax.swing.JTable auditDocumentsTable;
     private javax.swing.JTextField auditNumTextField;
+    private javax.swing.JTextField auditSiteTextField;
     private javax.swing.JTextArea auditTextArea;
     private javax.swing.JTextField auditorTextField;
     private javax.swing.JTextArea clausesStandardTextArea;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -346,7 +352,7 @@ public class Step1 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField leadAudTextField;
-    private javax.swing.JTextField siteTextField;
+    private javax.swing.JButton nextButton;
     private javax.swing.JMenuItem step1Help;
     // End of variables declaration//GEN-END:variables
 }
