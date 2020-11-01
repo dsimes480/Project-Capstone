@@ -1349,7 +1349,7 @@ public class mainMenu extends javax.swing.JFrame {
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("How to use the Main Menu:");
+        hf.helpLabel.setText("How to use the Main Menu:");
         hf.helpTextArea.setText("How to use the Main Menu Instructions goes here.");
         
         

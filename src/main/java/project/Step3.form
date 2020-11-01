@@ -24,134 +24,6 @@
     </Component>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup11">
     </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup12">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup13">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup14">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup15">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup16">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup17">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup18">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup19">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup20">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup21">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup22">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup23">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup24">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup25">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup26">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup27">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup28">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup29">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup30">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup31">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup32">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup33">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup34">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup35">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup36">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup37">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup38">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup39">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup40">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup41">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup42">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup43">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup44">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup45">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup46">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup47">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup48">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup49">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup50">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup51">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup52">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup53">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup54">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup55">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup56">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup57">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup58">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup59">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup60">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup61">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup62">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup63">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup64">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup65">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup66">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup67">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup68">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup69">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup70">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup71">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup72">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup73">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup74">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup75">
-    </Component>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="jMenu1">
@@ -227,7 +99,6 @@
               <Component id="jPanel2" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -263,7 +134,7 @@
       <SubComponents>
         <Component class="javax.swing.JButton" name="CloseButton">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Close"/>
+            <Property name="text" type="java.lang.String" value="Save &amp; Close"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CloseButtonActionPerformed"/>
@@ -299,7 +170,8 @@
               <Group type="102" alignment="1" attributes="0">
                   <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="step3Ref1tp" max="32767" attributes="0"/>
+                  <Component id="step3Ref1tp" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -345,7 +217,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="step3Ref1TabPane" min="-2" pref="386" max="-2" attributes="0"/>
-                          <EmptySpace pref="87" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -587,7 +459,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="step3Ref1TabPane1" min="-2" pref="399" max="-2" attributes="0"/>
-                          <EmptySpace pref="74" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -829,7 +701,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="step3Ref1TabPane3" min="-2" pref="398" max="-2" attributes="0"/>
-                          <EmptySpace pref="75" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1071,7 +943,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="step3Ref1TabPane4" min="-2" pref="414" max="-2" attributes="0"/>
-                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1128,7 +1000,7 @@
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jPanel42" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="103" max="32767" attributes="0"/>
+                                  <EmptySpace pref="146" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1313,7 +1185,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="step3Ref1TabPane5" min="-2" pref="398" max="-2" attributes="0"/>
-                          <EmptySpace pref="75" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1944,7 +1816,7 @@
                           <Component id="step3Ref1tpQuestions" min="-2" pref="413" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="nextButton" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="33" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>

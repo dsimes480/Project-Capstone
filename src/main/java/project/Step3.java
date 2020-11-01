@@ -38,70 +38,6 @@ public class Step3 extends javax.swing.JFrame {
         buttonGroup9 = new javax.swing.ButtonGroup();
         buttonGroup10 = new javax.swing.ButtonGroup();
         buttonGroup11 = new javax.swing.ButtonGroup();
-        buttonGroup12 = new javax.swing.ButtonGroup();
-        buttonGroup13 = new javax.swing.ButtonGroup();
-        buttonGroup14 = new javax.swing.ButtonGroup();
-        buttonGroup15 = new javax.swing.ButtonGroup();
-        buttonGroup16 = new javax.swing.ButtonGroup();
-        buttonGroup17 = new javax.swing.ButtonGroup();
-        buttonGroup18 = new javax.swing.ButtonGroup();
-        buttonGroup19 = new javax.swing.ButtonGroup();
-        buttonGroup20 = new javax.swing.ButtonGroup();
-        buttonGroup21 = new javax.swing.ButtonGroup();
-        buttonGroup22 = new javax.swing.ButtonGroup();
-        buttonGroup23 = new javax.swing.ButtonGroup();
-        buttonGroup24 = new javax.swing.ButtonGroup();
-        buttonGroup25 = new javax.swing.ButtonGroup();
-        buttonGroup26 = new javax.swing.ButtonGroup();
-        buttonGroup27 = new javax.swing.ButtonGroup();
-        buttonGroup28 = new javax.swing.ButtonGroup();
-        buttonGroup29 = new javax.swing.ButtonGroup();
-        buttonGroup30 = new javax.swing.ButtonGroup();
-        buttonGroup31 = new javax.swing.ButtonGroup();
-        buttonGroup32 = new javax.swing.ButtonGroup();
-        buttonGroup33 = new javax.swing.ButtonGroup();
-        buttonGroup34 = new javax.swing.ButtonGroup();
-        buttonGroup35 = new javax.swing.ButtonGroup();
-        buttonGroup36 = new javax.swing.ButtonGroup();
-        buttonGroup37 = new javax.swing.ButtonGroup();
-        buttonGroup38 = new javax.swing.ButtonGroup();
-        buttonGroup39 = new javax.swing.ButtonGroup();
-        buttonGroup40 = new javax.swing.ButtonGroup();
-        buttonGroup41 = new javax.swing.ButtonGroup();
-        buttonGroup42 = new javax.swing.ButtonGroup();
-        buttonGroup43 = new javax.swing.ButtonGroup();
-        buttonGroup44 = new javax.swing.ButtonGroup();
-        buttonGroup45 = new javax.swing.ButtonGroup();
-        buttonGroup46 = new javax.swing.ButtonGroup();
-        buttonGroup47 = new javax.swing.ButtonGroup();
-        buttonGroup48 = new javax.swing.ButtonGroup();
-        buttonGroup49 = new javax.swing.ButtonGroup();
-        buttonGroup50 = new javax.swing.ButtonGroup();
-        buttonGroup51 = new javax.swing.ButtonGroup();
-        buttonGroup52 = new javax.swing.ButtonGroup();
-        buttonGroup53 = new javax.swing.ButtonGroup();
-        buttonGroup54 = new javax.swing.ButtonGroup();
-        buttonGroup55 = new javax.swing.ButtonGroup();
-        buttonGroup56 = new javax.swing.ButtonGroup();
-        buttonGroup57 = new javax.swing.ButtonGroup();
-        buttonGroup58 = new javax.swing.ButtonGroup();
-        buttonGroup59 = new javax.swing.ButtonGroup();
-        buttonGroup60 = new javax.swing.ButtonGroup();
-        buttonGroup61 = new javax.swing.ButtonGroup();
-        buttonGroup62 = new javax.swing.ButtonGroup();
-        buttonGroup63 = new javax.swing.ButtonGroup();
-        buttonGroup64 = new javax.swing.ButtonGroup();
-        buttonGroup65 = new javax.swing.ButtonGroup();
-        buttonGroup66 = new javax.swing.ButtonGroup();
-        buttonGroup67 = new javax.swing.ButtonGroup();
-        buttonGroup68 = new javax.swing.ButtonGroup();
-        buttonGroup69 = new javax.swing.ButtonGroup();
-        buttonGroup70 = new javax.swing.ButtonGroup();
-        buttonGroup71 = new javax.swing.ButtonGroup();
-        buttonGroup72 = new javax.swing.ButtonGroup();
-        buttonGroup73 = new javax.swing.ButtonGroup();
-        buttonGroup74 = new javax.swing.ButtonGroup();
-        buttonGroup75 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         CloseButton = new javax.swing.JButton();
         previousButton = new javax.swing.JButton();
@@ -253,7 +189,7 @@ public class Step3 extends javax.swing.JFrame {
         setLocation(new java.awt.Point(500, 200));
         setResizable(false);
 
-        CloseButton.setText("Close");
+        CloseButton.setText("Save & Close");
         CloseButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CloseButtonActionPerformed(evt);
@@ -415,7 +351,7 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(87, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         step3Ref1tp.addTab("5.5b, 5.6, 6.2", jPanel3);
@@ -542,7 +478,7 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 399, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(74, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         step3Ref1tp.addTab("6.3", jPanel5);
@@ -669,7 +605,7 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         step3Ref1tp.addTab("6.4", jPanel11);
@@ -777,7 +713,7 @@ public class Step3 extends javax.swing.JFrame {
                     .addComponent(jScrollPane10))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(103, Short.MAX_VALUE))
+                .addContainerGap(146, Short.MAX_VALUE))
         );
 
         step3Ref1TabPane4.addTab("Question 1", jPanel40);
@@ -796,7 +732,7 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(59, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         step3Ref1tp.addTab("6.4", jPanel12);
@@ -1127,7 +1063,7 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         step3Ref1tp.addTab("6.5", jPanel13);
@@ -1575,7 +1511,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addComponent(step3Ref1tpQuestions, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(nextButton)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         step3Ref1tp.addTab("6.6", jPanel14);
@@ -1607,7 +1543,8 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(step3Ref1tp))
+                .addComponent(step3Ref1tp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
         jMenu1.setText("File");
@@ -1647,8 +1584,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -1678,7 +1614,7 @@ public class Step3 extends javax.swing.JFrame {
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("How to complete Step 3");
+        hf.helpLabel.setText("How to complete Step 3");
         hf.helpTextArea.setText("This is where you place instructions on how to complete step 3.\n\n" +
                                 " Step 3 -> 7.7 -> Question 6 missing but has 6 answers.");
     }//GEN-LAST:event_jMenuItem1ActionPerformed
@@ -1726,76 +1662,12 @@ public class Step3 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup10;
     private javax.swing.ButtonGroup buttonGroup11;
-    private javax.swing.ButtonGroup buttonGroup12;
-    private javax.swing.ButtonGroup buttonGroup13;
-    private javax.swing.ButtonGroup buttonGroup14;
-    private javax.swing.ButtonGroup buttonGroup15;
-    private javax.swing.ButtonGroup buttonGroup16;
-    private javax.swing.ButtonGroup buttonGroup17;
-    private javax.swing.ButtonGroup buttonGroup18;
-    private javax.swing.ButtonGroup buttonGroup19;
     private javax.swing.ButtonGroup buttonGroup2;
-    private javax.swing.ButtonGroup buttonGroup20;
-    private javax.swing.ButtonGroup buttonGroup21;
-    private javax.swing.ButtonGroup buttonGroup22;
-    private javax.swing.ButtonGroup buttonGroup23;
-    private javax.swing.ButtonGroup buttonGroup24;
-    private javax.swing.ButtonGroup buttonGroup25;
-    private javax.swing.ButtonGroup buttonGroup26;
-    private javax.swing.ButtonGroup buttonGroup27;
-    private javax.swing.ButtonGroup buttonGroup28;
-    private javax.swing.ButtonGroup buttonGroup29;
     private javax.swing.ButtonGroup buttonGroup3;
-    private javax.swing.ButtonGroup buttonGroup30;
-    private javax.swing.ButtonGroup buttonGroup31;
-    private javax.swing.ButtonGroup buttonGroup32;
-    private javax.swing.ButtonGroup buttonGroup33;
-    private javax.swing.ButtonGroup buttonGroup34;
-    private javax.swing.ButtonGroup buttonGroup35;
-    private javax.swing.ButtonGroup buttonGroup36;
-    private javax.swing.ButtonGroup buttonGroup37;
-    private javax.swing.ButtonGroup buttonGroup38;
-    private javax.swing.ButtonGroup buttonGroup39;
     private javax.swing.ButtonGroup buttonGroup4;
-    private javax.swing.ButtonGroup buttonGroup40;
-    private javax.swing.ButtonGroup buttonGroup41;
-    private javax.swing.ButtonGroup buttonGroup42;
-    private javax.swing.ButtonGroup buttonGroup43;
-    private javax.swing.ButtonGroup buttonGroup44;
-    private javax.swing.ButtonGroup buttonGroup45;
-    private javax.swing.ButtonGroup buttonGroup46;
-    private javax.swing.ButtonGroup buttonGroup47;
-    private javax.swing.ButtonGroup buttonGroup48;
-    private javax.swing.ButtonGroup buttonGroup49;
     private javax.swing.ButtonGroup buttonGroup5;
-    private javax.swing.ButtonGroup buttonGroup50;
-    private javax.swing.ButtonGroup buttonGroup51;
-    private javax.swing.ButtonGroup buttonGroup52;
-    private javax.swing.ButtonGroup buttonGroup53;
-    private javax.swing.ButtonGroup buttonGroup54;
-    private javax.swing.ButtonGroup buttonGroup55;
-    private javax.swing.ButtonGroup buttonGroup56;
-    private javax.swing.ButtonGroup buttonGroup57;
-    private javax.swing.ButtonGroup buttonGroup58;
-    private javax.swing.ButtonGroup buttonGroup59;
     private javax.swing.ButtonGroup buttonGroup6;
-    private javax.swing.ButtonGroup buttonGroup60;
-    private javax.swing.ButtonGroup buttonGroup61;
-    private javax.swing.ButtonGroup buttonGroup62;
-    private javax.swing.ButtonGroup buttonGroup63;
-    private javax.swing.ButtonGroup buttonGroup64;
-    private javax.swing.ButtonGroup buttonGroup65;
-    private javax.swing.ButtonGroup buttonGroup66;
-    private javax.swing.ButtonGroup buttonGroup67;
-    private javax.swing.ButtonGroup buttonGroup68;
-    private javax.swing.ButtonGroup buttonGroup69;
     private javax.swing.ButtonGroup buttonGroup7;
-    private javax.swing.ButtonGroup buttonGroup70;
-    private javax.swing.ButtonGroup buttonGroup71;
-    private javax.swing.ButtonGroup buttonGroup72;
-    private javax.swing.ButtonGroup buttonGroup73;
-    private javax.swing.ButtonGroup buttonGroup74;
-    private javax.swing.ButtonGroup buttonGroup75;
     private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.ButtonGroup buttonGroup9;
     private javax.swing.JMenu jMenu1;

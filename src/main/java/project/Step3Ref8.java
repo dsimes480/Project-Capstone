@@ -513,6 +513,7 @@ public class Step3Ref8 extends javax.swing.JFrame {
         jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         step3Ref3tp.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
         step3Ref3tp.setTabPlacement(javax.swing.JTabbedPane.LEFT);
@@ -4728,7 +4729,7 @@ public class Step3Ref8 extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("Close");
+        jButton3.setText("Save & Close");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -4804,7 +4805,7 @@ public class Step3Ref8 extends javax.swing.JFrame {
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("How to complete Step 3 Reference 8");
+        hf.helpLabel.setText("How to complete Step 3 Reference 8");
         hf.helpTextArea.setText("Instuctions on how to complete Step 3 Reference 8 form goes here.");
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

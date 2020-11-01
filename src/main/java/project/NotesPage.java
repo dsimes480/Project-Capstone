@@ -28,40 +28,41 @@ public class NotesPage extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        finalThoughtButton = new javax.swing.JButton();
+        previousButton = new javax.swing.JButton();
+        cButton = new javax.swing.JButton();
+        NextButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        notesPageTA = new javax.swing.JTextArea();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        notesHelpMenu = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("ISO 17025-2017 Internal Audit Notes Page");
         setLocation(new java.awt.Point(500, 200));
+        setResizable(false);
 
-        jButton2.setText("Previous");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        previousButton.setText("Previous");
+        previousButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                previousButtonActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Close");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        cButton.setText("Close");
+        cButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                cButtonActionPerformed(evt);
             }
         });
 
-        finalThoughtButton.setText("Final Thoughts & Save");
-        finalThoughtButton.addActionListener(new java.awt.event.ActionListener() {
+        NextButton.setText("Final Thoughts & Save");
+        NextButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                finalThoughtButtonActionPerformed(evt);
+                NextButtonActionPerformed(evt);
             }
         });
 
@@ -71,11 +72,11 @@ public class NotesPage extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(64, 64, 64)
-                .addComponent(jButton2)
+                .addComponent(previousButton)
                 .addGap(70, 70, 70)
-                .addComponent(jButton1)
+                .addComponent(cButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
-                .addComponent(finalThoughtButton)
+                .addComponent(NextButton)
                 .addGap(34, 34, 34))
         );
         jPanel1Layout.setVerticalGroup(
@@ -83,21 +84,21 @@ public class NotesPage extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton1)
-                    .addComponent(finalThoughtButton))
+                    .addComponent(previousButton)
+                    .addComponent(cButton)
+                    .addComponent(NextButton))
                 .addContainerGap())
         );
 
         jLabel1.setText("Notes, evidence, findings, comments, etc.");
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setWrapStyleWord(true);
-        jScrollPane1.setViewportView(jTextArea1);
+        notesPageTA.setEditable(false);
+        notesPageTA.setColumns(20);
+        notesPageTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        notesPageTA.setLineWrap(true);
+        notesPageTA.setRows(5);
+        notesPageTA.setWrapStyleWord(true);
+        jScrollPane1.setViewportView(notesPageTA);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -125,13 +126,13 @@ public class NotesPage extends javax.swing.JFrame {
 
         jMenu2.setText("Help");
 
-        jMenuItem1.setText("Help");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        notesHelpMenu.setText("Help");
+        notesHelpMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                notesHelpMenuActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem1);
+        jMenu2.add(notesHelpMenu);
 
         jMenuBar1.add(jMenu2);
 
@@ -160,32 +161,32 @@ public class NotesPage extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_cButtonActionPerformed
 
-    private void finalThoughtButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_finalThoughtButtonActionPerformed
+    private void NextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextButtonActionPerformed
         // TODO add your handling code here:
         FinalThoughts ch8 = new FinalThoughts();
         ch8.setVisible(true);
         dispose();
-    }//GEN-LAST:event_finalThoughtButtonActionPerformed
+    }//GEN-LAST:event_NextButtonActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
         Step6 ch6 = new Step6();
         ch6.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_previousButtonActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void notesHelpMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notesHelpMenuActionPerformed
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("How to complete the Notes Page");
+        hf.helpLabel.setText("How to complete the Notes Page");
         hf.helpTextArea.setText("This is where the instructions go to help complete the Notes Page.");
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_notesHelpMenuActionPerformed
 
     /**
      * @param args the command line arguments
@@ -226,17 +227,17 @@ public class NotesPage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton finalThoughtButton;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton NextButton;
+    private javax.swing.JButton cButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JMenuItem notesHelpMenu;
+    private javax.swing.JTextArea notesPageTA;
+    private javax.swing.JButton previousButton;
     // End of variables declaration//GEN-END:variables
 }

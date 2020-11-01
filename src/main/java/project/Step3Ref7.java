@@ -370,6 +370,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jTextArea1.setEditable(false);
         jTextArea1.setBackground(new java.awt.Color(240, 240, 240));
@@ -3337,7 +3338,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setText("Close");
+        jButton3.setText("Save & Close");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -3411,7 +3412,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("How to complete Step 3 Reference 7");
+        hf.helpLabel.setText("How to complete Step 3 Reference 7");
         hf.helpTextArea.setText("Instuctions for completing Step 3 Reference 7 goes here.");
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

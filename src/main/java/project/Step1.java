@@ -72,8 +72,9 @@ public class Step1 extends javax.swing.JFrame {
         setTitle("ISO 17025-2017 Internal Audit Step 1");
         setLocation(new java.awt.Point(500, 200));
         setName("Chapter 1"); // NOI18N
+        setResizable(false);
 
-        jButton1.setText("Close");
+        jButton1.setText("Save & Close");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -239,8 +240,8 @@ public class Step1 extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(104, 104, 104)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(63, 63, 63)
+                .addComponent(jButton1)
+                .addGap(62, 62, 62)
                 .addComponent(jButton2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -277,7 +278,7 @@ public class Step1 extends javax.swing.JFrame {
         // TODO add your handling code here:
         Helpform hf = new Helpform();
         hf.setVisible(true);
-        hf.jLabel2.setText("How to Complete Step 1");
+        hf.helpLabel.setText("How to Complete Step 1");
         hf.helpTextArea.setText("Step 1 Instructions go hear.");
     }//GEN-LAST:event_step1HelpActionPerformed
 
