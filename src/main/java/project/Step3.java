@@ -58,356 +58,189 @@ public class Step3 extends javax.swing.JFrame {
         buttonGroup29 = new javax.swing.ButtonGroup();
         buttonGroup30 = new javax.swing.ButtonGroup();
         buttonGroup31 = new javax.swing.ButtonGroup();
+        buttonGroup32 = new javax.swing.ButtonGroup();
+        buttonGroup33 = new javax.swing.ButtonGroup();
+        buttonGroup34 = new javax.swing.ButtonGroup();
+        buttonGroup35 = new javax.swing.ButtonGroup();
+        buttonGroup36 = new javax.swing.ButtonGroup();
+        buttonGroup37 = new javax.swing.ButtonGroup();
+        buttonGroup38 = new javax.swing.ButtonGroup();
+        buttonGroup39 = new javax.swing.ButtonGroup();
+        buttonGroup40 = new javax.swing.ButtonGroup();
+        buttonGroup41 = new javax.swing.ButtonGroup();
+        buttonGroup42 = new javax.swing.ButtonGroup();
+        buttonGroup43 = new javax.swing.ButtonGroup();
+        buttonGroup44 = new javax.swing.ButtonGroup();
+        buttonGroup45 = new javax.swing.ButtonGroup();
+        buttonGroup46 = new javax.swing.ButtonGroup();
+        buttonGroup47 = new javax.swing.ButtonGroup();
+        buttonGroup48 = new javax.swing.ButtonGroup();
+        buttonGroup49 = new javax.swing.ButtonGroup();
+        buttonGroup50 = new javax.swing.ButtonGroup();
+        buttonGroup51 = new javax.swing.ButtonGroup();
+        buttonGroup52 = new javax.swing.ButtonGroup();
+        buttonGroup53 = new javax.swing.ButtonGroup();
+        buttonGroup54 = new javax.swing.ButtonGroup();
+        buttonGroup55 = new javax.swing.ButtonGroup();
+        buttonGroup56 = new javax.swing.ButtonGroup();
+        buttonGroup57 = new javax.swing.ButtonGroup();
+        buttonGroup58 = new javax.swing.ButtonGroup();
+        buttonGroup59 = new javax.swing.ButtonGroup();
+        buttonGroup60 = new javax.swing.ButtonGroup();
+        buttonGroup61 = new javax.swing.ButtonGroup();
+        buttonGroup62 = new javax.swing.ButtonGroup();
+        buttonGroup63 = new javax.swing.ButtonGroup();
+        buttonGroup64 = new javax.swing.ButtonGroup();
+        buttonGroup65 = new javax.swing.ButtonGroup();
+        buttonGroup66 = new javax.swing.ButtonGroup();
+        buttonGroup67 = new javax.swing.ButtonGroup();
+        buttonGroup68 = new javax.swing.ButtonGroup();
+        buttonGroup69 = new javax.swing.ButtonGroup();
+        buttonGroup70 = new javax.swing.ButtonGroup();
+        buttonGroup71 = new javax.swing.ButtonGroup();
+        buttonGroup72 = new javax.swing.ButtonGroup();
+        buttonGroup73 = new javax.swing.ButtonGroup();
+        buttonGroup74 = new javax.swing.ButtonGroup();
+        buttonGroup75 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
         CloseButton = new javax.swing.JButton();
         previousButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        step3Ref2TabPane = new javax.swing.JTabbedPane();
+        step3Ref1tp = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
         step3Ref1TabPane = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        step3Ref1Q1TextArea = new javax.swing.JTextArea();
         jPanel7 = new javax.swing.JPanel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
+        step3Ref1Q1rbYes = new javax.swing.JRadioButton();
+        step3Ref1Q1rbNo = new javax.swing.JRadioButton();
+        step3Ref1Q1rbNA = new javax.swing.JRadioButton();
+        step3Ref1Q1rbObs = new javax.swing.JRadioButton();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
+        step3Ref1Q1NotesTA = new javax.swing.JTextArea();
         jPanel5 = new javax.swing.JPanel();
         step3Ref1TabPane1 = new javax.swing.JTabbedPane();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTextArea4 = new javax.swing.JTextArea();
         jPanel9 = new javax.swing.JPanel();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
+        step3Ref2Q1rbYes = new javax.swing.JRadioButton();
+        step3Ref2Q1rbNo = new javax.swing.JRadioButton();
+        step3Ref2Q1rbNA = new javax.swing.JRadioButton();
+        step3Ref2Q1rbYesObs = new javax.swing.JRadioButton();
         jPanel10 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
+        step3Ref2Q1NotesTA = new javax.swing.JTextArea();
         jPanel11 = new javax.swing.JPanel();
         step3Ref1TabPane3 = new javax.swing.JTabbedPane();
         jPanel37 = new javax.swing.JPanel();
         jScrollPane8 = new javax.swing.JScrollPane();
         jTextArea8 = new javax.swing.JTextArea();
         jPanel38 = new javax.swing.JPanel();
-        jRadioButton10 = new javax.swing.JRadioButton();
-        jRadioButton11 = new javax.swing.JRadioButton();
-        jRadioButton12 = new javax.swing.JRadioButton();
-        jRadioButton9 = new javax.swing.JRadioButton();
+        step3Ref3Q1rbYes = new javax.swing.JRadioButton();
+        step3Ref3Q1rbNo = new javax.swing.JRadioButton();
+        step3Ref3Q1rbNA = new javax.swing.JRadioButton();
+        step3Ref3Q1rbObs = new javax.swing.JRadioButton();
         jPanel39 = new javax.swing.JPanel();
         jScrollPane9 = new javax.swing.JScrollPane();
-        jTextArea9 = new javax.swing.JTextArea();
+        step3Ref3Q1NotesTA = new javax.swing.JTextArea();
         jPanel12 = new javax.swing.JPanel();
         step3Ref1TabPane4 = new javax.swing.JTabbedPane();
         jPanel40 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
         jTextArea10 = new javax.swing.JTextArea();
         jPanel41 = new javax.swing.JPanel();
-        jRadioButton13 = new javax.swing.JRadioButton();
-        jRadioButton14 = new javax.swing.JRadioButton();
-        jRadioButton15 = new javax.swing.JRadioButton();
-        jRadioButton82 = new javax.swing.JRadioButton();
+        step3Ref4Q1rbYes = new javax.swing.JRadioButton();
+        step3Ref4Q1rbNo = new javax.swing.JRadioButton();
+        step3Ref4Q1rbNA = new javax.swing.JRadioButton();
+        step3Ref4Q1rbObs = new javax.swing.JRadioButton();
         jPanel42 = new javax.swing.JPanel();
         jScrollPane11 = new javax.swing.JScrollPane();
-        jTextArea11 = new javax.swing.JTextArea();
+        step3Ref4Q1NotesTA = new javax.swing.JTextArea();
         jPanel13 = new javax.swing.JPanel();
         step3Ref1TabPane5 = new javax.swing.JTabbedPane();
         jPanel43 = new javax.swing.JPanel();
         jScrollPane12 = new javax.swing.JScrollPane();
         jTextArea12 = new javax.swing.JTextArea();
         jPanel44 = new javax.swing.JPanel();
-        jRadioButton16 = new javax.swing.JRadioButton();
-        jRadioButton17 = new javax.swing.JRadioButton();
-        jRadioButton18 = new javax.swing.JRadioButton();
-        jRadioButton83 = new javax.swing.JRadioButton();
+        step3Ref5Q1rbYes = new javax.swing.JRadioButton();
+        step3Ref5Q1rbNo = new javax.swing.JRadioButton();
+        step3Ref5Q1rbNA = new javax.swing.JRadioButton();
+        step3Ref5Q1rbObs = new javax.swing.JRadioButton();
         jPanel45 = new javax.swing.JPanel();
         jScrollPane13 = new javax.swing.JScrollPane();
-        jTextArea13 = new javax.swing.JTextArea();
+        step3Ref5Q1NotesTA = new javax.swing.JTextArea();
         jPanel46 = new javax.swing.JPanel();
         jScrollPane14 = new javax.swing.JScrollPane();
         jTextArea14 = new javax.swing.JTextArea();
         jPanel47 = new javax.swing.JPanel();
-        jRadioButton19 = new javax.swing.JRadioButton();
-        jRadioButton20 = new javax.swing.JRadioButton();
-        jRadioButton21 = new javax.swing.JRadioButton();
-        jRadioButton84 = new javax.swing.JRadioButton();
+        step3Ref5Q2rbYes = new javax.swing.JRadioButton();
+        step3Ref5Q2rbNo = new javax.swing.JRadioButton();
+        step3Ref5Q2rbNA = new javax.swing.JRadioButton();
+        step3Ref5Q2rbObs = new javax.swing.JRadioButton();
         jPanel48 = new javax.swing.JPanel();
         jScrollPane15 = new javax.swing.JScrollPane();
-        jTextArea15 = new javax.swing.JTextArea();
+        step3Ref5Q2NotesTA = new javax.swing.JTextArea();
         jPanel52 = new javax.swing.JPanel();
         jScrollPane18 = new javax.swing.JScrollPane();
         jTextArea18 = new javax.swing.JTextArea();
         jPanel53 = new javax.swing.JPanel();
-        jRadioButton25 = new javax.swing.JRadioButton();
-        jRadioButton26 = new javax.swing.JRadioButton();
-        jRadioButton27 = new javax.swing.JRadioButton();
-        jRadioButton85 = new javax.swing.JRadioButton();
+        step3Ref5Q3rbYes = new javax.swing.JRadioButton();
+        step3Ref5Q3rbNo = new javax.swing.JRadioButton();
+        step3Ref5Q3rbNA = new javax.swing.JRadioButton();
+        step3Ref5Q3rbObs = new javax.swing.JRadioButton();
         jPanel54 = new javax.swing.JPanel();
         jScrollPane19 = new javax.swing.JScrollPane();
-        jTextArea19 = new javax.swing.JTextArea();
+        step3Ref5Q3NotesTA = new javax.swing.JTextArea();
         jPanel14 = new javax.swing.JPanel();
-        step3Ref1TabPane6 = new javax.swing.JTabbedPane();
+        step3Ref1tpQuestions = new javax.swing.JTabbedPane();
         jPanel55 = new javax.swing.JPanel();
         jScrollPane20 = new javax.swing.JScrollPane();
         jTextArea20 = new javax.swing.JTextArea();
         jPanel56 = new javax.swing.JPanel();
-        jRadioButton28 = new javax.swing.JRadioButton();
-        jRadioButton29 = new javax.swing.JRadioButton();
-        jRadioButton30 = new javax.swing.JRadioButton();
-        jRadioButton86 = new javax.swing.JRadioButton();
+        step3Ref6Q1rbYes = new javax.swing.JRadioButton();
+        step3Ref6Q1rbNo = new javax.swing.JRadioButton();
+        step3Ref6Q1rbNA = new javax.swing.JRadioButton();
+        step3Ref6Q1rbObs = new javax.swing.JRadioButton();
         jPanel57 = new javax.swing.JPanel();
         jScrollPane21 = new javax.swing.JScrollPane();
-        jTextArea21 = new javax.swing.JTextArea();
+        step3Ref6Q1NotesTA = new javax.swing.JTextArea();
         jPanel70 = new javax.swing.JPanel();
         jScrollPane30 = new javax.swing.JScrollPane();
         jTextArea30 = new javax.swing.JTextArea();
         jPanel71 = new javax.swing.JPanel();
-        jRadioButton43 = new javax.swing.JRadioButton();
-        jRadioButton44 = new javax.swing.JRadioButton();
-        jRadioButton45 = new javax.swing.JRadioButton();
-        jRadioButton87 = new javax.swing.JRadioButton();
+        step3Ref6Q2rbYes = new javax.swing.JRadioButton();
+        step3Ref6Q2rbNo = new javax.swing.JRadioButton();
+        step3Ref6Q2rbNA = new javax.swing.JRadioButton();
+        step3Ref6Q2rbObs = new javax.swing.JRadioButton();
         jPanel72 = new javax.swing.JPanel();
         jScrollPane31 = new javax.swing.JScrollPane();
-        jTextArea31 = new javax.swing.JTextArea();
+        step3Ref6Q2NotesTA = new javax.swing.JTextArea();
         jPanel64 = new javax.swing.JPanel();
         jScrollPane26 = new javax.swing.JScrollPane();
         jTextArea26 = new javax.swing.JTextArea();
         jPanel65 = new javax.swing.JPanel();
-        jRadioButton37 = new javax.swing.JRadioButton();
-        jRadioButton38 = new javax.swing.JRadioButton();
-        jRadioButton39 = new javax.swing.JRadioButton();
-        jRadioButton88 = new javax.swing.JRadioButton();
+        step3Ref6Q3rbYes = new javax.swing.JRadioButton();
+        step3Ref6Q3rbNo = new javax.swing.JRadioButton();
+        step3Ref6Q3rbNA = new javax.swing.JRadioButton();
+        step3Ref6Q3rbObs = new javax.swing.JRadioButton();
         jPanel66 = new javax.swing.JPanel();
         jScrollPane27 = new javax.swing.JScrollPane();
-        jTextArea27 = new javax.swing.JTextArea();
+        step3Ref6Q3NotesTA = new javax.swing.JTextArea();
         jPanel67 = new javax.swing.JPanel();
         jScrollPane28 = new javax.swing.JScrollPane();
         jTextArea28 = new javax.swing.JTextArea();
         jPanel68 = new javax.swing.JPanel();
-        jRadioButton40 = new javax.swing.JRadioButton();
-        jRadioButton41 = new javax.swing.JRadioButton();
-        jRadioButton42 = new javax.swing.JRadioButton();
-        jRadioButton89 = new javax.swing.JRadioButton();
+        step3Ref6Q4rbYes = new javax.swing.JRadioButton();
+        step3Ref6Q4rbNo = new javax.swing.JRadioButton();
+        step3Ref6Q4rbNA = new javax.swing.JRadioButton();
+        step3Ref6Q4rbObs = new javax.swing.JRadioButton();
         jPanel69 = new javax.swing.JPanel();
         jScrollPane29 = new javax.swing.JScrollPane();
-        jTextArea29 = new javax.swing.JTextArea();
-        jPanel15 = new javax.swing.JPanel();
-        step3Ref1TabPane7 = new javax.swing.JTabbedPane();
-        jPanel58 = new javax.swing.JPanel();
-        jScrollPane22 = new javax.swing.JScrollPane();
-        jTextArea22 = new javax.swing.JTextArea();
-        jPanel59 = new javax.swing.JPanel();
-        jRadioButton31 = new javax.swing.JRadioButton();
-        jRadioButton32 = new javax.swing.JRadioButton();
-        jRadioButton33 = new javax.swing.JRadioButton();
-        jRadioButton90 = new javax.swing.JRadioButton();
-        jPanel60 = new javax.swing.JPanel();
-        jScrollPane23 = new javax.swing.JScrollPane();
-        jTextArea23 = new javax.swing.JTextArea();
-        jPanel16 = new javax.swing.JPanel();
-        step3Ref1TabPane8 = new javax.swing.JTabbedPane();
-        jPanel61 = new javax.swing.JPanel();
-        jScrollPane24 = new javax.swing.JScrollPane();
-        jTextArea24 = new javax.swing.JTextArea();
-        jPanel62 = new javax.swing.JPanel();
-        jRadioButton34 = new javax.swing.JRadioButton();
-        jRadioButton35 = new javax.swing.JRadioButton();
-        jRadioButton36 = new javax.swing.JRadioButton();
-        jRadioButton91 = new javax.swing.JRadioButton();
-        jPanel63 = new javax.swing.JPanel();
-        jScrollPane25 = new javax.swing.JScrollPane();
-        jTextArea25 = new javax.swing.JTextArea();
-        jPanel76 = new javax.swing.JPanel();
-        jScrollPane34 = new javax.swing.JScrollPane();
-        jTextArea34 = new javax.swing.JTextArea();
-        jPanel77 = new javax.swing.JPanel();
-        jRadioButton49 = new javax.swing.JRadioButton();
-        jRadioButton50 = new javax.swing.JRadioButton();
-        jRadioButton51 = new javax.swing.JRadioButton();
-        jRadioButton92 = new javax.swing.JRadioButton();
-        jPanel78 = new javax.swing.JPanel();
-        jScrollPane35 = new javax.swing.JScrollPane();
-        jTextArea35 = new javax.swing.JTextArea();
-        jPanel79 = new javax.swing.JPanel();
-        jScrollPane36 = new javax.swing.JScrollPane();
-        jTextArea36 = new javax.swing.JTextArea();
-        jPanel80 = new javax.swing.JPanel();
-        jRadioButton52 = new javax.swing.JRadioButton();
-        jRadioButton53 = new javax.swing.JRadioButton();
-        jRadioButton54 = new javax.swing.JRadioButton();
-        jRadioButton93 = new javax.swing.JRadioButton();
-        jPanel81 = new javax.swing.JPanel();
-        jScrollPane37 = new javax.swing.JScrollPane();
-        jTextArea37 = new javax.swing.JTextArea();
-        jPanel82 = new javax.swing.JPanel();
-        jScrollPane38 = new javax.swing.JScrollPane();
-        jTextArea38 = new javax.swing.JTextArea();
-        jPanel83 = new javax.swing.JPanel();
-        jRadioButton55 = new javax.swing.JRadioButton();
-        jRadioButton56 = new javax.swing.JRadioButton();
-        jRadioButton57 = new javax.swing.JRadioButton();
-        jRadioButton94 = new javax.swing.JRadioButton();
-        jPanel84 = new javax.swing.JPanel();
-        jScrollPane39 = new javax.swing.JScrollPane();
-        jTextArea39 = new javax.swing.JTextArea();
-        jPanel85 = new javax.swing.JPanel();
-        jScrollPane40 = new javax.swing.JScrollPane();
-        jTextArea40 = new javax.swing.JTextArea();
-        jPanel86 = new javax.swing.JPanel();
-        jRadioButton58 = new javax.swing.JRadioButton();
-        jRadioButton59 = new javax.swing.JRadioButton();
-        jRadioButton60 = new javax.swing.JRadioButton();
-        jRadioButton95 = new javax.swing.JRadioButton();
-        jPanel87 = new javax.swing.JPanel();
-        jScrollPane41 = new javax.swing.JScrollPane();
-        jTextArea41 = new javax.swing.JTextArea();
-        jPanel88 = new javax.swing.JPanel();
-        jScrollPane42 = new javax.swing.JScrollPane();
-        jTextArea42 = new javax.swing.JTextArea();
-        jPanel89 = new javax.swing.JPanel();
-        jRadioButton61 = new javax.swing.JRadioButton();
-        jRadioButton62 = new javax.swing.JRadioButton();
-        jRadioButton63 = new javax.swing.JRadioButton();
-        jRadioButton96 = new javax.swing.JRadioButton();
-        jPanel90 = new javax.swing.JPanel();
-        jScrollPane43 = new javax.swing.JScrollPane();
-        jTextArea43 = new javax.swing.JTextArea();
-        jPanel17 = new javax.swing.JPanel();
-        step3Ref1TabPane9 = new javax.swing.JTabbedPane();
-        jPanel73 = new javax.swing.JPanel();
-        jScrollPane32 = new javax.swing.JScrollPane();
-        jTextArea32 = new javax.swing.JTextArea();
-        jPanel74 = new javax.swing.JPanel();
-        jRadioButton46 = new javax.swing.JRadioButton();
-        jRadioButton47 = new javax.swing.JRadioButton();
-        jRadioButton48 = new javax.swing.JRadioButton();
-        jRadioButton97 = new javax.swing.JRadioButton();
-        jPanel75 = new javax.swing.JPanel();
-        jScrollPane33 = new javax.swing.JScrollPane();
-        jTextArea33 = new javax.swing.JTextArea();
-        jPanel18 = new javax.swing.JPanel();
-        step3Ref1TabPane10 = new javax.swing.JTabbedPane();
-        jPanel91 = new javax.swing.JPanel();
-        jScrollPane44 = new javax.swing.JScrollPane();
-        jTextArea44 = new javax.swing.JTextArea();
-        jPanel92 = new javax.swing.JPanel();
-        jRadioButton64 = new javax.swing.JRadioButton();
-        jRadioButton65 = new javax.swing.JRadioButton();
-        jRadioButton66 = new javax.swing.JRadioButton();
-        jRadioButton98 = new javax.swing.JRadioButton();
-        jPanel93 = new javax.swing.JPanel();
-        jScrollPane45 = new javax.swing.JScrollPane();
-        jTextArea45 = new javax.swing.JTextArea();
-        jPanel94 = new javax.swing.JPanel();
-        jScrollPane46 = new javax.swing.JScrollPane();
-        jTextArea46 = new javax.swing.JTextArea();
-        jPanel95 = new javax.swing.JPanel();
-        jRadioButton67 = new javax.swing.JRadioButton();
-        jRadioButton68 = new javax.swing.JRadioButton();
-        jRadioButton69 = new javax.swing.JRadioButton();
-        jRadioButton99 = new javax.swing.JRadioButton();
-        jPanel96 = new javax.swing.JPanel();
-        jScrollPane47 = new javax.swing.JScrollPane();
-        jTextArea47 = new javax.swing.JTextArea();
-        jPanel97 = new javax.swing.JPanel();
-        jScrollPane48 = new javax.swing.JScrollPane();
-        jTextArea48 = new javax.swing.JTextArea();
-        jPanel98 = new javax.swing.JPanel();
-        jRadioButton70 = new javax.swing.JRadioButton();
-        jRadioButton71 = new javax.swing.JRadioButton();
-        jRadioButton72 = new javax.swing.JRadioButton();
-        jRadioButton100 = new javax.swing.JRadioButton();
-        jPanel99 = new javax.swing.JPanel();
-        jScrollPane49 = new javax.swing.JScrollPane();
-        jTextArea49 = new javax.swing.JTextArea();
-        jPanel100 = new javax.swing.JPanel();
-        jScrollPane50 = new javax.swing.JScrollPane();
-        jTextArea50 = new javax.swing.JTextArea();
-        jPanel101 = new javax.swing.JPanel();
-        jRadioButton73 = new javax.swing.JRadioButton();
-        jRadioButton74 = new javax.swing.JRadioButton();
-        jRadioButton75 = new javax.swing.JRadioButton();
-        jRadioButton101 = new javax.swing.JRadioButton();
-        jPanel102 = new javax.swing.JPanel();
-        jScrollPane51 = new javax.swing.JScrollPane();
-        jTextArea51 = new javax.swing.JTextArea();
-        jPanel103 = new javax.swing.JPanel();
-        jScrollPane52 = new javax.swing.JScrollPane();
-        jTextArea52 = new javax.swing.JTextArea();
-        jPanel104 = new javax.swing.JPanel();
-        jRadioButton76 = new javax.swing.JRadioButton();
-        jRadioButton77 = new javax.swing.JRadioButton();
-        jRadioButton78 = new javax.swing.JRadioButton();
-        jRadioButton102 = new javax.swing.JRadioButton();
-        jPanel105 = new javax.swing.JPanel();
-        jScrollPane53 = new javax.swing.JScrollPane();
-        jTextArea53 = new javax.swing.JTextArea();
-        jPanel106 = new javax.swing.JPanel();
-        jScrollPane54 = new javax.swing.JScrollPane();
-        jTextArea54 = new javax.swing.JTextArea();
-        jPanel107 = new javax.swing.JPanel();
-        jRadioButton79 = new javax.swing.JRadioButton();
-        jRadioButton80 = new javax.swing.JRadioButton();
-        jRadioButton81 = new javax.swing.JRadioButton();
-        jRadioButton103 = new javax.swing.JRadioButton();
-        jPanel108 = new javax.swing.JPanel();
-        jScrollPane55 = new javax.swing.JScrollPane();
-        jTextArea55 = new javax.swing.JTextArea();
-        jPanel19 = new javax.swing.JPanel();
-        step3Ref1TabPane2 = new javax.swing.JTabbedPane();
-        jPanel34 = new javax.swing.JPanel();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
-        jPanel35 = new javax.swing.JPanel();
-        jRadioButton22 = new javax.swing.JRadioButton();
-        jRadioButton23 = new javax.swing.JRadioButton();
-        jRadioButton24 = new javax.swing.JRadioButton();
-        jRadioButton104 = new javax.swing.JRadioButton();
-        jPanel36 = new javax.swing.JPanel();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
-        jPanel49 = new javax.swing.JPanel();
-        jScrollPane16 = new javax.swing.JScrollPane();
-        jTextArea16 = new javax.swing.JTextArea();
-        jPanel50 = new javax.swing.JPanel();
-        jRadioButton105 = new javax.swing.JRadioButton();
-        jRadioButton106 = new javax.swing.JRadioButton();
-        jRadioButton107 = new javax.swing.JRadioButton();
-        jRadioButton108 = new javax.swing.JRadioButton();
-        jPanel51 = new javax.swing.JPanel();
-        jScrollPane17 = new javax.swing.JScrollPane();
-        jTextArea17 = new javax.swing.JTextArea();
-        jPanel109 = new javax.swing.JPanel();
-        jScrollPane56 = new javax.swing.JScrollPane();
-        jTextArea56 = new javax.swing.JTextArea();
-        jPanel110 = new javax.swing.JPanel();
-        jRadioButton109 = new javax.swing.JRadioButton();
-        jRadioButton110 = new javax.swing.JRadioButton();
-        jRadioButton111 = new javax.swing.JRadioButton();
-        jRadioButton112 = new javax.swing.JRadioButton();
-        jPanel111 = new javax.swing.JPanel();
-        jScrollPane57 = new javax.swing.JScrollPane();
-        jTextArea57 = new javax.swing.JTextArea();
-        jPanel20 = new javax.swing.JPanel();
-        jPanel21 = new javax.swing.JPanel();
-        jPanel22 = new javax.swing.JPanel();
-        jPanel23 = new javax.swing.JPanel();
-        jPanel24 = new javax.swing.JPanel();
-        jPanel25 = new javax.swing.JPanel();
-        jPanel26 = new javax.swing.JPanel();
-        jPanel27 = new javax.swing.JPanel();
-        jPanel28 = new javax.swing.JPanel();
-        jPanel29 = new javax.swing.JPanel();
-        jPanel30 = new javax.swing.JPanel();
-        jPanel31 = new javax.swing.JPanel();
-        jPanel32 = new javax.swing.JPanel();
-        jPanel33 = new javax.swing.JPanel();
+        step3Ref6Q4NotesTA = new javax.swing.JTextArea();
+        nextButton = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jMenuBar1 = new javax.swing.JMenuBar();
@@ -420,13 +253,6 @@ public class Step3 extends javax.swing.JFrame {
         setLocation(new java.awt.Point(500, 200));
         setResizable(false);
 
-        jButton1.setText("Step 4 and Save");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
         CloseButton.setText("Close");
         CloseButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -434,7 +260,7 @@ public class Step3 extends javax.swing.JFrame {
             }
         });
 
-        previousButton.setText("Step 2");
+        previousButton.setText("Previous");
         previousButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 previousButtonActionPerformed(evt);
@@ -448,54 +274,52 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(previousButton)
-                .addGap(118, 118, 118)
+                .addGap(191, 191, 191)
                 .addComponent(CloseButton)
-                .addGap(103, 103, 103)
-                .addComponent(jButton1)
-                .addGap(175, 175, 175))
+                .addGap(304, 304, 304))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
                     .addComponent(CloseButton)
                     .addComponent(previousButton))
                 .addContainerGap())
         );
 
-        step3Ref2TabPane.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Requirement Reference ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref2TabPane.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref2TabPane.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-        step3Ref2TabPane.setAutoscrolls(true);
+        step3Ref1tp.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Requirement Reference ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref1tp.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref1tp.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref1tp.setAutoscrolls(true);
 
         step3Ref1TabPane.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
         step3Ref1TabPane.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
         step3Ref1TabPane.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        jTextArea2.setColumns(20);
-        jTextArea2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea2.setLineWrap(true);
-        jTextArea2.setRows(5);
-        jTextArea2.setText("Are personnel authorized for their duties, trained on equipment, competent in performance of duties, and familiar with processes?");
-        jTextArea2.setWrapStyleWord(true);
-        jScrollPane2.setViewportView(jTextArea2);
+        step3Ref1Q1TextArea.setEditable(false);
+        step3Ref1Q1TextArea.setColumns(20);
+        step3Ref1Q1TextArea.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref1Q1TextArea.setLineWrap(true);
+        step3Ref1Q1TextArea.setRows(5);
+        step3Ref1Q1TextArea.setText("Are personnel authorized for their duties, trained on equipment, competent in performance of duties, and familiar with processes?");
+        step3Ref1Q1TextArea.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(step3Ref1Q1TextArea);
 
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup1.add(jRadioButton1);
-        jRadioButton1.setText("Yes");
+        buttonGroup1.add(step3Ref1Q1rbYes);
+        step3Ref1Q1rbYes.setText("Yes");
 
-        buttonGroup1.add(jRadioButton2);
-        jRadioButton2.setText("No");
+        buttonGroup1.add(step3Ref1Q1rbNo);
+        step3Ref1Q1rbNo.setText("No");
 
-        buttonGroup1.add(jRadioButton3);
-        jRadioButton3.setSelected(true);
-        jRadioButton3.setText("N/A");
+        buttonGroup1.add(step3Ref1Q1rbNA);
+        step3Ref1Q1rbNA.setText("N/A");
 
-        buttonGroup1.add(jRadioButton7);
-        jRadioButton7.setText("Obs");
+        buttonGroup1.add(step3Ref1Q1rbObs);
+        step3Ref1Q1rbObs.setSelected(true);
+        step3Ref1Q1rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -503,34 +327,34 @@ public class Step3 extends javax.swing.JFrame {
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3)
-                    .addComponent(jRadioButton7))
+                    .addComponent(step3Ref1Q1rbYes)
+                    .addComponent(step3Ref1Q1rbNo)
+                    .addComponent(step3Ref1Q1rbNA)
+                    .addComponent(step3Ref1Q1rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton1)
+                .addComponent(step3Ref1Q1rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton2)
+                .addComponent(step3Ref1Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton3)
+                .addComponent(step3Ref1Q1rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton7)
+                .addComponent(step3Ref1Q1rbObs)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea3.setColumns(20);
-        jTextArea3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea3.setLineWrap(true);
-        jTextArea3.setRows(5);
-        jTextArea3.setWrapStyleWord(true);
-        jScrollPane3.setViewportView(jTextArea3);
+        step3Ref1Q1NotesTA.setColumns(20);
+        step3Ref1Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref1Q1NotesTA.setLineWrap(true);
+        step3Ref1Q1NotesTA.setRows(5);
+        step3Ref1Q1NotesTA.setWrapStyleWord(true);
+        jScrollPane3.setViewportView(step3Ref1Q1NotesTA);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -558,7 +382,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 498, Short.MAX_VALUE)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 548, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -591,10 +415,10 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addContainerGap(87, Short.MAX_VALUE))
         );
 
-        step3Ref2TabPane.addTab("5.5b, 5.6, 6.2", jPanel3);
+        step3Ref1tp.addTab("5.5b, 5.6, 6.2", jPanel3);
 
         step3Ref1TabPane1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
         step3Ref1TabPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
@@ -611,18 +435,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup2.add(jRadioButton4);
-        jRadioButton4.setText("Yes");
+        buttonGroup2.add(step3Ref2Q1rbYes);
+        step3Ref2Q1rbYes.setText("Yes");
 
-        buttonGroup2.add(jRadioButton5);
-        jRadioButton5.setText("No");
+        buttonGroup2.add(step3Ref2Q1rbNo);
+        step3Ref2Q1rbNo.setText("No");
 
-        buttonGroup2.add(jRadioButton6);
-        jRadioButton6.setSelected(true);
-        jRadioButton6.setText("N/A");
+        buttonGroup2.add(step3Ref2Q1rbNA);
+        step3Ref2Q1rbNA.setSelected(true);
+        step3Ref2Q1rbNA.setText("N/A");
 
-        buttonGroup2.add(jRadioButton8);
-        jRadioButton8.setText("Obs");
+        buttonGroup2.add(step3Ref2Q1rbYesObs);
+        step3Ref2Q1rbYesObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -630,34 +454,34 @@ public class Step3 extends javax.swing.JFrame {
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton4)
-                    .addComponent(jRadioButton5)
-                    .addComponent(jRadioButton6)
-                    .addComponent(jRadioButton8))
+                    .addComponent(step3Ref2Q1rbYes)
+                    .addComponent(step3Ref2Q1rbNo)
+                    .addComponent(step3Ref2Q1rbNA)
+                    .addComponent(step3Ref2Q1rbYesObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton4)
+                .addComponent(step3Ref2Q1rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton5)
+                .addComponent(step3Ref2Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton8)
+                .addComponent(step3Ref2Q1rbNA, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(step3Ref2Q1rbYesObs)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea5.setColumns(20);
-        jTextArea5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea5.setLineWrap(true);
-        jTextArea5.setRows(5);
-        jTextArea5.setWrapStyleWord(true);
-        jScrollPane5.setViewportView(jTextArea5);
+        step3Ref2Q1NotesTA.setColumns(20);
+        step3Ref2Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref2Q1NotesTA.setLineWrap(true);
+        step3Ref2Q1NotesTA.setRows(5);
+        step3Ref2Q1NotesTA.setWrapStyleWord(true);
+        jScrollPane5.setViewportView(step3Ref2Q1NotesTA);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -665,7 +489,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 615, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel10Layout.setVerticalGroup(
@@ -718,10 +542,10 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 399, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(74, Short.MAX_VALUE))
         );
 
-        step3Ref2TabPane.addTab("6.3", jPanel5);
+        step3Ref1tp.addTab("6.3", jPanel5);
 
         step3Ref1TabPane3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
         step3Ref1TabPane3.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
@@ -738,18 +562,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel38.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup3.add(jRadioButton10);
-        jRadioButton10.setText("Yes");
+        buttonGroup3.add(step3Ref3Q1rbYes);
+        step3Ref3Q1rbYes.setText("Yes");
 
-        buttonGroup3.add(jRadioButton11);
-        jRadioButton11.setText("No");
+        buttonGroup3.add(step3Ref3Q1rbNo);
+        step3Ref3Q1rbNo.setText("No");
 
-        buttonGroup3.add(jRadioButton12);
-        jRadioButton12.setSelected(true);
-        jRadioButton12.setText("N/A");
+        buttonGroup3.add(step3Ref3Q1rbNA);
+        step3Ref3Q1rbNA.setSelected(true);
+        step3Ref3Q1rbNA.setText("N/A");
 
-        buttonGroup3.add(jRadioButton9);
-        jRadioButton9.setText("Obs");
+        buttonGroup3.add(step3Ref3Q1rbObs);
+        step3Ref3Q1rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel38Layout = new javax.swing.GroupLayout(jPanel38);
         jPanel38.setLayout(jPanel38Layout);
@@ -757,34 +581,34 @@ public class Step3 extends javax.swing.JFrame {
             jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel38Layout.createSequentialGroup()
                 .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton10)
-                    .addComponent(jRadioButton11)
-                    .addComponent(jRadioButton12)
-                    .addComponent(jRadioButton9))
+                    .addComponent(step3Ref3Q1rbYes)
+                    .addComponent(step3Ref3Q1rbNo)
+                    .addComponent(step3Ref3Q1rbNA)
+                    .addComponent(step3Ref3Q1rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel38Layout.setVerticalGroup(
             jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel38Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton10)
+                .addComponent(step3Ref3Q1rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton11)
+                .addComponent(step3Ref3Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton12)
+                .addComponent(step3Ref3Q1rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton9)
+                .addComponent(step3Ref3Q1rbObs)
                 .addContainerGap(8, Short.MAX_VALUE))
         );
 
         jPanel39.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea9.setColumns(20);
-        jTextArea9.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea9.setLineWrap(true);
-        jTextArea9.setRows(5);
-        jTextArea9.setWrapStyleWord(true);
-        jScrollPane9.setViewportView(jTextArea9);
+        step3Ref3Q1NotesTA.setColumns(20);
+        step3Ref3Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref3Q1NotesTA.setLineWrap(true);
+        step3Ref3Q1NotesTA.setRows(5);
+        step3Ref3Q1NotesTA.setWrapStyleWord(true);
+        jScrollPane9.setViewportView(step3Ref3Q1NotesTA);
 
         javax.swing.GroupLayout jPanel39Layout = new javax.swing.GroupLayout(jPanel39);
         jPanel39.setLayout(jPanel39Layout);
@@ -792,7 +616,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel39Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 615, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel39Layout.setVerticalGroup(
@@ -845,10 +669,10 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(53, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref2TabPane.addTab("6.4", jPanel11);
+        step3Ref1tp.addTab("6.4", jPanel11);
 
         step3Ref1TabPane4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
         step3Ref1TabPane4.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
@@ -865,18 +689,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel41.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup4.add(jRadioButton13);
-        jRadioButton13.setText("Yes");
+        buttonGroup4.add(step3Ref4Q1rbYes);
+        step3Ref4Q1rbYes.setText("Yes");
 
-        buttonGroup4.add(jRadioButton14);
-        jRadioButton14.setText("No");
+        buttonGroup4.add(step3Ref4Q1rbNo);
+        step3Ref4Q1rbNo.setText("No");
 
-        buttonGroup4.add(jRadioButton15);
-        jRadioButton15.setSelected(true);
-        jRadioButton15.setText("N/A");
+        buttonGroup4.add(step3Ref4Q1rbNA);
+        step3Ref4Q1rbNA.setSelected(true);
+        step3Ref4Q1rbNA.setText("N/A");
 
-        buttonGroup4.add(jRadioButton82);
-        jRadioButton82.setText("Obs");
+        buttonGroup4.add(step3Ref4Q1rbObs);
+        step3Ref4Q1rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
         jPanel41.setLayout(jPanel41Layout);
@@ -884,34 +708,34 @@ public class Step3 extends javax.swing.JFrame {
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton13)
-                    .addComponent(jRadioButton14)
-                    .addComponent(jRadioButton15)
-                    .addComponent(jRadioButton82))
+                    .addComponent(step3Ref4Q1rbYes)
+                    .addComponent(step3Ref4Q1rbNo)
+                    .addComponent(step3Ref4Q1rbNA)
+                    .addComponent(step3Ref4Q1rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel41Layout.setVerticalGroup(
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton13)
+                .addComponent(step3Ref4Q1rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton14)
+                .addComponent(step3Ref4Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton15)
+                .addComponent(step3Ref4Q1rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton82)
+                .addComponent(step3Ref4Q1rbObs)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel42.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea11.setColumns(20);
-        jTextArea11.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea11.setLineWrap(true);
-        jTextArea11.setRows(5);
-        jTextArea11.setWrapStyleWord(true);
-        jScrollPane11.setViewportView(jTextArea11);
+        step3Ref4Q1NotesTA.setColumns(20);
+        step3Ref4Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref4Q1NotesTA.setLineWrap(true);
+        step3Ref4Q1NotesTA.setRows(5);
+        step3Ref4Q1NotesTA.setWrapStyleWord(true);
+        jScrollPane11.setViewportView(step3Ref4Q1NotesTA);
 
         javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
         jPanel42.setLayout(jPanel42Layout);
@@ -919,7 +743,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel42Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 615, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel42Layout.setVerticalGroup(
@@ -972,10 +796,10 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
-        step3Ref2TabPane.addTab("6.4", jPanel12);
+        step3Ref1tp.addTab("6.4", jPanel12);
 
         step3Ref1TabPane5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
         step3Ref1TabPane5.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
@@ -992,18 +816,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel44.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup5.add(jRadioButton16);
-        jRadioButton16.setText("Yes");
+        buttonGroup5.add(step3Ref5Q1rbYes);
+        step3Ref5Q1rbYes.setText("Yes");
 
-        buttonGroup5.add(jRadioButton17);
-        jRadioButton17.setText("No");
+        buttonGroup5.add(step3Ref5Q1rbNo);
+        step3Ref5Q1rbNo.setText("No");
 
-        buttonGroup5.add(jRadioButton18);
-        jRadioButton18.setSelected(true);
-        jRadioButton18.setText("N/A");
+        buttonGroup5.add(step3Ref5Q1rbNA);
+        step3Ref5Q1rbNA.setSelected(true);
+        step3Ref5Q1rbNA.setText("N/A");
 
-        buttonGroup5.add(jRadioButton83);
-        jRadioButton83.setText("Obs");
+        buttonGroup5.add(step3Ref5Q1rbObs);
+        step3Ref5Q1rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel44Layout = new javax.swing.GroupLayout(jPanel44);
         jPanel44.setLayout(jPanel44Layout);
@@ -1011,34 +835,34 @@ public class Step3 extends javax.swing.JFrame {
             jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel44Layout.createSequentialGroup()
                 .addGroup(jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton16)
-                    .addComponent(jRadioButton17)
-                    .addComponent(jRadioButton18)
-                    .addComponent(jRadioButton83))
+                    .addComponent(step3Ref5Q1rbYes)
+                    .addComponent(step3Ref5Q1rbNo)
+                    .addComponent(step3Ref5Q1rbNA)
+                    .addComponent(step3Ref5Q1rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel44Layout.setVerticalGroup(
             jPanel44Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel44Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton16)
+                .addComponent(step3Ref5Q1rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton17)
+                .addComponent(step3Ref5Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton18)
+                .addComponent(step3Ref5Q1rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton83)
+                .addComponent(step3Ref5Q1rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel45.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea13.setColumns(20);
-        jTextArea13.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea13.setLineWrap(true);
-        jTextArea13.setRows(5);
-        jTextArea13.setWrapStyleWord(true);
-        jScrollPane13.setViewportView(jTextArea13);
+        step3Ref5Q1NotesTA.setColumns(20);
+        step3Ref5Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref5Q1NotesTA.setLineWrap(true);
+        step3Ref5Q1NotesTA.setRows(5);
+        step3Ref5Q1NotesTA.setWrapStyleWord(true);
+        jScrollPane13.setViewportView(step3Ref5Q1NotesTA);
 
         javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
         jPanel45.setLayout(jPanel45Layout);
@@ -1046,7 +870,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel45Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 491, Short.MAX_VALUE)
+                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel45Layout.setVerticalGroup(
@@ -1090,24 +914,24 @@ public class Step3 extends javax.swing.JFrame {
         jTextArea14.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jTextArea14.setLineWrap(true);
         jTextArea14.setRows(5);
-        jTextArea14.setText("Competent vendors?\n\n");
+        jTextArea14.setText("Traceable to SI");
         jTextArea14.setWrapStyleWord(true);
         jScrollPane14.setViewportView(jTextArea14);
 
         jPanel47.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup6.add(jRadioButton19);
-        jRadioButton19.setText("Yes");
+        buttonGroup6.add(step3Ref5Q2rbYes);
+        step3Ref5Q2rbYes.setText("Yes");
 
-        buttonGroup6.add(jRadioButton20);
-        jRadioButton20.setText("No");
+        buttonGroup6.add(step3Ref5Q2rbNo);
+        step3Ref5Q2rbNo.setText("No");
 
-        buttonGroup6.add(jRadioButton21);
-        jRadioButton21.setSelected(true);
-        jRadioButton21.setText("N/A");
+        buttonGroup6.add(step3Ref5Q2rbNA);
+        step3Ref5Q2rbNA.setSelected(true);
+        step3Ref5Q2rbNA.setText("N/A");
 
-        buttonGroup6.add(jRadioButton84);
-        jRadioButton84.setText("Obs");
+        buttonGroup6.add(step3Ref5Q2rbObs);
+        step3Ref5Q2rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel47Layout = new javax.swing.GroupLayout(jPanel47);
         jPanel47.setLayout(jPanel47Layout);
@@ -1115,32 +939,32 @@ public class Step3 extends javax.swing.JFrame {
             jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel47Layout.createSequentialGroup()
                 .addGroup(jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton19)
-                    .addComponent(jRadioButton20)
-                    .addComponent(jRadioButton21)
-                    .addComponent(jRadioButton84))
+                    .addComponent(step3Ref5Q2rbYes)
+                    .addComponent(step3Ref5Q2rbNo)
+                    .addComponent(step3Ref5Q2rbNA)
+                    .addComponent(step3Ref5Q2rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel47Layout.setVerticalGroup(
             jPanel47Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel47Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton19)
+                .addComponent(step3Ref5Q2rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton20)
+                .addComponent(step3Ref5Q2rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton21)
+                .addComponent(step3Ref5Q2rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton84)
+                .addComponent(step3Ref5Q2rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel48.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea15.setColumns(20);
-        jTextArea15.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea15.setRows(5);
-        jScrollPane15.setViewportView(jTextArea15);
+        step3Ref5Q2NotesTA.setColumns(20);
+        step3Ref5Q2NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref5Q2NotesTA.setRows(5);
+        jScrollPane15.setViewportView(step3Ref5Q2NotesTA);
 
         javax.swing.GroupLayout jPanel48Layout = new javax.swing.GroupLayout(jPanel48);
         jPanel48.setLayout(jPanel48Layout);
@@ -1148,7 +972,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel48Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel48Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane15)
+                .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel48Layout.setVerticalGroup(
@@ -1168,8 +992,8 @@ public class Step3 extends javax.swing.JFrame {
                 .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel48, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel46Layout.createSequentialGroup()
-                        .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                        .addComponent(jScrollPane14)
+                        .addGap(18, 18, 18)
                         .addComponent(jPanel47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
         );
@@ -1198,18 +1022,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel53.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup7.add(jRadioButton25);
-        jRadioButton25.setText("Yes");
+        buttonGroup7.add(step3Ref5Q3rbYes);
+        step3Ref5Q3rbYes.setText("Yes");
 
-        buttonGroup7.add(jRadioButton26);
-        jRadioButton26.setText("No");
+        buttonGroup7.add(step3Ref5Q3rbNo);
+        step3Ref5Q3rbNo.setText("No");
 
-        buttonGroup7.add(jRadioButton27);
-        jRadioButton27.setSelected(true);
-        jRadioButton27.setText("N/A");
+        buttonGroup7.add(step3Ref5Q3rbNA);
+        step3Ref5Q3rbNA.setSelected(true);
+        step3Ref5Q3rbNA.setText("N/A");
 
-        buttonGroup7.add(jRadioButton85);
-        jRadioButton85.setText("Obs");
+        buttonGroup7.add(step3Ref5Q3rbObs);
+        step3Ref5Q3rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel53Layout = new javax.swing.GroupLayout(jPanel53);
         jPanel53.setLayout(jPanel53Layout);
@@ -1217,32 +1041,32 @@ public class Step3 extends javax.swing.JFrame {
             jPanel53Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel53Layout.createSequentialGroup()
                 .addGroup(jPanel53Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton25)
-                    .addComponent(jRadioButton26)
-                    .addComponent(jRadioButton27)
-                    .addComponent(jRadioButton85))
+                    .addComponent(step3Ref5Q3rbYes)
+                    .addComponent(step3Ref5Q3rbNo)
+                    .addComponent(step3Ref5Q3rbNA)
+                    .addComponent(step3Ref5Q3rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel53Layout.setVerticalGroup(
             jPanel53Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel53Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton25)
+                .addComponent(step3Ref5Q3rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton26)
+                .addComponent(step3Ref5Q3rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton27)
+                .addComponent(step3Ref5Q3rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton85)
+                .addComponent(step3Ref5Q3rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel54.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea19.setColumns(20);
-        jTextArea19.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea19.setRows(5);
-        jScrollPane19.setViewportView(jTextArea19);
+        step3Ref5Q3NotesTA.setColumns(20);
+        step3Ref5Q3NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref5Q3NotesTA.setRows(5);
+        jScrollPane19.setViewportView(step3Ref5Q3NotesTA);
 
         javax.swing.GroupLayout jPanel54Layout = new javax.swing.GroupLayout(jPanel54);
         jPanel54.setLayout(jPanel54Layout);
@@ -1250,7 +1074,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel54Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel54Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane19)
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel54Layout.setVerticalGroup(
@@ -1270,8 +1094,8 @@ public class Step3 extends javax.swing.JFrame {
                 .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel54, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel52Layout.createSequentialGroup()
-                        .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane18)
+                        .addGap(18, 18, 18)
                         .addComponent(jPanel53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
         );
@@ -1303,14 +1127,14 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(step3Ref1TabPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(53, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
 
-        step3Ref2TabPane.addTab("6.5", jPanel13);
+        step3Ref1tp.addTab("6.5", jPanel13);
 
-        step3Ref1TabPane6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane6.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane6.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step3Ref1tpQuestions.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
+        step3Ref1tpQuestions.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step3Ref1tpQuestions.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
         jTextArea20.setEditable(false);
         jTextArea20.setColumns(20);
@@ -1323,18 +1147,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel56.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup8.add(jRadioButton28);
-        jRadioButton28.setText("Yes");
+        buttonGroup8.add(step3Ref6Q1rbYes);
+        step3Ref6Q1rbYes.setText("Yes");
 
-        buttonGroup8.add(jRadioButton29);
-        jRadioButton29.setText("No");
+        buttonGroup8.add(step3Ref6Q1rbNo);
+        step3Ref6Q1rbNo.setText("No");
 
-        buttonGroup8.add(jRadioButton30);
-        jRadioButton30.setSelected(true);
-        jRadioButton30.setText("N/A");
+        buttonGroup8.add(step3Ref6Q1rbNA);
+        step3Ref6Q1rbNA.setSelected(true);
+        step3Ref6Q1rbNA.setText("N/A");
 
-        buttonGroup8.add(jRadioButton86);
-        jRadioButton86.setText("Obs");
+        buttonGroup8.add(step3Ref6Q1rbObs);
+        step3Ref6Q1rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel56Layout = new javax.swing.GroupLayout(jPanel56);
         jPanel56.setLayout(jPanel56Layout);
@@ -1342,32 +1166,32 @@ public class Step3 extends javax.swing.JFrame {
             jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel56Layout.createSequentialGroup()
                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton28)
-                    .addComponent(jRadioButton29)
-                    .addComponent(jRadioButton30)
-                    .addComponent(jRadioButton86))
+                    .addComponent(step3Ref6Q1rbYes)
+                    .addComponent(step3Ref6Q1rbNo)
+                    .addComponent(step3Ref6Q1rbNA)
+                    .addComponent(step3Ref6Q1rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel56Layout.setVerticalGroup(
             jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel56Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton28)
+                .addComponent(step3Ref6Q1rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton29)
+                .addComponent(step3Ref6Q1rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton30)
+                .addComponent(step3Ref6Q1rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton86)
+                .addComponent(step3Ref6Q1rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel57.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea21.setColumns(20);
-        jTextArea21.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea21.setRows(5);
-        jScrollPane21.setViewportView(jTextArea21);
+        step3Ref6Q1NotesTA.setColumns(20);
+        step3Ref6Q1NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref6Q1NotesTA.setRows(5);
+        jScrollPane21.setViewportView(step3Ref6Q1NotesTA);
 
         javax.swing.GroupLayout jPanel57Layout = new javax.swing.GroupLayout(jPanel57);
         jPanel57.setLayout(jPanel57Layout);
@@ -1375,7 +1199,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel57Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel57Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane21, javax.swing.GroupLayout.DEFAULT_SIZE, 524, Short.MAX_VALUE)
+                .addComponent(jScrollPane21, javax.swing.GroupLayout.DEFAULT_SIZE, 574, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel57Layout.setVerticalGroup(
@@ -1412,7 +1236,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addContainerGap(102, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane6.addTab("External Vendors 1 ", jPanel55);
+        step3Ref1tpQuestions.addTab("External Vendors 1 ", jPanel55);
 
         jTextArea30.setEditable(false);
         jTextArea30.setColumns(20);
@@ -1425,18 +1249,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel71.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup9.add(jRadioButton43);
-        jRadioButton43.setText("Yes");
+        buttonGroup9.add(step3Ref6Q2rbYes);
+        step3Ref6Q2rbYes.setText("Yes");
 
-        buttonGroup9.add(jRadioButton44);
-        jRadioButton44.setText("No");
+        buttonGroup9.add(step3Ref6Q2rbNo);
+        step3Ref6Q2rbNo.setText("No");
 
-        buttonGroup9.add(jRadioButton45);
-        jRadioButton45.setSelected(true);
-        jRadioButton45.setText("N/A");
+        buttonGroup9.add(step3Ref6Q2rbNA);
+        step3Ref6Q2rbNA.setSelected(true);
+        step3Ref6Q2rbNA.setText("N/A");
 
-        buttonGroup9.add(jRadioButton87);
-        jRadioButton87.setText("Obs");
+        buttonGroup9.add(step3Ref6Q2rbObs);
+        step3Ref6Q2rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel71Layout = new javax.swing.GroupLayout(jPanel71);
         jPanel71.setLayout(jPanel71Layout);
@@ -1444,32 +1268,32 @@ public class Step3 extends javax.swing.JFrame {
             jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel71Layout.createSequentialGroup()
                 .addGroup(jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton43)
-                    .addComponent(jRadioButton44)
-                    .addComponent(jRadioButton45)
-                    .addComponent(jRadioButton87))
+                    .addComponent(step3Ref6Q2rbYes)
+                    .addComponent(step3Ref6Q2rbNo)
+                    .addComponent(step3Ref6Q2rbNA)
+                    .addComponent(step3Ref6Q2rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel71Layout.setVerticalGroup(
             jPanel71Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel71Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton43)
+                .addComponent(step3Ref6Q2rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton44)
+                .addComponent(step3Ref6Q2rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton45)
+                .addComponent(step3Ref6Q2rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton87)
+                .addComponent(step3Ref6Q2rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel72.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea31.setColumns(20);
-        jTextArea31.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea31.setRows(5);
-        jScrollPane31.setViewportView(jTextArea31);
+        step3Ref6Q2NotesTA.setColumns(20);
+        step3Ref6Q2NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref6Q2NotesTA.setRows(5);
+        jScrollPane31.setViewportView(step3Ref6Q2NotesTA);
 
         javax.swing.GroupLayout jPanel72Layout = new javax.swing.GroupLayout(jPanel72);
         jPanel72.setLayout(jPanel72Layout);
@@ -1477,7 +1301,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel72Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel72Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane31, javax.swing.GroupLayout.DEFAULT_SIZE, 524, Short.MAX_VALUE)
+                .addComponent(jScrollPane31, javax.swing.GroupLayout.DEFAULT_SIZE, 574, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel72Layout.setVerticalGroup(
@@ -1514,7 +1338,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addContainerGap(102, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane6.addTab("External Vendors 2", jPanel70);
+        step3Ref1tpQuestions.addTab("External Vendors 2", jPanel70);
 
         jTextArea26.setEditable(false);
         jTextArea26.setColumns(20);
@@ -1527,18 +1351,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel65.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup10.add(jRadioButton37);
-        jRadioButton37.setText("Yes");
+        buttonGroup10.add(step3Ref6Q3rbYes);
+        step3Ref6Q3rbYes.setText("Yes");
 
-        buttonGroup10.add(jRadioButton38);
-        jRadioButton38.setText("No");
+        buttonGroup10.add(step3Ref6Q3rbNo);
+        step3Ref6Q3rbNo.setText("No");
 
-        buttonGroup10.add(jRadioButton39);
-        jRadioButton39.setSelected(true);
-        jRadioButton39.setText("N/A");
+        buttonGroup10.add(step3Ref6Q3rbNA);
+        step3Ref6Q3rbNA.setSelected(true);
+        step3Ref6Q3rbNA.setText("N/A");
 
-        buttonGroup10.add(jRadioButton88);
-        jRadioButton88.setText("Obs");
+        buttonGroup10.add(step3Ref6Q3rbObs);
+        step3Ref6Q3rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel65Layout = new javax.swing.GroupLayout(jPanel65);
         jPanel65.setLayout(jPanel65Layout);
@@ -1546,32 +1370,32 @@ public class Step3 extends javax.swing.JFrame {
             jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel65Layout.createSequentialGroup()
                 .addGroup(jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton37)
-                    .addComponent(jRadioButton38)
-                    .addComponent(jRadioButton39)
-                    .addComponent(jRadioButton88))
+                    .addComponent(step3Ref6Q3rbYes)
+                    .addComponent(step3Ref6Q3rbNo)
+                    .addComponent(step3Ref6Q3rbNA)
+                    .addComponent(step3Ref6Q3rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel65Layout.setVerticalGroup(
             jPanel65Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel65Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton37)
+                .addComponent(step3Ref6Q3rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton38)
+                .addComponent(step3Ref6Q3rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton39)
+                .addComponent(step3Ref6Q3rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton88)
+                .addComponent(step3Ref6Q3rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel66.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea27.setColumns(20);
-        jTextArea27.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea27.setRows(5);
-        jScrollPane27.setViewportView(jTextArea27);
+        step3Ref6Q3NotesTA.setColumns(20);
+        step3Ref6Q3NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref6Q3NotesTA.setRows(5);
+        jScrollPane27.setViewportView(step3Ref6Q3NotesTA);
 
         javax.swing.GroupLayout jPanel66Layout = new javax.swing.GroupLayout(jPanel66);
         jPanel66.setLayout(jPanel66Layout);
@@ -1579,7 +1403,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel66Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane27, javax.swing.GroupLayout.DEFAULT_SIZE, 524, Short.MAX_VALUE)
+                .addComponent(jScrollPane27, javax.swing.GroupLayout.DEFAULT_SIZE, 574, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel66Layout.setVerticalGroup(
@@ -1616,7 +1440,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addContainerGap(102, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane6.addTab("External Vendors 3", jPanel64);
+        step3Ref1tpQuestions.addTab("External Vendors 3", jPanel64);
 
         jTextArea28.setEditable(false);
         jTextArea28.setColumns(20);
@@ -1629,18 +1453,18 @@ public class Step3 extends javax.swing.JFrame {
 
         jPanel68.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
-        buttonGroup11.add(jRadioButton40);
-        jRadioButton40.setText("Yes");
+        buttonGroup11.add(step3Ref6Q4rbYes);
+        step3Ref6Q4rbYes.setText("Yes");
 
-        buttonGroup11.add(jRadioButton41);
-        jRadioButton41.setText("No");
+        buttonGroup11.add(step3Ref6Q4rbNo);
+        step3Ref6Q4rbNo.setText("No");
 
-        buttonGroup11.add(jRadioButton42);
-        jRadioButton42.setSelected(true);
-        jRadioButton42.setText("N/A");
+        buttonGroup11.add(step3Ref6Q4rbNA);
+        step3Ref6Q4rbNA.setSelected(true);
+        step3Ref6Q4rbNA.setText("N/A");
 
-        buttonGroup11.add(jRadioButton89);
-        jRadioButton89.setText("Obs");
+        buttonGroup11.add(step3Ref6Q4rbObs);
+        step3Ref6Q4rbObs.setText("Obs");
 
         javax.swing.GroupLayout jPanel68Layout = new javax.swing.GroupLayout(jPanel68);
         jPanel68.setLayout(jPanel68Layout);
@@ -1648,34 +1472,34 @@ public class Step3 extends javax.swing.JFrame {
             jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel68Layout.createSequentialGroup()
                 .addGroup(jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton40)
-                    .addComponent(jRadioButton41)
-                    .addComponent(jRadioButton42)
-                    .addComponent(jRadioButton89))
+                    .addComponent(step3Ref6Q4rbYes)
+                    .addComponent(step3Ref6Q4rbNo)
+                    .addComponent(step3Ref6Q4rbNA)
+                    .addComponent(step3Ref6Q4rbObs))
                 .addGap(0, 26, Short.MAX_VALUE))
         );
         jPanel68Layout.setVerticalGroup(
             jPanel68Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel68Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton40)
+                .addComponent(step3Ref6Q4rbYes)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton41)
+                .addComponent(step3Ref6Q4rbNo)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton42)
+                .addComponent(step3Ref6Q4rbNA)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton89)
+                .addComponent(step3Ref6Q4rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
         jPanel69.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        jTextArea29.setColumns(20);
-        jTextArea29.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea29.setLineWrap(true);
-        jTextArea29.setRows(5);
-        jTextArea29.setWrapStyleWord(true);
-        jScrollPane29.setViewportView(jTextArea29);
+        step3Ref6Q4NotesTA.setColumns(20);
+        step3Ref6Q4NotesTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref6Q4NotesTA.setLineWrap(true);
+        step3Ref6Q4NotesTA.setRows(5);
+        step3Ref6Q4NotesTA.setWrapStyleWord(true);
+        jScrollPane29.setViewportView(step3Ref6Q4NotesTA);
 
         javax.swing.GroupLayout jPanel69Layout = new javax.swing.GroupLayout(jPanel69);
         jPanel69.setLayout(jPanel69Layout);
@@ -1683,7 +1507,7 @@ public class Step3 extends javax.swing.JFrame {
             jPanel69Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel69Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane29, javax.swing.GroupLayout.DEFAULT_SIZE, 524, Short.MAX_VALUE)
+                .addComponent(jScrollPane29, javax.swing.GroupLayout.DEFAULT_SIZE, 574, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel69Layout.setVerticalGroup(
@@ -1720,7 +1544,16 @@ public class Step3 extends javax.swing.JFrame {
                 .addContainerGap(102, Short.MAX_VALUE))
         );
 
-        step3Ref1TabPane6.addTab("External Vendors 4", jPanel67);
+        step3Ref1tpQuestions.addTab("External Vendors 4", jPanel67);
+
+        nextButton.setText("Next & Save");
+        nextButton.setToolTipText("");
+        nextButton.setActionCommand("");
+        nextButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nextButtonActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -1728,2065 +1561,24 @@ public class Step3 extends javax.swing.JFrame {
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane6)
+                .addComponent(step3Ref1tpQuestions)
                 .addContainerGap())
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(285, 285, 285)
+                .addComponent(nextButton)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(step3Ref1TabPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(38, Short.MAX_VALUE))
-        );
-
-        step3Ref2TabPane.addTab("6.6", jPanel14);
-
-        step3Ref1TabPane7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane7.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane7.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-
-        jTextArea22.setColumns(20);
-        jTextArea22.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea22.setLineWrap(true);
-        jTextArea22.setRows(5);
-        jTextArea22.setText("Does the laboratory perform reviews of requests, contract and tenders, and document appropriately.\t");
-        jTextArea22.setWrapStyleWord(true);
-        jScrollPane22.setViewportView(jTextArea22);
-
-        jPanel59.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup12.add(jRadioButton31);
-        jRadioButton31.setText("Yes");
-
-        buttonGroup12.add(jRadioButton32);
-        jRadioButton32.setText("No");
-
-        buttonGroup12.add(jRadioButton33);
-        jRadioButton33.setSelected(true);
-        jRadioButton33.setText("N/A");
-
-        buttonGroup12.add(jRadioButton90);
-        jRadioButton90.setText("Obs");
-
-        javax.swing.GroupLayout jPanel59Layout = new javax.swing.GroupLayout(jPanel59);
-        jPanel59.setLayout(jPanel59Layout);
-        jPanel59Layout.setHorizontalGroup(
-            jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel59Layout.createSequentialGroup()
-                .addGroup(jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton31)
-                    .addComponent(jRadioButton32)
-                    .addComponent(jRadioButton33)
-                    .addComponent(jRadioButton90))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel59Layout.setVerticalGroup(
-            jPanel59Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel59Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton31)
+                .addComponent(step3Ref1tpQuestions, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton32)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton33)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton90)
-                .addContainerGap(10, Short.MAX_VALUE))
+                .addComponent(nextButton)
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
-        jPanel60.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea23.setColumns(20);
-        jTextArea23.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea23.setLineWrap(true);
-        jTextArea23.setRows(5);
-        jTextArea23.setWrapStyleWord(true);
-        jScrollPane23.setViewportView(jTextArea23);
-
-        javax.swing.GroupLayout jPanel60Layout = new javax.swing.GroupLayout(jPanel60);
-        jPanel60.setLayout(jPanel60Layout);
-        jPanel60Layout.setHorizontalGroup(
-            jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel60Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane23, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel60Layout.setVerticalGroup(
-            jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel60Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel58Layout = new javax.swing.GroupLayout(jPanel58);
-        jPanel58.setLayout(jPanel58Layout);
-        jPanel58Layout.setHorizontalGroup(
-            jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel58Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel58Layout.createSequentialGroup()
-                        .addComponent(jScrollPane22)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel58Layout.setVerticalGroup(
-            jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel58Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel58Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel59, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane22))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(102, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane7.addTab("Question 1", jPanel58);
-
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane7)
-                .addContainerGap())
-        );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(38, Short.MAX_VALUE))
-        );
-
-        step3Ref2TabPane.addTab("7.1", jPanel15);
-
-        step3Ref1TabPane8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane8.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane8.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-
-        jTextArea24.setColumns(20);
-        jTextArea24.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea24.setLineWrap(true);
-        jTextArea24.setRows(5);
-        jTextArea24.setText("Does the laboratory select the appropriate methods for testing/calibration");
-        jTextArea24.setWrapStyleWord(true);
-        jScrollPane24.setViewportView(jTextArea24);
-
-        jPanel62.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup13.add(jRadioButton34);
-        jRadioButton34.setText("Yes");
-
-        buttonGroup13.add(jRadioButton35);
-        jRadioButton35.setText("No");
-
-        buttonGroup13.add(jRadioButton36);
-        jRadioButton36.setSelected(true);
-        jRadioButton36.setText("N/A");
-
-        buttonGroup13.add(jRadioButton91);
-        jRadioButton91.setText("Obs");
-
-        javax.swing.GroupLayout jPanel62Layout = new javax.swing.GroupLayout(jPanel62);
-        jPanel62.setLayout(jPanel62Layout);
-        jPanel62Layout.setHorizontalGroup(
-            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel62Layout.createSequentialGroup()
-                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton34)
-                    .addComponent(jRadioButton35)
-                    .addComponent(jRadioButton36)
-                    .addComponent(jRadioButton91))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel62Layout.setVerticalGroup(
-            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel62Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton34)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton35)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton36)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton91)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel63.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea25.setColumns(20);
-        jTextArea25.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea25.setLineWrap(true);
-        jTextArea25.setRows(5);
-        jTextArea25.setWrapStyleWord(true);
-        jScrollPane25.setViewportView(jTextArea25);
-
-        javax.swing.GroupLayout jPanel63Layout = new javax.swing.GroupLayout(jPanel63);
-        jPanel63.setLayout(jPanel63Layout);
-        jPanel63Layout.setHorizontalGroup(
-            jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel63Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane25, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel63Layout.setVerticalGroup(
-            jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel63Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel61Layout = new javax.swing.GroupLayout(jPanel61);
-        jPanel61.setLayout(jPanel61Layout);
-        jPanel61Layout.setHorizontalGroup(
-            jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel61Layout.createSequentialGroup()
-                        .addComponent(jScrollPane24)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel61Layout.setVerticalGroup(
-            jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel61Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane24))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane8.addTab("Question 1", jPanel61);
-
-        jTextArea34.setColumns(20);
-        jTextArea34.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea34.setLineWrap(true);
-        jTextArea34.setRows(5);
-        jTextArea34.setText("Does the laboratory control access to procedures?");
-        jTextArea34.setWrapStyleWord(true);
-        jScrollPane34.setViewportView(jTextArea34);
-
-        jPanel77.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup14.add(jRadioButton49);
-        jRadioButton49.setText("Yes");
-
-        buttonGroup14.add(jRadioButton50);
-        jRadioButton50.setText("No");
-
-        buttonGroup14.add(jRadioButton51);
-        jRadioButton51.setSelected(true);
-        jRadioButton51.setText("N/A");
-
-        buttonGroup14.add(jRadioButton92);
-        jRadioButton92.setText("Obs");
-
-        javax.swing.GroupLayout jPanel77Layout = new javax.swing.GroupLayout(jPanel77);
-        jPanel77.setLayout(jPanel77Layout);
-        jPanel77Layout.setHorizontalGroup(
-            jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel77Layout.createSequentialGroup()
-                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton49)
-                    .addComponent(jRadioButton50)
-                    .addComponent(jRadioButton51)
-                    .addComponent(jRadioButton92))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel77Layout.setVerticalGroup(
-            jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel77Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton49)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton50)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton51)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton92)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel78.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea35.setColumns(20);
-        jTextArea35.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea35.setLineWrap(true);
-        jTextArea35.setRows(5);
-        jTextArea35.setWrapStyleWord(true);
-        jScrollPane35.setViewportView(jTextArea35);
-
-        javax.swing.GroupLayout jPanel78Layout = new javax.swing.GroupLayout(jPanel78);
-        jPanel78.setLayout(jPanel78Layout);
-        jPanel78Layout.setHorizontalGroup(
-            jPanel78Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel78Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane35, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel78Layout.setVerticalGroup(
-            jPanel78Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel78Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel76Layout = new javax.swing.GroupLayout(jPanel76);
-        jPanel76.setLayout(jPanel76Layout);
-        jPanel76Layout.setHorizontalGroup(
-            jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel76Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel76Layout.createSequentialGroup()
-                        .addComponent(jScrollPane34)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel77, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel76Layout.setVerticalGroup(
-            jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel76Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel76Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel77, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane34))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel78, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane8.addTab("Question 2", jPanel76);
-
-        jTextArea36.setColumns(20);
-        jTextArea36.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea36.setLineWrap(true);
-        jTextArea36.setRows(5);
-        jTextArea36.setText("Does the laboratory limit access to obsolete procedures/revisions?");
-        jTextArea36.setWrapStyleWord(true);
-        jScrollPane36.setViewportView(jTextArea36);
-
-        jPanel80.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup15.add(jRadioButton52);
-        jRadioButton52.setText("Yes");
-
-        buttonGroup15.add(jRadioButton53);
-        jRadioButton53.setText("No");
-
-        buttonGroup15.add(jRadioButton54);
-        jRadioButton54.setSelected(true);
-        jRadioButton54.setText("N/A");
-
-        buttonGroup15.add(jRadioButton93);
-        jRadioButton93.setText("Obs");
-
-        javax.swing.GroupLayout jPanel80Layout = new javax.swing.GroupLayout(jPanel80);
-        jPanel80.setLayout(jPanel80Layout);
-        jPanel80Layout.setHorizontalGroup(
-            jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel80Layout.createSequentialGroup()
-                .addGroup(jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton52)
-                    .addComponent(jRadioButton53)
-                    .addComponent(jRadioButton54)
-                    .addComponent(jRadioButton93))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel80Layout.setVerticalGroup(
-            jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel80Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton52)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton53)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton54)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton93)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel81.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea37.setColumns(20);
-        jTextArea37.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea37.setLineWrap(true);
-        jTextArea37.setRows(5);
-        jTextArea37.setWrapStyleWord(true);
-        jScrollPane37.setViewportView(jTextArea37);
-
-        javax.swing.GroupLayout jPanel81Layout = new javax.swing.GroupLayout(jPanel81);
-        jPanel81.setLayout(jPanel81Layout);
-        jPanel81Layout.setHorizontalGroup(
-            jPanel81Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel81Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane37, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel81Layout.setVerticalGroup(
-            jPanel81Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel81Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel79Layout = new javax.swing.GroupLayout(jPanel79);
-        jPanel79.setLayout(jPanel79Layout);
-        jPanel79Layout.setHorizontalGroup(
-            jPanel79Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel79Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel79Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel79Layout.createSequentialGroup()
-                        .addComponent(jScrollPane36)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel80, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel79Layout.setVerticalGroup(
-            jPanel79Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel79Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel79Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel80, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane36))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel81, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane8.addTab("Question 3", jPanel79);
-
-        jTextArea38.setColumns(20);
-        jTextArea38.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea38.setLineWrap(true);
-        jTextArea38.setRows(5);
-        jTextArea38.setText("Does the laboratory validate procedures/software for calibration?");
-        jTextArea38.setWrapStyleWord(true);
-        jScrollPane38.setViewportView(jTextArea38);
-
-        jPanel83.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup16.add(jRadioButton55);
-        jRadioButton55.setText("Yes");
-
-        buttonGroup16.add(jRadioButton56);
-        jRadioButton56.setText("No");
-
-        buttonGroup16.add(jRadioButton57);
-        jRadioButton57.setSelected(true);
-        jRadioButton57.setText("N/A");
-
-        buttonGroup16.add(jRadioButton94);
-        jRadioButton94.setText("Obs");
-
-        javax.swing.GroupLayout jPanel83Layout = new javax.swing.GroupLayout(jPanel83);
-        jPanel83.setLayout(jPanel83Layout);
-        jPanel83Layout.setHorizontalGroup(
-            jPanel83Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel83Layout.createSequentialGroup()
-                .addGroup(jPanel83Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton55)
-                    .addComponent(jRadioButton56)
-                    .addComponent(jRadioButton57)
-                    .addComponent(jRadioButton94))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel83Layout.setVerticalGroup(
-            jPanel83Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel83Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton55)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton56)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton57)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton94)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel84.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea39.setColumns(20);
-        jTextArea39.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea39.setLineWrap(true);
-        jTextArea39.setRows(5);
-        jTextArea39.setWrapStyleWord(true);
-        jScrollPane39.setViewportView(jTextArea39);
-
-        javax.swing.GroupLayout jPanel84Layout = new javax.swing.GroupLayout(jPanel84);
-        jPanel84.setLayout(jPanel84Layout);
-        jPanel84Layout.setHorizontalGroup(
-            jPanel84Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel84Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane39, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel84Layout.setVerticalGroup(
-            jPanel84Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel84Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel82Layout = new javax.swing.GroupLayout(jPanel82);
-        jPanel82.setLayout(jPanel82Layout);
-        jPanel82Layout.setHorizontalGroup(
-            jPanel82Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel82Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel82Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel84, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel82Layout.createSequentialGroup()
-                        .addComponent(jScrollPane38)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel83, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel82Layout.setVerticalGroup(
-            jPanel82Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel82Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel82Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel83, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane38))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel84, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane8.addTab("Question 4", jPanel82);
-
-        jTextArea40.setColumns(20);
-        jTextArea40.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea40.setLineWrap(true);
-        jTextArea40.setRows(5);
-        jTextArea40.setText("Does the laboratory use manufacturer procedures, or use nationally/internationally recognized processes/methods for testing/calibration?");
-        jTextArea40.setWrapStyleWord(true);
-        jScrollPane40.setViewportView(jTextArea40);
-
-        jPanel86.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup17.add(jRadioButton58);
-        jRadioButton58.setText("Yes");
-
-        buttonGroup17.add(jRadioButton59);
-        jRadioButton59.setText("No");
-
-        buttonGroup17.add(jRadioButton60);
-        jRadioButton60.setSelected(true);
-        jRadioButton60.setText("N/A");
-
-        buttonGroup17.add(jRadioButton95);
-        jRadioButton95.setText("Obs");
-
-        javax.swing.GroupLayout jPanel86Layout = new javax.swing.GroupLayout(jPanel86);
-        jPanel86.setLayout(jPanel86Layout);
-        jPanel86Layout.setHorizontalGroup(
-            jPanel86Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel86Layout.createSequentialGroup()
-                .addGroup(jPanel86Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton58)
-                    .addComponent(jRadioButton59)
-                    .addComponent(jRadioButton60)
-                    .addComponent(jRadioButton95))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel86Layout.setVerticalGroup(
-            jPanel86Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel86Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton58)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton59)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton60)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton95)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel87.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea41.setColumns(20);
-        jTextArea41.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea41.setLineWrap(true);
-        jTextArea41.setRows(5);
-        jTextArea41.setWrapStyleWord(true);
-        jScrollPane41.setViewportView(jTextArea41);
-
-        javax.swing.GroupLayout jPanel87Layout = new javax.swing.GroupLayout(jPanel87);
-        jPanel87.setLayout(jPanel87Layout);
-        jPanel87Layout.setHorizontalGroup(
-            jPanel87Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel87Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel87Layout.setVerticalGroup(
-            jPanel87Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel87Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel85Layout = new javax.swing.GroupLayout(jPanel85);
-        jPanel85.setLayout(jPanel85Layout);
-        jPanel85Layout.setHorizontalGroup(
-            jPanel85Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel85Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel85Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel87, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel85Layout.createSequentialGroup()
-                        .addComponent(jScrollPane40)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel86, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel85Layout.setVerticalGroup(
-            jPanel85Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel85Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel85Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel86, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane40))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel87, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane8.addTab("Question 5", jPanel85);
-
-        jTextArea42.setColumns(20);
-        jTextArea42.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea42.setLineWrap(true);
-        jTextArea42.setRows(5);
-        jTextArea42.setText("Does the laboratory maintain a log of procedure/software validation?");
-        jTextArea42.setWrapStyleWord(true);
-        jScrollPane42.setViewportView(jTextArea42);
-
-        jPanel89.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup18.add(jRadioButton61);
-        jRadioButton61.setText("Yes");
-
-        buttonGroup18.add(jRadioButton62);
-        jRadioButton62.setText("No");
-
-        buttonGroup18.add(jRadioButton63);
-        jRadioButton63.setSelected(true);
-        jRadioButton63.setText("N/A");
-
-        buttonGroup18.add(jRadioButton96);
-        jRadioButton96.setText("Obs");
-
-        javax.swing.GroupLayout jPanel89Layout = new javax.swing.GroupLayout(jPanel89);
-        jPanel89.setLayout(jPanel89Layout);
-        jPanel89Layout.setHorizontalGroup(
-            jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel89Layout.createSequentialGroup()
-                .addGroup(jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton61)
-                    .addComponent(jRadioButton62)
-                    .addComponent(jRadioButton63)
-                    .addComponent(jRadioButton96))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel89Layout.setVerticalGroup(
-            jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel89Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton61)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton62)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton63)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton96)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel90.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea43.setColumns(20);
-        jTextArea43.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea43.setLineWrap(true);
-        jTextArea43.setRows(5);
-        jTextArea43.setWrapStyleWord(true);
-        jScrollPane43.setViewportView(jTextArea43);
-
-        javax.swing.GroupLayout jPanel90Layout = new javax.swing.GroupLayout(jPanel90);
-        jPanel90.setLayout(jPanel90Layout);
-        jPanel90Layout.setHorizontalGroup(
-            jPanel90Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel90Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane43, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel90Layout.setVerticalGroup(
-            jPanel90Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel90Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel88Layout = new javax.swing.GroupLayout(jPanel88);
-        jPanel88.setLayout(jPanel88Layout);
-        jPanel88Layout.setHorizontalGroup(
-            jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel88Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel90, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel88Layout.createSequentialGroup()
-                        .addComponent(jScrollPane42)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel89, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel88Layout.setVerticalGroup(
-            jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel88Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel89, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane42))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel90, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane8.addTab("Question 6", jPanel88);
-
-        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
-        jPanel16.setLayout(jPanel16Layout);
-        jPanel16Layout.setHorizontalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane8)
-                .addContainerGap())
-        );
-        jPanel16Layout.setVerticalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel16Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(34, Short.MAX_VALUE))
-        );
-
-        step3Ref2TabPane.addTab("7.2", jPanel16);
-
-        step3Ref1TabPane9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane9.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane9.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-
-        jTextArea32.setColumns(20);
-        jTextArea32.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea32.setLineWrap(true);
-        jTextArea32.setRows(5);
-        jTextArea32.setText("Does the laboratory maintain technical records?  Do the records include evaluations of Measurment Uncertainty?");
-        jTextArea32.setWrapStyleWord(true);
-        jScrollPane32.setViewportView(jTextArea32);
-
-        jPanel74.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup19.add(jRadioButton46);
-        jRadioButton46.setText("Yes");
-
-        buttonGroup19.add(jRadioButton47);
-        jRadioButton47.setText("No");
-
-        buttonGroup19.add(jRadioButton48);
-        jRadioButton48.setSelected(true);
-        jRadioButton48.setText("N/A");
-
-        buttonGroup19.add(jRadioButton97);
-        jRadioButton97.setText("Obs");
-
-        javax.swing.GroupLayout jPanel74Layout = new javax.swing.GroupLayout(jPanel74);
-        jPanel74.setLayout(jPanel74Layout);
-        jPanel74Layout.setHorizontalGroup(
-            jPanel74Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel74Layout.createSequentialGroup()
-                .addGroup(jPanel74Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton46)
-                    .addComponent(jRadioButton47)
-                    .addComponent(jRadioButton48)
-                    .addComponent(jRadioButton97))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel74Layout.setVerticalGroup(
-            jPanel74Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel74Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton46)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton47)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton48)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton97)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel75.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea33.setColumns(20);
-        jTextArea33.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea33.setLineWrap(true);
-        jTextArea33.setRows(5);
-        jTextArea33.setWrapStyleWord(true);
-        jScrollPane33.setViewportView(jTextArea33);
-
-        javax.swing.GroupLayout jPanel75Layout = new javax.swing.GroupLayout(jPanel75);
-        jPanel75.setLayout(jPanel75Layout);
-        jPanel75Layout.setHorizontalGroup(
-            jPanel75Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel75Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane33, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel75Layout.setVerticalGroup(
-            jPanel75Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel75Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel73Layout = new javax.swing.GroupLayout(jPanel73);
-        jPanel73.setLayout(jPanel73Layout);
-        jPanel73Layout.setHorizontalGroup(
-            jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel73Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel75, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel73Layout.createSequentialGroup()
-                        .addComponent(jScrollPane32)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel74, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel73Layout.setVerticalGroup(
-            jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel73Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel74, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane32))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel75, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(103, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane9.addTab("Question 1", jPanel73);
-
-        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
-        jPanel17.setLayout(jPanel17Layout);
-        jPanel17Layout.setHorizontalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane9)
-                .addContainerGap())
-        );
-        jPanel17Layout.setVerticalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel17Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(37, Short.MAX_VALUE))
-        );
-
-        step3Ref2TabPane.addTab("7.5-7.6", jPanel17);
-
-        step3Ref1TabPane10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane10.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane10.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-
-        jTextArea44.setColumns(20);
-        jTextArea44.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea44.setLineWrap(true);
-        jTextArea44.setRows(5);
-        jTextArea44.setText("Does the laboratory have a procedure for monitoring results?");
-        jTextArea44.setWrapStyleWord(true);
-        jScrollPane44.setViewportView(jTextArea44);
-
-        jPanel92.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup20.add(jRadioButton64);
-        jRadioButton64.setText("Yes");
-
-        buttonGroup20.add(jRadioButton65);
-        jRadioButton65.setText("No");
-
-        buttonGroup20.add(jRadioButton66);
-        jRadioButton66.setSelected(true);
-        jRadioButton66.setText("N/A");
-
-        buttonGroup20.add(jRadioButton98);
-        jRadioButton98.setText("Obs");
-
-        javax.swing.GroupLayout jPanel92Layout = new javax.swing.GroupLayout(jPanel92);
-        jPanel92.setLayout(jPanel92Layout);
-        jPanel92Layout.setHorizontalGroup(
-            jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel92Layout.createSequentialGroup()
-                .addGroup(jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton64)
-                    .addComponent(jRadioButton65)
-                    .addComponent(jRadioButton66)
-                    .addComponent(jRadioButton98))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel92Layout.setVerticalGroup(
-            jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel92Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton64)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton65)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton66)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton98)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel93.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea45.setColumns(20);
-        jTextArea45.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea45.setLineWrap(true);
-        jTextArea45.setRows(5);
-        jTextArea45.setWrapStyleWord(true);
-        jScrollPane45.setViewportView(jTextArea45);
-
-        javax.swing.GroupLayout jPanel93Layout = new javax.swing.GroupLayout(jPanel93);
-        jPanel93.setLayout(jPanel93Layout);
-        jPanel93Layout.setHorizontalGroup(
-            jPanel93Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel93Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane45, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel93Layout.setVerticalGroup(
-            jPanel93Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel93Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel91Layout = new javax.swing.GroupLayout(jPanel91);
-        jPanel91.setLayout(jPanel91Layout);
-        jPanel91Layout.setHorizontalGroup(
-            jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel91Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel93, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel91Layout.createSequentialGroup()
-                        .addComponent(jScrollPane44)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel91Layout.setVerticalGroup(
-            jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel91Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane44))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(110, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane10.addTab("Question 1", jPanel91);
-
-        jTextArea46.setColumns(20);
-        jTextArea46.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea46.setLineWrap(true);
-        jTextArea46.setRows(5);
-        jTextArea46.setText("Does the laboratory track trends?");
-        jTextArea46.setWrapStyleWord(true);
-        jScrollPane46.setViewportView(jTextArea46);
-
-        jPanel95.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup21.add(jRadioButton67);
-        jRadioButton67.setText("Yes");
-
-        buttonGroup21.add(jRadioButton68);
-        jRadioButton68.setText("No");
-
-        buttonGroup21.add(jRadioButton69);
-        jRadioButton69.setSelected(true);
-        jRadioButton69.setText("N/A");
-
-        buttonGroup21.add(jRadioButton99);
-        jRadioButton99.setText("Obs");
-
-        javax.swing.GroupLayout jPanel95Layout = new javax.swing.GroupLayout(jPanel95);
-        jPanel95.setLayout(jPanel95Layout);
-        jPanel95Layout.setHorizontalGroup(
-            jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel95Layout.createSequentialGroup()
-                .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton67)
-                    .addComponent(jRadioButton68)
-                    .addComponent(jRadioButton69)
-                    .addComponent(jRadioButton99))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel95Layout.setVerticalGroup(
-            jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel95Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton67)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton68)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton69)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton99)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel96.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea47.setColumns(20);
-        jTextArea47.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea47.setLineWrap(true);
-        jTextArea47.setRows(5);
-        jTextArea47.setWrapStyleWord(true);
-        jScrollPane47.setViewportView(jTextArea47);
-
-        javax.swing.GroupLayout jPanel96Layout = new javax.swing.GroupLayout(jPanel96);
-        jPanel96.setLayout(jPanel96Layout);
-        jPanel96Layout.setHorizontalGroup(
-            jPanel96Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel96Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane47, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel96Layout.setVerticalGroup(
-            jPanel96Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel96Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel94Layout = new javax.swing.GroupLayout(jPanel94);
-        jPanel94.setLayout(jPanel94Layout);
-        jPanel94Layout.setHorizontalGroup(
-            jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel94Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel96, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addComponent(jScrollPane46)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel94Layout.setVerticalGroup(
-            jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel94Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel95, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane46))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel96, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(110, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane10.addTab("Question 2", jPanel94);
-
-        jTextArea48.setColumns(20);
-        jTextArea48.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea48.setLineWrap(true);
-        jTextArea48.setRows(5);
-        jTextArea48.setText("Does the laboratory perform process reviews?");
-        jTextArea48.setWrapStyleWord(true);
-        jScrollPane48.setViewportView(jTextArea48);
-
-        jPanel98.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup22.add(jRadioButton70);
-        jRadioButton70.setText("Yes");
-
-        buttonGroup22.add(jRadioButton71);
-        jRadioButton71.setText("No");
-
-        buttonGroup22.add(jRadioButton72);
-        jRadioButton72.setSelected(true);
-        jRadioButton72.setText("N/A");
-
-        buttonGroup22.add(jRadioButton100);
-        jRadioButton100.setText("Obs");
-
-        javax.swing.GroupLayout jPanel98Layout = new javax.swing.GroupLayout(jPanel98);
-        jPanel98.setLayout(jPanel98Layout);
-        jPanel98Layout.setHorizontalGroup(
-            jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel98Layout.createSequentialGroup()
-                .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton70)
-                    .addComponent(jRadioButton71)
-                    .addComponent(jRadioButton72)
-                    .addComponent(jRadioButton100))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel98Layout.setVerticalGroup(
-            jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel98Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton70)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton71)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton72)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton100)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel99.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea49.setColumns(20);
-        jTextArea49.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea49.setLineWrap(true);
-        jTextArea49.setRows(5);
-        jTextArea49.setWrapStyleWord(true);
-        jScrollPane49.setViewportView(jTextArea49);
-
-        javax.swing.GroupLayout jPanel99Layout = new javax.swing.GroupLayout(jPanel99);
-        jPanel99.setLayout(jPanel99Layout);
-        jPanel99Layout.setHorizontalGroup(
-            jPanel99Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel99Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane49, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel99Layout.setVerticalGroup(
-            jPanel99Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel99Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel97Layout = new javax.swing.GroupLayout(jPanel97);
-        jPanel97.setLayout(jPanel97Layout);
-        jPanel97Layout.setHorizontalGroup(
-            jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel97Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel99, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel97Layout.createSequentialGroup()
-                        .addComponent(jScrollPane48)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel98, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel97Layout.setVerticalGroup(
-            jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel97Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel98, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane48))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel99, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(110, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane10.addTab("Question 3", jPanel97);
-
-        jTextArea50.setColumns(20);
-        jTextArea50.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea50.setLineWrap(true);
-        jTextArea50.setRows(5);
-        jTextArea50.setText("Does the laboratory track nonconformities?");
-        jTextArea50.setWrapStyleWord(true);
-        jScrollPane50.setViewportView(jTextArea50);
-
-        jPanel101.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup23.add(jRadioButton73);
-        jRadioButton73.setText("Yes");
-
-        buttonGroup23.add(jRadioButton74);
-        jRadioButton74.setText("No");
-
-        buttonGroup23.add(jRadioButton75);
-        jRadioButton75.setSelected(true);
-        jRadioButton75.setText("N/A");
-
-        buttonGroup23.add(jRadioButton101);
-        jRadioButton101.setText("Obs");
-
-        javax.swing.GroupLayout jPanel101Layout = new javax.swing.GroupLayout(jPanel101);
-        jPanel101.setLayout(jPanel101Layout);
-        jPanel101Layout.setHorizontalGroup(
-            jPanel101Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel101Layout.createSequentialGroup()
-                .addGroup(jPanel101Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton73)
-                    .addComponent(jRadioButton74)
-                    .addComponent(jRadioButton75)
-                    .addComponent(jRadioButton101))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel101Layout.setVerticalGroup(
-            jPanel101Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel101Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton73)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton74)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton75)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton101)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel102.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea51.setColumns(20);
-        jTextArea51.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea51.setLineWrap(true);
-        jTextArea51.setRows(5);
-        jTextArea51.setWrapStyleWord(true);
-        jScrollPane51.setViewportView(jTextArea51);
-
-        javax.swing.GroupLayout jPanel102Layout = new javax.swing.GroupLayout(jPanel102);
-        jPanel102.setLayout(jPanel102Layout);
-        jPanel102Layout.setHorizontalGroup(
-            jPanel102Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel102Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane51, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel102Layout.setVerticalGroup(
-            jPanel102Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel102Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel100Layout = new javax.swing.GroupLayout(jPanel100);
-        jPanel100.setLayout(jPanel100Layout);
-        jPanel100Layout.setHorizontalGroup(
-            jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel100Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel102, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel100Layout.createSequentialGroup()
-                        .addComponent(jScrollPane50)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel101, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel100Layout.setVerticalGroup(
-            jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel100Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel101, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane50))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel102, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(110, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane10.addTab("Question 4", jPanel100);
-
-        jTextArea52.setColumns(20);
-        jTextArea52.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea52.setLineWrap(true);
-        jTextArea52.setRows(5);
-        jTextArea52.setText("Does the laboratory participate in Proficiency or Interlaboratory comparisons?");
-        jTextArea52.setWrapStyleWord(true);
-        jScrollPane52.setViewportView(jTextArea52);
-
-        jPanel104.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup24.add(jRadioButton76);
-        jRadioButton76.setText("Yes");
-
-        buttonGroup24.add(jRadioButton77);
-        jRadioButton77.setText("No");
-
-        buttonGroup24.add(jRadioButton78);
-        jRadioButton78.setSelected(true);
-        jRadioButton78.setText("N/A");
-
-        buttonGroup24.add(jRadioButton102);
-        jRadioButton102.setText("Obs");
-
-        javax.swing.GroupLayout jPanel104Layout = new javax.swing.GroupLayout(jPanel104);
-        jPanel104.setLayout(jPanel104Layout);
-        jPanel104Layout.setHorizontalGroup(
-            jPanel104Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel104Layout.createSequentialGroup()
-                .addGroup(jPanel104Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton76)
-                    .addComponent(jRadioButton77)
-                    .addComponent(jRadioButton78)
-                    .addComponent(jRadioButton102))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel104Layout.setVerticalGroup(
-            jPanel104Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel104Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton76)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton77)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton78)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton102)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel105.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea53.setColumns(20);
-        jTextArea53.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea53.setLineWrap(true);
-        jTextArea53.setRows(5);
-        jTextArea53.setWrapStyleWord(true);
-        jScrollPane53.setViewportView(jTextArea53);
-
-        javax.swing.GroupLayout jPanel105Layout = new javax.swing.GroupLayout(jPanel105);
-        jPanel105.setLayout(jPanel105Layout);
-        jPanel105Layout.setHorizontalGroup(
-            jPanel105Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel105Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane53, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel105Layout.setVerticalGroup(
-            jPanel105Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel105Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel103Layout = new javax.swing.GroupLayout(jPanel103);
-        jPanel103.setLayout(jPanel103Layout);
-        jPanel103Layout.setHorizontalGroup(
-            jPanel103Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel103Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel103Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel105, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel103Layout.createSequentialGroup()
-                        .addComponent(jScrollPane52)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel104, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel103Layout.setVerticalGroup(
-            jPanel103Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel103Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel103Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel104, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane52))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel105, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(110, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane10.addTab("Question 5", jPanel103);
-
-        jTextArea54.setColumns(20);
-        jTextArea54.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea54.setLineWrap(true);
-        jTextArea54.setRows(5);
-        jTextArea54.setText("There are only 5 questions with 6 answers on the word document.  What is the 6th question?");
-        jTextArea54.setWrapStyleWord(true);
-        jScrollPane54.setViewportView(jTextArea54);
-
-        jPanel107.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup25.add(jRadioButton79);
-        jRadioButton79.setText("Yes");
-
-        buttonGroup25.add(jRadioButton80);
-        jRadioButton80.setText("No");
-
-        buttonGroup25.add(jRadioButton81);
-        jRadioButton81.setSelected(true);
-        jRadioButton81.setText("N/A");
-
-        buttonGroup25.add(jRadioButton103);
-        jRadioButton103.setText("Obs");
-
-        javax.swing.GroupLayout jPanel107Layout = new javax.swing.GroupLayout(jPanel107);
-        jPanel107.setLayout(jPanel107Layout);
-        jPanel107Layout.setHorizontalGroup(
-            jPanel107Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel107Layout.createSequentialGroup()
-                .addGroup(jPanel107Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton79)
-                    .addComponent(jRadioButton80)
-                    .addComponent(jRadioButton81)
-                    .addComponent(jRadioButton103))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel107Layout.setVerticalGroup(
-            jPanel107Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel107Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton79)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton80)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton81)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton103)
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel108.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea55.setColumns(20);
-        jTextArea55.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea55.setLineWrap(true);
-        jTextArea55.setRows(5);
-        jTextArea55.setWrapStyleWord(true);
-        jScrollPane55.setViewportView(jTextArea55);
-
-        javax.swing.GroupLayout jPanel108Layout = new javax.swing.GroupLayout(jPanel108);
-        jPanel108.setLayout(jPanel108Layout);
-        jPanel108Layout.setHorizontalGroup(
-            jPanel108Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel108Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane55, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-        jPanel108Layout.setVerticalGroup(
-            jPanel108Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel108Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel106Layout = new javax.swing.GroupLayout(jPanel106);
-        jPanel106.setLayout(jPanel106Layout);
-        jPanel106Layout.setHorizontalGroup(
-            jPanel106Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel106Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel106Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel108, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel106Layout.createSequentialGroup()
-                        .addComponent(jScrollPane54)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel107, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel106Layout.setVerticalGroup(
-            jPanel106Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel106Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel106Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel107, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane54))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel108, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(110, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane10.addTab("Question 6", jPanel106);
-
-        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
-        jPanel18.setLayout(jPanel18Layout);
-        jPanel18Layout.setHorizontalGroup(
-            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane10)
-                .addContainerGap())
-        );
-        jPanel18Layout.setVerticalGroup(
-            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel18Layout.createSequentialGroup()
-                .addComponent(step3Ref1TabPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 40, Short.MAX_VALUE))
-        );
-
-        step3Ref2TabPane.addTab("7.7", jPanel18);
-
-        step3Ref1TabPane2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Questions", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 0, 14))); // NOI18N
-        step3Ref1TabPane2.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        step3Ref1TabPane2.setTabPlacement(javax.swing.JTabbedPane.LEFT);
-
-        jTextArea6.setColumns(20);
-        jTextArea6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea6.setLineWrap(true);
-        jTextArea6.setRows(5);
-        jTextArea6.setText("Does the laboratory review results prior to release?");
-        jTextArea6.setWrapStyleWord(true);
-        jScrollPane6.setViewportView(jTextArea6);
-
-        jPanel35.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup26.add(jRadioButton22);
-        jRadioButton22.setText("Yes");
-
-        buttonGroup26.add(jRadioButton23);
-        jRadioButton23.setText("No");
-
-        buttonGroup26.add(jRadioButton24);
-        jRadioButton24.setSelected(true);
-        jRadioButton24.setText("N/A");
-
-        buttonGroup26.add(jRadioButton104);
-        jRadioButton104.setText("Obs");
-
-        javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
-        jPanel35.setLayout(jPanel35Layout);
-        jPanel35Layout.setHorizontalGroup(
-            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel35Layout.createSequentialGroup()
-                .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton22)
-                    .addComponent(jRadioButton23)
-                    .addComponent(jRadioButton24)
-                    .addComponent(jRadioButton104))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel35Layout.setVerticalGroup(
-            jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel35Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton23)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton24)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton104)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel36.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea7.setColumns(20);
-        jTextArea7.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea7.setLineWrap(true);
-        jTextArea7.setRows(5);
-        jTextArea7.setWrapStyleWord(true);
-        jScrollPane7.setViewportView(jTextArea7);
-
-        javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
-        jPanel36.setLayout(jPanel36Layout);
-        jPanel36Layout.setHorizontalGroup(
-            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel36Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane7)
-                .addContainerGap())
-        );
-        jPanel36Layout.setVerticalGroup(
-            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel36Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
-        jPanel34.setLayout(jPanel34Layout);
-        jPanel34Layout.setHorizontalGroup(
-            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel34Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel34Layout.createSequentialGroup()
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 458, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel34Layout.setVerticalGroup(
-            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel34Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane6))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(101, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane2.addTab("Reporting Results 1", jPanel34);
-
-        jTextArea16.setColumns(20);
-        jTextArea16.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea16.setLineWrap(true);
-        jTextArea16.setRows(5);
-        jTextArea16.setText("Does the laboratory provide results unambiguously?");
-        jTextArea16.setWrapStyleWord(true);
-        jScrollPane16.setViewportView(jTextArea16);
-
-        jPanel50.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup27.add(jRadioButton105);
-        jRadioButton105.setText("Yes");
-
-        buttonGroup27.add(jRadioButton106);
-        jRadioButton106.setText("No");
-
-        buttonGroup27.add(jRadioButton107);
-        jRadioButton107.setSelected(true);
-        jRadioButton107.setText("N/A");
-
-        buttonGroup27.add(jRadioButton108);
-        jRadioButton108.setText("Obs");
-
-        javax.swing.GroupLayout jPanel50Layout = new javax.swing.GroupLayout(jPanel50);
-        jPanel50.setLayout(jPanel50Layout);
-        jPanel50Layout.setHorizontalGroup(
-            jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel50Layout.createSequentialGroup()
-                .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton105)
-                    .addComponent(jRadioButton106)
-                    .addComponent(jRadioButton107)
-                    .addComponent(jRadioButton108))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel50Layout.setVerticalGroup(
-            jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel50Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton105)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton106)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton107, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton108)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel51.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea17.setColumns(20);
-        jTextArea17.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea17.setLineWrap(true);
-        jTextArea17.setRows(5);
-        jTextArea17.setWrapStyleWord(true);
-        jScrollPane17.setViewportView(jTextArea17);
-
-        javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
-        jPanel51.setLayout(jPanel51Layout);
-        jPanel51Layout.setHorizontalGroup(
-            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel51Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane17)
-                .addContainerGap())
-        );
-        jPanel51Layout.setVerticalGroup(
-            jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel51Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel49Layout = new javax.swing.GroupLayout(jPanel49);
-        jPanel49.setLayout(jPanel49Layout);
-        jPanel49Layout.setHorizontalGroup(
-            jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel49Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel51, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel49Layout.createSequentialGroup()
-                        .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 458, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel50, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel49Layout.setVerticalGroup(
-            jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel49Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel49Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel50, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane16))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(101, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane2.addTab("Reporting Results 2", jPanel49);
-
-        jTextArea56.setColumns(20);
-        jTextArea56.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea56.setLineWrap(true);
-        jTextArea56.setRows(5);
-        jTextArea56.setText("Does the laboratory retain reports?");
-        jTextArea56.setWrapStyleWord(true);
-        jScrollPane56.setViewportView(jTextArea56);
-
-        jPanel110.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
-
-        buttonGroup28.add(jRadioButton109);
-        jRadioButton109.setText("Yes");
-
-        buttonGroup28.add(jRadioButton110);
-        jRadioButton110.setText("No");
-
-        buttonGroup28.add(jRadioButton111);
-        jRadioButton111.setSelected(true);
-        jRadioButton111.setText("N/A");
-
-        buttonGroup28.add(jRadioButton112);
-        jRadioButton112.setText("Obs");
-
-        javax.swing.GroupLayout jPanel110Layout = new javax.swing.GroupLayout(jPanel110);
-        jPanel110.setLayout(jPanel110Layout);
-        jPanel110Layout.setHorizontalGroup(
-            jPanel110Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel110Layout.createSequentialGroup()
-                .addGroup(jPanel110Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton109)
-                    .addComponent(jRadioButton110)
-                    .addComponent(jRadioButton111)
-                    .addComponent(jRadioButton112))
-                .addGap(0, 26, Short.MAX_VALUE))
-        );
-        jPanel110Layout.setVerticalGroup(
-            jPanel110Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel110Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jRadioButton109)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton110)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton111)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton112)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jPanel111.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
-
-        jTextArea57.setColumns(20);
-        jTextArea57.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea57.setLineWrap(true);
-        jTextArea57.setRows(5);
-        jTextArea57.setWrapStyleWord(true);
-        jScrollPane57.setViewportView(jTextArea57);
-
-        javax.swing.GroupLayout jPanel111Layout = new javax.swing.GroupLayout(jPanel111);
-        jPanel111.setLayout(jPanel111Layout);
-        jPanel111Layout.setHorizontalGroup(
-            jPanel111Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel111Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane57)
-                .addContainerGap())
-        );
-        jPanel111Layout.setVerticalGroup(
-            jPanel111Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel111Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel109Layout = new javax.swing.GroupLayout(jPanel109);
-        jPanel109.setLayout(jPanel109Layout);
-        jPanel109Layout.setHorizontalGroup(
-            jPanel109Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel109Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel109Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel111, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel109Layout.createSequentialGroup()
-                        .addComponent(jScrollPane56, javax.swing.GroupLayout.PREFERRED_SIZE, 458, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel110, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(24, 24, 24))
-        );
-        jPanel109Layout.setVerticalGroup(
-            jPanel109Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel109Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel109Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel110, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane56))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel111, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(101, Short.MAX_VALUE))
-        );
-
-        step3Ref1TabPane2.addTab("Reporting Results 3", jPanel109);
-
-        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
-        jPanel19.setLayout(jPanel19Layout);
-        jPanel19Layout.setHorizontalGroup(
-            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel19Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane2)
-                .addContainerGap())
-        );
-        jPanel19Layout.setVerticalGroup(
-            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel19Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(step3Ref1TabPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 412, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(39, Short.MAX_VALUE))
-        );
-
-        step3Ref2TabPane.addTab("7.8", jPanel19);
-
-        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
-        jPanel20.setLayout(jPanel20Layout);
-        jPanel20Layout.setHorizontalGroup(
-            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel20Layout.setVerticalGroup(
-            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("7.8.2-7.8.6", jPanel20);
-
-        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
-        jPanel21.setLayout(jPanel21Layout);
-        jPanel21Layout.setHorizontalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel21Layout.setVerticalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("7.8.7-7.8.8", jPanel21);
-
-        javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
-        jPanel22.setLayout(jPanel22Layout);
-        jPanel22Layout.setHorizontalGroup(
-            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel22Layout.setVerticalGroup(
-            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("7.9", jPanel22);
-
-        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
-        jPanel23.setLayout(jPanel23Layout);
-        jPanel23Layout.setHorizontalGroup(
-            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel23Layout.setVerticalGroup(
-            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("7.10", jPanel23);
-
-        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
-        jPanel24.setLayout(jPanel24Layout);
-        jPanel24Layout.setHorizontalGroup(
-            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel24Layout.setVerticalGroup(
-            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.2", jPanel24);
-
-        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
-        jPanel25.setLayout(jPanel25Layout);
-        jPanel25Layout.setHorizontalGroup(
-            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel25Layout.setVerticalGroup(
-            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.3", jPanel25);
-
-        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
-        jPanel26.setLayout(jPanel26Layout);
-        jPanel26Layout.setHorizontalGroup(
-            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel26Layout.setVerticalGroup(
-            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.4", jPanel26);
-
-        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
-        jPanel27.setLayout(jPanel27Layout);
-        jPanel27Layout.setHorizontalGroup(
-            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel27Layout.setVerticalGroup(
-            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("N/A", jPanel27);
-
-        javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
-        jPanel28.setLayout(jPanel28Layout);
-        jPanel28Layout.setHorizontalGroup(
-            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel28Layout.setVerticalGroup(
-            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.5", jPanel28);
-
-        javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
-        jPanel29.setLayout(jPanel29Layout);
-        jPanel29Layout.setHorizontalGroup(
-            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel29Layout.setVerticalGroup(
-            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.6", jPanel29);
-
-        javax.swing.GroupLayout jPanel30Layout = new javax.swing.GroupLayout(jPanel30);
-        jPanel30.setLayout(jPanel30Layout);
-        jPanel30Layout.setHorizontalGroup(
-            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel30Layout.setVerticalGroup(
-            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.7", jPanel30);
-
-        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
-        jPanel31.setLayout(jPanel31Layout);
-        jPanel31Layout.setHorizontalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel31Layout.setVerticalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.8", jPanel31);
-
-        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
-        jPanel32.setLayout(jPanel32Layout);
-        jPanel32Layout.setHorizontalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel32Layout.setVerticalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("8.9", jPanel32);
-
-        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
-        jPanel33.setLayout(jPanel33Layout);
-        jPanel33Layout.setHorizontalGroup(
-            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 733, Short.MAX_VALUE)
-        );
-        jPanel33Layout.setVerticalGroup(
-            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 461, Short.MAX_VALUE)
-        );
-
-        step3Ref2TabPane.addTab("N/A", jPanel33);
+        step3Ref1tp.addTab("6.6", jPanel14);
 
         jTextArea1.setEditable(false);
         jTextArea1.setBackground(new java.awt.Color(240, 240, 240));
@@ -3795,7 +1587,7 @@ public class Step3 extends javax.swing.JFrame {
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(2);
         jTextArea1.setTabSize(4);
-        jTextArea1.setText("Compare the requirements of ISO 17025, the QMS Manual and other documentation against what employees are actually doing in everyday practice. ");
+        jTextArea1.setText("Compare the requirements of ISO 17025-2017, the QMS Manual and other documentation against what employees are actually doing in everyday practice. ");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
@@ -3807,7 +1599,7 @@ public class Step3 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1)
-                    .addComponent(step3Ref2TabPane))
+                    .addComponent(step3Ref1tp, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
@@ -3815,8 +1607,7 @@ public class Step3 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(step3Ref2TabPane, javax.swing.GroupLayout.PREFERRED_SIZE, 491, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addComponent(step3Ref1tp))
         );
 
         jMenu1.setText("File");
@@ -3869,12 +1660,12 @@ public class Step3 extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_CloseButtonActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
         // TODO add your handling code here:
-        Step4 ch4 = new Step4();
-        ch4.setVisible(true);
+        Step3Ref7 ref7 = new Step3Ref7();
+        ref7.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_nextButtonActionPerformed
 
     private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
@@ -3957,59 +1748,68 @@ public class Step3 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup3;
     private javax.swing.ButtonGroup buttonGroup30;
     private javax.swing.ButtonGroup buttonGroup31;
+    private javax.swing.ButtonGroup buttonGroup32;
+    private javax.swing.ButtonGroup buttonGroup33;
+    private javax.swing.ButtonGroup buttonGroup34;
+    private javax.swing.ButtonGroup buttonGroup35;
+    private javax.swing.ButtonGroup buttonGroup36;
+    private javax.swing.ButtonGroup buttonGroup37;
+    private javax.swing.ButtonGroup buttonGroup38;
+    private javax.swing.ButtonGroup buttonGroup39;
     private javax.swing.ButtonGroup buttonGroup4;
+    private javax.swing.ButtonGroup buttonGroup40;
+    private javax.swing.ButtonGroup buttonGroup41;
+    private javax.swing.ButtonGroup buttonGroup42;
+    private javax.swing.ButtonGroup buttonGroup43;
+    private javax.swing.ButtonGroup buttonGroup44;
+    private javax.swing.ButtonGroup buttonGroup45;
+    private javax.swing.ButtonGroup buttonGroup46;
+    private javax.swing.ButtonGroup buttonGroup47;
+    private javax.swing.ButtonGroup buttonGroup48;
+    private javax.swing.ButtonGroup buttonGroup49;
     private javax.swing.ButtonGroup buttonGroup5;
+    private javax.swing.ButtonGroup buttonGroup50;
+    private javax.swing.ButtonGroup buttonGroup51;
+    private javax.swing.ButtonGroup buttonGroup52;
+    private javax.swing.ButtonGroup buttonGroup53;
+    private javax.swing.ButtonGroup buttonGroup54;
+    private javax.swing.ButtonGroup buttonGroup55;
+    private javax.swing.ButtonGroup buttonGroup56;
+    private javax.swing.ButtonGroup buttonGroup57;
+    private javax.swing.ButtonGroup buttonGroup58;
+    private javax.swing.ButtonGroup buttonGroup59;
     private javax.swing.ButtonGroup buttonGroup6;
+    private javax.swing.ButtonGroup buttonGroup60;
+    private javax.swing.ButtonGroup buttonGroup61;
+    private javax.swing.ButtonGroup buttonGroup62;
+    private javax.swing.ButtonGroup buttonGroup63;
+    private javax.swing.ButtonGroup buttonGroup64;
+    private javax.swing.ButtonGroup buttonGroup65;
+    private javax.swing.ButtonGroup buttonGroup66;
+    private javax.swing.ButtonGroup buttonGroup67;
+    private javax.swing.ButtonGroup buttonGroup68;
+    private javax.swing.ButtonGroup buttonGroup69;
     private javax.swing.ButtonGroup buttonGroup7;
+    private javax.swing.ButtonGroup buttonGroup70;
+    private javax.swing.ButtonGroup buttonGroup71;
+    private javax.swing.ButtonGroup buttonGroup72;
+    private javax.swing.ButtonGroup buttonGroup73;
+    private javax.swing.ButtonGroup buttonGroup74;
+    private javax.swing.ButtonGroup buttonGroup75;
     private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.ButtonGroup buttonGroup9;
-    private javax.swing.JButton jButton1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel100;
-    private javax.swing.JPanel jPanel101;
-    private javax.swing.JPanel jPanel102;
-    private javax.swing.JPanel jPanel103;
-    private javax.swing.JPanel jPanel104;
-    private javax.swing.JPanel jPanel105;
-    private javax.swing.JPanel jPanel106;
-    private javax.swing.JPanel jPanel107;
-    private javax.swing.JPanel jPanel108;
-    private javax.swing.JPanel jPanel109;
     private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel110;
-    private javax.swing.JPanel jPanel111;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel20;
-    private javax.swing.JPanel jPanel21;
-    private javax.swing.JPanel jPanel22;
-    private javax.swing.JPanel jPanel23;
-    private javax.swing.JPanel jPanel24;
-    private javax.swing.JPanel jPanel25;
-    private javax.swing.JPanel jPanel26;
-    private javax.swing.JPanel jPanel27;
-    private javax.swing.JPanel jPanel28;
-    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel30;
-    private javax.swing.JPanel jPanel31;
-    private javax.swing.JPanel jPanel32;
-    private javax.swing.JPanel jPanel33;
-    private javax.swing.JPanel jPanel34;
-    private javax.swing.JPanel jPanel35;
-    private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel37;
     private javax.swing.JPanel jPanel38;
     private javax.swing.JPanel jPanel39;
@@ -4023,23 +1823,14 @@ public class Step3 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel46;
     private javax.swing.JPanel jPanel47;
     private javax.swing.JPanel jPanel48;
-    private javax.swing.JPanel jPanel49;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel50;
-    private javax.swing.JPanel jPanel51;
     private javax.swing.JPanel jPanel52;
     private javax.swing.JPanel jPanel53;
     private javax.swing.JPanel jPanel54;
     private javax.swing.JPanel jPanel55;
     private javax.swing.JPanel jPanel56;
     private javax.swing.JPanel jPanel57;
-    private javax.swing.JPanel jPanel58;
-    private javax.swing.JPanel jPanel59;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel60;
-    private javax.swing.JPanel jPanel61;
-    private javax.swing.JPanel jPanel62;
-    private javax.swing.JPanel jPanel63;
     private javax.swing.JPanel jPanel64;
     private javax.swing.JPanel jPanel65;
     private javax.swing.JPanel jPanel66;
@@ -4050,147 +1841,8 @@ public class Step3 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel70;
     private javax.swing.JPanel jPanel71;
     private javax.swing.JPanel jPanel72;
-    private javax.swing.JPanel jPanel73;
-    private javax.swing.JPanel jPanel74;
-    private javax.swing.JPanel jPanel75;
-    private javax.swing.JPanel jPanel76;
-    private javax.swing.JPanel jPanel77;
-    private javax.swing.JPanel jPanel78;
-    private javax.swing.JPanel jPanel79;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel80;
-    private javax.swing.JPanel jPanel81;
-    private javax.swing.JPanel jPanel82;
-    private javax.swing.JPanel jPanel83;
-    private javax.swing.JPanel jPanel84;
-    private javax.swing.JPanel jPanel85;
-    private javax.swing.JPanel jPanel86;
-    private javax.swing.JPanel jPanel87;
-    private javax.swing.JPanel jPanel88;
-    private javax.swing.JPanel jPanel89;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JPanel jPanel90;
-    private javax.swing.JPanel jPanel91;
-    private javax.swing.JPanel jPanel92;
-    private javax.swing.JPanel jPanel93;
-    private javax.swing.JPanel jPanel94;
-    private javax.swing.JPanel jPanel95;
-    private javax.swing.JPanel jPanel96;
-    private javax.swing.JPanel jPanel97;
-    private javax.swing.JPanel jPanel98;
-    private javax.swing.JPanel jPanel99;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton10;
-    private javax.swing.JRadioButton jRadioButton100;
-    private javax.swing.JRadioButton jRadioButton101;
-    private javax.swing.JRadioButton jRadioButton102;
-    private javax.swing.JRadioButton jRadioButton103;
-    private javax.swing.JRadioButton jRadioButton104;
-    private javax.swing.JRadioButton jRadioButton105;
-    private javax.swing.JRadioButton jRadioButton106;
-    private javax.swing.JRadioButton jRadioButton107;
-    private javax.swing.JRadioButton jRadioButton108;
-    private javax.swing.JRadioButton jRadioButton109;
-    private javax.swing.JRadioButton jRadioButton11;
-    private javax.swing.JRadioButton jRadioButton110;
-    private javax.swing.JRadioButton jRadioButton111;
-    private javax.swing.JRadioButton jRadioButton112;
-    private javax.swing.JRadioButton jRadioButton12;
-    private javax.swing.JRadioButton jRadioButton13;
-    private javax.swing.JRadioButton jRadioButton14;
-    private javax.swing.JRadioButton jRadioButton15;
-    private javax.swing.JRadioButton jRadioButton16;
-    private javax.swing.JRadioButton jRadioButton17;
-    private javax.swing.JRadioButton jRadioButton18;
-    private javax.swing.JRadioButton jRadioButton19;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton20;
-    private javax.swing.JRadioButton jRadioButton21;
-    private javax.swing.JRadioButton jRadioButton22;
-    private javax.swing.JRadioButton jRadioButton23;
-    private javax.swing.JRadioButton jRadioButton24;
-    private javax.swing.JRadioButton jRadioButton25;
-    private javax.swing.JRadioButton jRadioButton26;
-    private javax.swing.JRadioButton jRadioButton27;
-    private javax.swing.JRadioButton jRadioButton28;
-    private javax.swing.JRadioButton jRadioButton29;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton30;
-    private javax.swing.JRadioButton jRadioButton31;
-    private javax.swing.JRadioButton jRadioButton32;
-    private javax.swing.JRadioButton jRadioButton33;
-    private javax.swing.JRadioButton jRadioButton34;
-    private javax.swing.JRadioButton jRadioButton35;
-    private javax.swing.JRadioButton jRadioButton36;
-    private javax.swing.JRadioButton jRadioButton37;
-    private javax.swing.JRadioButton jRadioButton38;
-    private javax.swing.JRadioButton jRadioButton39;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton40;
-    private javax.swing.JRadioButton jRadioButton41;
-    private javax.swing.JRadioButton jRadioButton42;
-    private javax.swing.JRadioButton jRadioButton43;
-    private javax.swing.JRadioButton jRadioButton44;
-    private javax.swing.JRadioButton jRadioButton45;
-    private javax.swing.JRadioButton jRadioButton46;
-    private javax.swing.JRadioButton jRadioButton47;
-    private javax.swing.JRadioButton jRadioButton48;
-    private javax.swing.JRadioButton jRadioButton49;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton50;
-    private javax.swing.JRadioButton jRadioButton51;
-    private javax.swing.JRadioButton jRadioButton52;
-    private javax.swing.JRadioButton jRadioButton53;
-    private javax.swing.JRadioButton jRadioButton54;
-    private javax.swing.JRadioButton jRadioButton55;
-    private javax.swing.JRadioButton jRadioButton56;
-    private javax.swing.JRadioButton jRadioButton57;
-    private javax.swing.JRadioButton jRadioButton58;
-    private javax.swing.JRadioButton jRadioButton59;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton60;
-    private javax.swing.JRadioButton jRadioButton61;
-    private javax.swing.JRadioButton jRadioButton62;
-    private javax.swing.JRadioButton jRadioButton63;
-    private javax.swing.JRadioButton jRadioButton64;
-    private javax.swing.JRadioButton jRadioButton65;
-    private javax.swing.JRadioButton jRadioButton66;
-    private javax.swing.JRadioButton jRadioButton67;
-    private javax.swing.JRadioButton jRadioButton68;
-    private javax.swing.JRadioButton jRadioButton69;
-    private javax.swing.JRadioButton jRadioButton7;
-    private javax.swing.JRadioButton jRadioButton70;
-    private javax.swing.JRadioButton jRadioButton71;
-    private javax.swing.JRadioButton jRadioButton72;
-    private javax.swing.JRadioButton jRadioButton73;
-    private javax.swing.JRadioButton jRadioButton74;
-    private javax.swing.JRadioButton jRadioButton75;
-    private javax.swing.JRadioButton jRadioButton76;
-    private javax.swing.JRadioButton jRadioButton77;
-    private javax.swing.JRadioButton jRadioButton78;
-    private javax.swing.JRadioButton jRadioButton79;
-    private javax.swing.JRadioButton jRadioButton8;
-    private javax.swing.JRadioButton jRadioButton80;
-    private javax.swing.JRadioButton jRadioButton81;
-    private javax.swing.JRadioButton jRadioButton82;
-    private javax.swing.JRadioButton jRadioButton83;
-    private javax.swing.JRadioButton jRadioButton84;
-    private javax.swing.JRadioButton jRadioButton85;
-    private javax.swing.JRadioButton jRadioButton86;
-    private javax.swing.JRadioButton jRadioButton87;
-    private javax.swing.JRadioButton jRadioButton88;
-    private javax.swing.JRadioButton jRadioButton89;
-    private javax.swing.JRadioButton jRadioButton9;
-    private javax.swing.JRadioButton jRadioButton90;
-    private javax.swing.JRadioButton jRadioButton91;
-    private javax.swing.JRadioButton jRadioButton92;
-    private javax.swing.JRadioButton jRadioButton93;
-    private javax.swing.JRadioButton jRadioButton94;
-    private javax.swing.JRadioButton jRadioButton95;
-    private javax.swing.JRadioButton jRadioButton96;
-    private javax.swing.JRadioButton jRadioButton97;
-    private javax.swing.JRadioButton jRadioButton98;
-    private javax.swing.JRadioButton jRadioButton99;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
@@ -4198,17 +1850,11 @@ public class Step3 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane16;
-    private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane18;
     private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane20;
     private javax.swing.JScrollPane jScrollPane21;
-    private javax.swing.JScrollPane jScrollPane22;
-    private javax.swing.JScrollPane jScrollPane23;
-    private javax.swing.JScrollPane jScrollPane24;
-    private javax.swing.JScrollPane jScrollPane25;
     private javax.swing.JScrollPane jScrollPane26;
     private javax.swing.JScrollPane jScrollPane27;
     private javax.swing.JScrollPane jScrollPane28;
@@ -4216,107 +1862,85 @@ public class Step3 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane30;
     private javax.swing.JScrollPane jScrollPane31;
-    private javax.swing.JScrollPane jScrollPane32;
-    private javax.swing.JScrollPane jScrollPane33;
-    private javax.swing.JScrollPane jScrollPane34;
-    private javax.swing.JScrollPane jScrollPane35;
-    private javax.swing.JScrollPane jScrollPane36;
-    private javax.swing.JScrollPane jScrollPane37;
-    private javax.swing.JScrollPane jScrollPane38;
-    private javax.swing.JScrollPane jScrollPane39;
     private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane40;
-    private javax.swing.JScrollPane jScrollPane41;
-    private javax.swing.JScrollPane jScrollPane42;
-    private javax.swing.JScrollPane jScrollPane43;
-    private javax.swing.JScrollPane jScrollPane44;
-    private javax.swing.JScrollPane jScrollPane45;
-    private javax.swing.JScrollPane jScrollPane46;
-    private javax.swing.JScrollPane jScrollPane47;
-    private javax.swing.JScrollPane jScrollPane48;
-    private javax.swing.JScrollPane jScrollPane49;
     private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane50;
-    private javax.swing.JScrollPane jScrollPane51;
-    private javax.swing.JScrollPane jScrollPane52;
-    private javax.swing.JScrollPane jScrollPane53;
-    private javax.swing.JScrollPane jScrollPane54;
-    private javax.swing.JScrollPane jScrollPane55;
-    private javax.swing.JScrollPane jScrollPane56;
-    private javax.swing.JScrollPane jScrollPane57;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea10;
-    private javax.swing.JTextArea jTextArea11;
     private javax.swing.JTextArea jTextArea12;
-    private javax.swing.JTextArea jTextArea13;
     private javax.swing.JTextArea jTextArea14;
-    private javax.swing.JTextArea jTextArea15;
-    private javax.swing.JTextArea jTextArea16;
-    private javax.swing.JTextArea jTextArea17;
     private javax.swing.JTextArea jTextArea18;
-    private javax.swing.JTextArea jTextArea19;
-    private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea20;
-    private javax.swing.JTextArea jTextArea21;
-    private javax.swing.JTextArea jTextArea22;
-    private javax.swing.JTextArea jTextArea23;
-    private javax.swing.JTextArea jTextArea24;
-    private javax.swing.JTextArea jTextArea25;
     private javax.swing.JTextArea jTextArea26;
-    private javax.swing.JTextArea jTextArea27;
     private javax.swing.JTextArea jTextArea28;
-    private javax.swing.JTextArea jTextArea29;
-    private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea30;
-    private javax.swing.JTextArea jTextArea31;
-    private javax.swing.JTextArea jTextArea32;
-    private javax.swing.JTextArea jTextArea33;
-    private javax.swing.JTextArea jTextArea34;
-    private javax.swing.JTextArea jTextArea35;
-    private javax.swing.JTextArea jTextArea36;
-    private javax.swing.JTextArea jTextArea37;
-    private javax.swing.JTextArea jTextArea38;
-    private javax.swing.JTextArea jTextArea39;
     private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea40;
-    private javax.swing.JTextArea jTextArea41;
-    private javax.swing.JTextArea jTextArea42;
-    private javax.swing.JTextArea jTextArea43;
-    private javax.swing.JTextArea jTextArea44;
-    private javax.swing.JTextArea jTextArea45;
-    private javax.swing.JTextArea jTextArea46;
-    private javax.swing.JTextArea jTextArea47;
-    private javax.swing.JTextArea jTextArea48;
-    private javax.swing.JTextArea jTextArea49;
-    private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextArea jTextArea50;
-    private javax.swing.JTextArea jTextArea51;
-    private javax.swing.JTextArea jTextArea52;
-    private javax.swing.JTextArea jTextArea53;
-    private javax.swing.JTextArea jTextArea54;
-    private javax.swing.JTextArea jTextArea55;
-    private javax.swing.JTextArea jTextArea56;
-    private javax.swing.JTextArea jTextArea57;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
     private javax.swing.JTextArea jTextArea8;
-    private javax.swing.JTextArea jTextArea9;
+    private javax.swing.JButton nextButton;
     private javax.swing.JButton previousButton;
+    private javax.swing.JTextArea step3Ref1Q1NotesTA;
+    private javax.swing.JTextArea step3Ref1Q1TextArea;
+    private javax.swing.JRadioButton step3Ref1Q1rbNA;
+    private javax.swing.JRadioButton step3Ref1Q1rbNo;
+    private javax.swing.JRadioButton step3Ref1Q1rbObs;
+    private javax.swing.JRadioButton step3Ref1Q1rbYes;
     private javax.swing.JTabbedPane step3Ref1TabPane;
     private javax.swing.JTabbedPane step3Ref1TabPane1;
-    private javax.swing.JTabbedPane step3Ref1TabPane10;
-    private javax.swing.JTabbedPane step3Ref1TabPane2;
     private javax.swing.JTabbedPane step3Ref1TabPane3;
     private javax.swing.JTabbedPane step3Ref1TabPane4;
     private javax.swing.JTabbedPane step3Ref1TabPane5;
-    private javax.swing.JTabbedPane step3Ref1TabPane6;
-    private javax.swing.JTabbedPane step3Ref1TabPane7;
-    private javax.swing.JTabbedPane step3Ref1TabPane8;
-    private javax.swing.JTabbedPane step3Ref1TabPane9;
-    private javax.swing.JTabbedPane step3Ref2TabPane;
+    private javax.swing.JTabbedPane step3Ref1tp;
+    private javax.swing.JTabbedPane step3Ref1tpQuestions;
+    private javax.swing.JTextArea step3Ref2Q1NotesTA;
+    private javax.swing.JRadioButton step3Ref2Q1rbNA;
+    private javax.swing.JRadioButton step3Ref2Q1rbNo;
+    private javax.swing.JRadioButton step3Ref2Q1rbYes;
+    private javax.swing.JRadioButton step3Ref2Q1rbYesObs;
+    private javax.swing.JTextArea step3Ref3Q1NotesTA;
+    private javax.swing.JRadioButton step3Ref3Q1rbNA;
+    private javax.swing.JRadioButton step3Ref3Q1rbNo;
+    private javax.swing.JRadioButton step3Ref3Q1rbObs;
+    private javax.swing.JRadioButton step3Ref3Q1rbYes;
+    private javax.swing.JTextArea step3Ref4Q1NotesTA;
+    private javax.swing.JRadioButton step3Ref4Q1rbNA;
+    private javax.swing.JRadioButton step3Ref4Q1rbNo;
+    private javax.swing.JRadioButton step3Ref4Q1rbObs;
+    private javax.swing.JRadioButton step3Ref4Q1rbYes;
+    private javax.swing.JTextArea step3Ref5Q1NotesTA;
+    private javax.swing.JRadioButton step3Ref5Q1rbNA;
+    private javax.swing.JRadioButton step3Ref5Q1rbNo;
+    private javax.swing.JRadioButton step3Ref5Q1rbObs;
+    private javax.swing.JRadioButton step3Ref5Q1rbYes;
+    private javax.swing.JTextArea step3Ref5Q2NotesTA;
+    private javax.swing.JRadioButton step3Ref5Q2rbNA;
+    private javax.swing.JRadioButton step3Ref5Q2rbNo;
+    private javax.swing.JRadioButton step3Ref5Q2rbObs;
+    private javax.swing.JRadioButton step3Ref5Q2rbYes;
+    private javax.swing.JTextArea step3Ref5Q3NotesTA;
+    private javax.swing.JRadioButton step3Ref5Q3rbNA;
+    private javax.swing.JRadioButton step3Ref5Q3rbNo;
+    private javax.swing.JRadioButton step3Ref5Q3rbObs;
+    private javax.swing.JRadioButton step3Ref5Q3rbYes;
+    private javax.swing.JTextArea step3Ref6Q1NotesTA;
+    private javax.swing.JRadioButton step3Ref6Q1rbNA;
+    private javax.swing.JRadioButton step3Ref6Q1rbNo;
+    private javax.swing.JRadioButton step3Ref6Q1rbObs;
+    private javax.swing.JRadioButton step3Ref6Q1rbYes;
+    private javax.swing.JTextArea step3Ref6Q2NotesTA;
+    private javax.swing.JRadioButton step3Ref6Q2rbNA;
+    private javax.swing.JRadioButton step3Ref6Q2rbNo;
+    private javax.swing.JRadioButton step3Ref6Q2rbObs;
+    private javax.swing.JRadioButton step3Ref6Q2rbYes;
+    private javax.swing.JTextArea step3Ref6Q3NotesTA;
+    private javax.swing.JRadioButton step3Ref6Q3rbNA;
+    private javax.swing.JRadioButton step3Ref6Q3rbNo;
+    private javax.swing.JRadioButton step3Ref6Q3rbObs;
+    private javax.swing.JRadioButton step3Ref6Q3rbYes;
+    private javax.swing.JTextArea step3Ref6Q4NotesTA;
+    private javax.swing.JRadioButton step3Ref6Q4rbNA;
+    private javax.swing.JRadioButton step3Ref6Q4rbNo;
+    private javax.swing.JRadioButton step3Ref6Q4rbObs;
+    private javax.swing.JRadioButton step3Ref6Q4rbYes;
     // End of variables declaration//GEN-END:variables
 }

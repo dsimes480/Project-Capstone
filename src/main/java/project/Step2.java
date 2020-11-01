@@ -38,37 +38,37 @@ public class Step2 extends javax.swing.JFrame {
         step2TabbedPane = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        step2q1TextArea = new javax.swing.JTextArea();
+        step2q1TA = new javax.swing.JTextArea();
         jPanel6 = new javax.swing.JPanel();
         step2q1rbYes = new javax.swing.JRadioButton();
         step2q1rbNo = new javax.swing.JRadioButton();
         step2q1rbNA = new javax.swing.JRadioButton();
         jPanel7 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
-        step2q1NotesTextArea = new javax.swing.JTextArea();
+        step2q1NotesTA = new javax.swing.JTextArea();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        step2q2TextArea = new javax.swing.JTextArea();
+        step2q2TA = new javax.swing.JTextArea();
         jPanel8 = new javax.swing.JPanel();
         step2q2rbYes = new javax.swing.JRadioButton();
         step2q2rbNo = new javax.swing.JRadioButton();
         step2q2rbNA = new javax.swing.JRadioButton();
         jPanel9 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        step2q2NotesTextArea = new javax.swing.JTextArea();
+        step2q2NotesTA = new javax.swing.JTextArea();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        step2q3TextArea = new javax.swing.JTextArea();
+        step2q3TA = new javax.swing.JTextArea();
         jPanel10 = new javax.swing.JPanel();
         step2Q3rbYes = new javax.swing.JRadioButton();
         step2Q3rbNo = new javax.swing.JRadioButton();
         step2Q3rbNA = new javax.swing.JRadioButton();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
-        step2q3NotesTextArea = new javax.swing.JTextArea();
+        step2q3NotesTA = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
-        step2ImproveTextArea = new javax.swing.JTextArea();
+        step2ImproveTA = new javax.swing.JTextArea();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
@@ -85,14 +85,14 @@ public class Step2 extends javax.swing.JFrame {
             }
         });
 
-        previousButton.setText("Step 1");
+        previousButton.setText("Previous");
         previousButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 previousButtonActionPerformed(evt);
             }
         });
 
-        continueButton.setText("Step 3 and Save");
+        continueButton.setText("Next & Save");
         continueButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 continueButtonActionPerformed(evt);
@@ -125,13 +125,13 @@ public class Step2 extends javax.swing.JFrame {
         step2TabbedPane.setBorder(javax.swing.BorderFactory.createTitledBorder("Compare the WFF-MCL Documentation with the Applicable Clauses of ISO 17025-2017"));
         step2TabbedPane.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
-        step2q1TextArea.setColumns(20);
-        step2q1TextArea.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        step2q1TextArea.setLineWrap(true);
-        step2q1TextArea.setRows(5);
-        step2q1TextArea.setText("In general, does the WFF-MCL documentation meet the requirements of ISO 17025?");
-        step2q1TextArea.setWrapStyleWord(true);
-        jScrollPane3.setViewportView(step2q1TextArea);
+        step2q1TA.setColumns(20);
+        step2q1TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step2q1TA.setLineWrap(true);
+        step2q1TA.setRows(5);
+        step2q1TA.setText("In general, does the WFF-MCL documentation meet the requirements of ISO 17025?");
+        step2q1TA.setWrapStyleWord(true);
+        jScrollPane3.setViewportView(step2q1TA);
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -170,9 +170,9 @@ public class Step2 extends javax.swing.JFrame {
 
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. # "));
 
-        step2q1NotesTextArea.setColumns(20);
-        step2q1NotesTextArea.setRows(5);
-        jScrollPane4.setViewportView(step2q1NotesTextArea);
+        step2q1NotesTA.setColumns(20);
+        step2q1NotesTA.setRows(5);
+        jScrollPane4.setViewportView(step2q1NotesTA);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -217,13 +217,13 @@ public class Step2 extends javax.swing.JFrame {
 
         step2TabbedPane.addTab("Question 1", jPanel3);
 
-        step2q2TextArea.setColumns(20);
-        step2q2TextArea.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        step2q2TextArea.setLineWrap(true);
-        step2q2TextArea.setRows(5);
-        step2q2TextArea.setText("Review any customer requirements that may be applicable to this process.  (If there are none, enter “N/A” in the middle column.) In general, does the WFF-MCL documentation meet these requirements?");
-        step2q2TextArea.setWrapStyleWord(true);
-        jScrollPane2.setViewportView(step2q2TextArea);
+        step2q2TA.setColumns(20);
+        step2q2TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step2q2TA.setLineWrap(true);
+        step2q2TA.setRows(5);
+        step2q2TA.setText("Review any customer requirements that may be applicable to this process.  (If there are none, enter “N/A” in the middle column.) In general, does the WFF-MCL documentation meet these requirements?");
+        step2q2TA.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(step2q2TA);
 
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -262,9 +262,9 @@ public class Step2 extends javax.swing.JFrame {
 
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        step2q2NotesTextArea.setColumns(20);
-        step2q2NotesTextArea.setRows(5);
-        jScrollPane5.setViewportView(step2q2NotesTextArea);
+        step2q2NotesTA.setColumns(20);
+        step2q2NotesTA.setRows(5);
+        jScrollPane5.setViewportView(step2q2NotesTA);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -309,13 +309,13 @@ public class Step2 extends javax.swing.JFrame {
 
         step2TabbedPane.addTab("Question 2", jPanel4);
 
-        step2q3TextArea.setColumns(20);
-        step2q3TextArea.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        step2q3TextArea.setLineWrap(true);
-        step2q3TextArea.setRows(5);
-        step2q3TextArea.setText("Review any statutory or regulatory requirements that may be applicable to this process.  (If there are none, enter “N/A” in the middle column.) In general, does the WFF-MCL documentation meet these requirements?");
-        step2q3TextArea.setWrapStyleWord(true);
-        jScrollPane1.setViewportView(step2q3TextArea);
+        step2q3TA.setColumns(20);
+        step2q3TA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step2q3TA.setLineWrap(true);
+        step2q3TA.setRows(5);
+        step2q3TA.setText("Review any statutory or regulatory requirements that may be applicable to this process.  (If there are none, enter “N/A” in the middle column.) In general, does the WFF-MCL documentation meet these requirements?");
+        step2q3TA.setWrapStyleWord(true);
+        jScrollPane1.setViewportView(step2q3TA);
 
         jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder("Answer Here"));
 
@@ -354,9 +354,9 @@ public class Step2 extends javax.swing.JFrame {
 
         jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
 
-        step2q3NotesTextArea.setColumns(20);
-        step2q3NotesTextArea.setRows(5);
-        jScrollPane6.setViewportView(step2q3NotesTextArea);
+        step2q3NotesTA.setColumns(20);
+        step2q3NotesTA.setRows(5);
+        jScrollPane6.setViewportView(step2q3NotesTA);
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -403,9 +403,9 @@ public class Step2 extends javax.swing.JFrame {
 
         jLabel1.setText("Indicate any suggestions for improvement related to the documentation:");
 
-        step2ImproveTextArea.setColumns(20);
-        step2ImproveTextArea.setRows(5);
-        jScrollPane7.setViewportView(step2ImproveTextArea);
+        step2ImproveTA.setColumns(20);
+        step2ImproveTA.setRows(5);
+        jScrollPane7.setViewportView(step2ImproveTA);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -568,22 +568,22 @@ public class Step2 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JButton previousButton;
-    private javax.swing.JTextArea step2ImproveTextArea;
+    private javax.swing.JTextArea step2ImproveTA;
     private javax.swing.JRadioButton step2Q3rbNA;
     private javax.swing.JRadioButton step2Q3rbNo;
     private javax.swing.JRadioButton step2Q3rbYes;
     private javax.swing.JTabbedPane step2TabbedPane;
-    private javax.swing.JTextArea step2q1NotesTextArea;
-    private javax.swing.JTextArea step2q1TextArea;
+    private javax.swing.JTextArea step2q1NotesTA;
+    private javax.swing.JTextArea step2q1TA;
     private javax.swing.JRadioButton step2q1rbNA;
     private javax.swing.JRadioButton step2q1rbNo;
     private javax.swing.JRadioButton step2q1rbYes;
-    private javax.swing.JTextArea step2q2NotesTextArea;
-    private javax.swing.JTextArea step2q2TextArea;
+    private javax.swing.JTextArea step2q2NotesTA;
+    private javax.swing.JTextArea step2q2TA;
     private javax.swing.JRadioButton step2q2rbNA;
     private javax.swing.JRadioButton step2q2rbNo;
     private javax.swing.JRadioButton step2q2rbYes;
-    private javax.swing.JTextArea step2q3NotesTextArea;
-    private javax.swing.JTextArea step2q3TextArea;
+    private javax.swing.JTextArea step2q3NotesTA;
+    private javax.swing.JTextArea step2q3TA;
     // End of variables declaration//GEN-END:variables
 }

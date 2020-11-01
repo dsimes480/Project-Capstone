@@ -47,7 +47,7 @@ public class AboutForm extends javax.swing.JFrame {
         aboutTextArea.setLineWrap(true);
         aboutTextArea.setRows(12);
         aboutTextArea.setTabSize(1);
-        aboutTextArea.setText("This Project was Created By Daniel Simes and Edward Woodring for our Capstone class.  \n\nThe project was created to aid in the correspondence of ISO 17025 for the Metrology labs at NASA to help stay within regulation.\n\nThis project will continue to be updated and worked on until complete.");
+        aboutTextArea.setText("Creator(s):\n\tDaniel Simes\n\tEd Woodring\n\nDesigner(s):\n\tDaniel Simes\n\tEd Woodring\n\nGUI Builder:\n\tDaniel Simes\n\nProgrammer(s):\n\tDaniel Simes\n\tEd Woodwring\n\nFunctionality:\n\tEd Woodring\t\n\nDocumentation:\n\tEd Woodring\n\nDescription:\n\tThe project was created to aid in the correspondence of ISO 17025 for the Metrology labs at NASA to help stay within regulation.\n\nAdditional Information:\n\tThis project will continue to be updated and worked on until complete.");
         aboutTextArea.setWrapStyleWord(true);
         jScrollPane1.setViewportView(aboutTextArea);
 

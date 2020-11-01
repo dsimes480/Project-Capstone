@@ -107,7 +107,7 @@
                 <Property name="lineWrap" type="boolean" value="true"/>
                 <Property name="rows" type="int" value="12"/>
                 <Property name="tabSize" type="int" value="1"/>
-                <Property name="text" type="java.lang.String" value="This Project was Created By Daniel Simes and Edward Woodring for our Capstone class.  &#xa;&#xa;The project was created to aid in the correspondence of ISO 17025 for the Metrology labs at NASA to help stay within regulation.&#xa;&#xa;This project will continue to be updated and worked on until complete."/>
+                <Property name="text" type="java.lang.String" value="Creator(s):&#xa;&#x9;Daniel Simes&#xa;&#x9;Ed Woodring&#xa;&#xa;Designer(s):&#xa;&#x9;Daniel Simes&#xa;&#x9;Ed Woodring&#xa;&#xa;GUI Builder:&#xa;&#x9;Daniel Simes&#xa;&#xa;Programmer(s):&#xa;&#x9;Daniel Simes&#xa;&#x9;Ed Woodwring&#xa;&#xa;Functionality:&#xa;&#x9;Ed Woodring&#x9;&#xa;&#xa;Documentation:&#xa;&#x9;Ed Woodring&#xa;&#xa;Description:&#xa;&#x9;The project was created to aid in the correspondence of ISO 17025 for the Metrology labs at NASA to help stay within regulation.&#xa;&#xa;Additional Information:&#xa;&#x9;This project will continue to be updated and worked on until complete."/>
                 <Property name="wrapStyleWord" type="boolean" value="true"/>
               </Properties>
             </Component>
