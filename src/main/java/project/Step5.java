@@ -38,151 +38,151 @@ public class Step5 extends javax.swing.JFrame {
         buttonGroup9 = new javax.swing.ButtonGroup();
         buttonGroup10 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        previousButton = new javax.swing.JButton();
+        cButton = new javax.swing.JButton();
         nextButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jTabbedPane1 = new javax.swing.JTabbedPane();
+        step5tb = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        carTextField = new javax.swing.JTextField();
+        carTextField1 = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        step5Q1ClauseTA = new javax.swing.JTextArea();
         jPanel9 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        step5Q1ReqTA = new javax.swing.JTextArea();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
+        step5Q1EviTA = new javax.swing.JTextArea();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
+        step5Q1FindingsTA = new javax.swing.JTextArea();
         jPanel10 = new javax.swing.JPanel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton27 = new javax.swing.JRadioButton();
+        step5Q1TypeRBc = new javax.swing.JRadioButton();
+        step5Q1TypeRBp = new javax.swing.JRadioButton();
+        step5Q1TypeRBofi = new javax.swing.JRadioButton();
+        step5Q1TypeRBdefault = new javax.swing.JRadioButton();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton26 = new javax.swing.JRadioButton();
+        step5Q1rbMajor = new javax.swing.JRadioButton();
+        step5Q1rbMinor = new javax.swing.JRadioButton();
+        step5Q1rbDefault = new javax.swing.JRadioButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
-        carTextField1 = new javax.swing.JTextField();
+        carTextField2 = new javax.swing.JTextField();
         jPanel12 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
+        step5Q2ClauseTA = new javax.swing.JTextArea();
         jPanel13 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
+        step5Q2ReqTA = new javax.swing.JTextArea();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
+        step5Q2EviTA = new javax.swing.JTextArea();
         jLabel12 = new javax.swing.JLabel();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTextArea8 = new javax.swing.JTextArea();
+        step5Q2FindingsTA = new javax.swing.JTextArea();
         jPanel14 = new javax.swing.JPanel();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
-        jRadioButton29 = new javax.swing.JRadioButton();
+        step5Q2TypeRBc = new javax.swing.JRadioButton();
+        step5Q2TypeRBp = new javax.swing.JRadioButton();
+        step5Q2TypeRBofi = new javax.swing.JRadioButton();
+        step5Q2TypeRBdefault = new javax.swing.JRadioButton();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
-        jRadioButton9 = new javax.swing.JRadioButton();
-        jRadioButton10 = new javax.swing.JRadioButton();
-        jRadioButton28 = new javax.swing.JRadioButton();
+        step5Q2rbMajor = new javax.swing.JRadioButton();
+        step5Q2rbMinor = new javax.swing.JRadioButton();
+        step5Q2rbDefault = new javax.swing.JRadioButton();
         jPanel28 = new javax.swing.JPanel();
         jLabel37 = new javax.swing.JLabel();
-        carTextField5 = new javax.swing.JTextField();
+        carTextField3 = new javax.swing.JTextField();
         jPanel29 = new javax.swing.JPanel();
         jScrollPane21 = new javax.swing.JScrollPane();
-        jTextArea21 = new javax.swing.JTextArea();
+        step5Q3ClauseTA = new javax.swing.JTextArea();
         jPanel30 = new javax.swing.JPanel();
         jScrollPane22 = new javax.swing.JScrollPane();
-        jTextArea22 = new javax.swing.JTextArea();
+        step5Q3ReqTA = new javax.swing.JTextArea();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jScrollPane23 = new javax.swing.JScrollPane();
-        jTextArea23 = new javax.swing.JTextArea();
+        step5Q3EviTA = new javax.swing.JTextArea();
         jLabel40 = new javax.swing.JLabel();
         jScrollPane24 = new javax.swing.JScrollPane();
-        jTextArea24 = new javax.swing.JTextArea();
+        step5Q3FindingsTA = new javax.swing.JTextArea();
         jPanel31 = new javax.swing.JPanel();
-        jRadioButton30 = new javax.swing.JRadioButton();
-        jRadioButton31 = new javax.swing.JRadioButton();
-        jRadioButton32 = new javax.swing.JRadioButton();
-        jRadioButton33 = new javax.swing.JRadioButton();
+        step5Q3TypeRBc = new javax.swing.JRadioButton();
+        step5Q3TypeRBp = new javax.swing.JRadioButton();
+        step5Q3TypeRBofi = new javax.swing.JRadioButton();
+        step5Q3TypeRBdefault = new javax.swing.JRadioButton();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jLabel43 = new javax.swing.JLabel();
         jPanel32 = new javax.swing.JPanel();
-        jRadioButton34 = new javax.swing.JRadioButton();
-        jRadioButton35 = new javax.swing.JRadioButton();
-        jRadioButton36 = new javax.swing.JRadioButton();
+        step5Q3rbMajor = new javax.swing.JRadioButton();
+        step5Q3rbMinor = new javax.swing.JRadioButton();
+        step5Q3rbDefault = new javax.swing.JRadioButton();
         jPanel33 = new javax.swing.JPanel();
         jLabel44 = new javax.swing.JLabel();
-        carTextField6 = new javax.swing.JTextField();
+        carTextField4 = new javax.swing.JTextField();
         jPanel34 = new javax.swing.JPanel();
         jScrollPane25 = new javax.swing.JScrollPane();
-        jTextArea25 = new javax.swing.JTextArea();
+        step5Q4ClauseTA = new javax.swing.JTextArea();
         jPanel35 = new javax.swing.JPanel();
         jScrollPane26 = new javax.swing.JScrollPane();
-        jTextArea26 = new javax.swing.JTextArea();
+        step5Q4ReqTA = new javax.swing.JTextArea();
         jLabel45 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
         jScrollPane27 = new javax.swing.JScrollPane();
-        jTextArea27 = new javax.swing.JTextArea();
+        step5Q4EviTA = new javax.swing.JTextArea();
         jLabel47 = new javax.swing.JLabel();
         jScrollPane28 = new javax.swing.JScrollPane();
-        jTextArea28 = new javax.swing.JTextArea();
+        step5Q4FindingsTA = new javax.swing.JTextArea();
         jPanel36 = new javax.swing.JPanel();
-        jRadioButton37 = new javax.swing.JRadioButton();
-        jRadioButton38 = new javax.swing.JRadioButton();
-        jRadioButton39 = new javax.swing.JRadioButton();
-        jRadioButton40 = new javax.swing.JRadioButton();
+        step5Q4TypeRBc = new javax.swing.JRadioButton();
+        step5Q4TypeRBp = new javax.swing.JRadioButton();
+        step5Q4TypeRBofi = new javax.swing.JRadioButton();
+        step5Q4TypeRBdefault = new javax.swing.JRadioButton();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jPanel37 = new javax.swing.JPanel();
-        jRadioButton41 = new javax.swing.JRadioButton();
-        jRadioButton42 = new javax.swing.JRadioButton();
-        jRadioButton43 = new javax.swing.JRadioButton();
+        step5Q4rbMajor = new javax.swing.JRadioButton();
+        step5Q4rbMinor = new javax.swing.JRadioButton();
+        step5Q4rbDefault = new javax.swing.JRadioButton();
         jPanel38 = new javax.swing.JPanel();
         jLabel51 = new javax.swing.JLabel();
-        carTextField7 = new javax.swing.JTextField();
+        carTextField5 = new javax.swing.JTextField();
         jPanel39 = new javax.swing.JPanel();
         jScrollPane29 = new javax.swing.JScrollPane();
-        jTextArea29 = new javax.swing.JTextArea();
+        step5Q5ClauseTA = new javax.swing.JTextArea();
         jPanel40 = new javax.swing.JPanel();
         jScrollPane30 = new javax.swing.JScrollPane();
-        jTextArea30 = new javax.swing.JTextArea();
+        step5Q5ReqTA = new javax.swing.JTextArea();
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jScrollPane31 = new javax.swing.JScrollPane();
-        jTextArea31 = new javax.swing.JTextArea();
+        step5Q5EviTA = new javax.swing.JTextArea();
         jLabel54 = new javax.swing.JLabel();
         jScrollPane32 = new javax.swing.JScrollPane();
-        jTextArea32 = new javax.swing.JTextArea();
+        step5Q5FindingsTA = new javax.swing.JTextArea();
         jPanel41 = new javax.swing.JPanel();
-        jRadioButton44 = new javax.swing.JRadioButton();
-        jRadioButton45 = new javax.swing.JRadioButton();
-        jRadioButton46 = new javax.swing.JRadioButton();
-        jRadioButton47 = new javax.swing.JRadioButton();
+        step5Q5TypeRBc = new javax.swing.JRadioButton();
+        step5Q5TypeRBp = new javax.swing.JRadioButton();
+        step5Q5TypeRBofi = new javax.swing.JRadioButton();
+        step5Q5TypeRBdefault = new javax.swing.JRadioButton();
         jLabel55 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
         jPanel42 = new javax.swing.JPanel();
-        jRadioButton48 = new javax.swing.JRadioButton();
-        jRadioButton49 = new javax.swing.JRadioButton();
-        jRadioButton50 = new javax.swing.JRadioButton();
+        step5Q5rbMajor = new javax.swing.JRadioButton();
+        step5Q5rbMinor = new javax.swing.JRadioButton();
+        step5Q5rbDefault = new javax.swing.JRadioButton();
         jLabel4 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
@@ -195,17 +195,17 @@ public class Step5 extends javax.swing.JFrame {
         setLocation(new java.awt.Point(500, 200));
         setResizable(false);
 
-        jButton2.setText("Previous");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        previousButton.setText("Previous");
+        previousButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                previousButtonActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Save & Close");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        cButton.setText("Save & Close");
+        cButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                cButtonActionPerformed(evt);
             }
         });
 
@@ -222,9 +222,9 @@ public class Step5 extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(107, 107, 107)
-                .addComponent(jButton2)
+                .addComponent(previousButton)
                 .addGap(103, 103, 103)
-                .addComponent(jButton1)
+                .addComponent(cButton)
                 .addGap(95, 95, 95)
                 .addComponent(nextButton)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -234,37 +234,37 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton1)
+                    .addComponent(previousButton)
+                    .addComponent(cButton)
                     .addComponent(nextButton))
                 .addContainerGap())
         );
 
-        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        jTabbedPane1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
+        step5tb.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        step5tb.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel1.setText("CAR #:");
 
-        carTextField.setText("Enter CAR #");
-        carTextField.addFocusListener(new java.awt.event.FocusAdapter() {
+        carTextField1.setText("Enter CAR #");
+        carTextField1.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                carTextFieldFocusGained(evt);
+                carTextField1FocusGained(evt);
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
-                carTextFieldFocusLost(evt);
+                carTextField1FocusLost(evt);
             }
         });
 
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder("ISO 17025 Clause"));
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(2);
-        jTextArea1.setWrapStyleWord(true);
-        jScrollPane1.setViewportView(jTextArea1);
+        step5Q1ClauseTA.setColumns(20);
+        step5Q1ClauseTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q1ClauseTA.setLineWrap(true);
+        step5Q1ClauseTA.setRows(2);
+        step5Q1ClauseTA.setWrapStyleWord(true);
+        jScrollPane1.setViewportView(step5Q1ClauseTA);
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -282,32 +282,32 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe finding as you want it to appear in the CAR system."));
 
-        jTextArea2.setColumns(20);
-        jTextArea2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea2.setLineWrap(true);
-        jTextArea2.setRows(3);
-        jTextArea2.setWrapStyleWord(true);
-        jScrollPane2.setViewportView(jTextArea2);
+        step5Q1ReqTA.setColumns(20);
+        step5Q1ReqTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q1ReqTA.setLineWrap(true);
+        step5Q1ReqTA.setRows(3);
+        step5Q1ReqTA.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(step5Q1ReqTA);
 
         jLabel2.setText("Requirements:");
 
         jLabel3.setText("Evidence:");
 
-        jTextArea3.setColumns(20);
-        jTextArea3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea3.setLineWrap(true);
-        jTextArea3.setRows(3);
-        jTextArea3.setWrapStyleWord(true);
-        jScrollPane3.setViewportView(jTextArea3);
+        step5Q1EviTA.setColumns(20);
+        step5Q1EviTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q1EviTA.setLineWrap(true);
+        step5Q1EviTA.setRows(3);
+        step5Q1EviTA.setWrapStyleWord(true);
+        jScrollPane3.setViewportView(step5Q1EviTA);
 
         jLabel5.setText("Rationale for Finding: ");
 
-        jTextArea4.setColumns(20);
-        jTextArea4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea4.setLineWrap(true);
-        jTextArea4.setRows(3);
-        jTextArea4.setWrapStyleWord(true);
-        jScrollPane4.setViewportView(jTextArea4);
+        step5Q1FindingsTA.setColumns(20);
+        step5Q1FindingsTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q1FindingsTA.setLineWrap(true);
+        step5Q1FindingsTA.setRows(3);
+        step5Q1FindingsTA.setWrapStyleWord(true);
+        jScrollPane4.setViewportView(step5Q1FindingsTA);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -347,18 +347,18 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder("Type"));
 
-        buttonGroup1.add(jRadioButton1);
-        jRadioButton1.setText("C");
+        buttonGroup1.add(step5Q1TypeRBc);
+        step5Q1TypeRBc.setText("C");
 
-        buttonGroup1.add(jRadioButton2);
-        jRadioButton2.setText("P");
+        buttonGroup1.add(step5Q1TypeRBp);
+        step5Q1TypeRBp.setText("P");
 
-        buttonGroup1.add(jRadioButton3);
-        jRadioButton3.setText("OFI");
+        buttonGroup1.add(step5Q1TypeRBofi);
+        step5Q1TypeRBofi.setText("OFI");
 
-        buttonGroup1.add(jRadioButton27);
-        jRadioButton27.setSelected(true);
-        jRadioButton27.setText("NONE");
+        buttonGroup1.add(step5Q1TypeRBdefault);
+        step5Q1TypeRBdefault.setSelected(true);
+        step5Q1TypeRBdefault.setText("NONE");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -368,26 +368,26 @@ public class Step5 extends javax.swing.JFrame {
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jRadioButton2)
-                            .addComponent(jRadioButton1)
-                            .addComponent(jRadioButton3))
+                            .addComponent(step5Q1TypeRBp)
+                            .addComponent(step5Q1TypeRBc)
+                            .addComponent(step5Q1TypeRBofi))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jRadioButton27)))
+                        .addComponent(step5Q1TypeRBdefault)))
                 .addContainerGap())
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton1)
+                .addComponent(step5Q1TypeRBc)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton2)
+                .addComponent(step5Q1TypeRBp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton3)
+                .addComponent(step5Q1TypeRBofi)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jRadioButton27)
+                .addComponent(step5Q1TypeRBdefault)
                 .addContainerGap())
         );
 
@@ -399,15 +399,15 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Major or Minor"));
 
-        buttonGroup2.add(jRadioButton4);
-        jRadioButton4.setText("Major");
+        buttonGroup2.add(step5Q1rbMajor);
+        step5Q1rbMajor.setText("Major");
 
-        buttonGroup2.add(jRadioButton5);
-        jRadioButton5.setText("Minor");
+        buttonGroup2.add(step5Q1rbMinor);
+        step5Q1rbMinor.setText("Minor");
 
-        buttonGroup2.add(jRadioButton26);
-        jRadioButton26.setSelected(true);
-        jRadioButton26.setText("Select One");
+        buttonGroup2.add(step5Q1rbDefault);
+        step5Q1rbDefault.setSelected(true);
+        step5Q1rbDefault.setText("Select One");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -416,19 +416,19 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton4)
-                    .addComponent(jRadioButton5)
-                    .addComponent(jRadioButton26)))
+                    .addComponent(step5Q1rbMajor)
+                    .addComponent(step5Q1rbMinor)
+                    .addComponent(step5Q1rbDefault)))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton4)
+                .addComponent(step5Q1rbMajor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton5)
+                .addComponent(step5Q1rbMinor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton26)
+                .addComponent(step5Q1rbDefault)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
@@ -440,7 +440,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(carTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(carTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(239, 239, 239))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
@@ -466,7 +466,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(carTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(carTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(2, 2, 2)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
@@ -489,30 +489,30 @@ public class Step5 extends javax.swing.JFrame {
                         .addGap(46, 46, 46))))
         );
 
-        jTabbedPane1.addTab("tab1", jPanel3);
+        step5tb.addTab("tab1", jPanel3);
 
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel9.setText("CAR #:");
 
-        carTextField1.setText("Enter CAR #");
-        carTextField1.addFocusListener(new java.awt.event.FocusAdapter() {
+        carTextField2.setText("Enter CAR #");
+        carTextField2.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                carTextField1FocusGained(evt);
+                carTextField2FocusGained(evt);
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
-                carTextField1FocusLost(evt);
+                carTextField2FocusLost(evt);
             }
         });
 
         jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("ISO 17025 Clause"));
 
-        jTextArea5.setColumns(20);
-        jTextArea5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea5.setLineWrap(true);
-        jTextArea5.setRows(2);
-        jTextArea5.setWrapStyleWord(true);
-        jScrollPane5.setViewportView(jTextArea5);
+        step5Q2ClauseTA.setColumns(20);
+        step5Q2ClauseTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q2ClauseTA.setLineWrap(true);
+        step5Q2ClauseTA.setRows(2);
+        step5Q2ClauseTA.setWrapStyleWord(true);
+        jScrollPane5.setViewportView(step5Q2ClauseTA);
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -530,32 +530,32 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe finding as you want it to appear in the CAR system."));
 
-        jTextArea6.setColumns(20);
-        jTextArea6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea6.setLineWrap(true);
-        jTextArea6.setRows(3);
-        jTextArea6.setWrapStyleWord(true);
-        jScrollPane6.setViewportView(jTextArea6);
+        step5Q2ReqTA.setColumns(20);
+        step5Q2ReqTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q2ReqTA.setLineWrap(true);
+        step5Q2ReqTA.setRows(3);
+        step5Q2ReqTA.setWrapStyleWord(true);
+        jScrollPane6.setViewportView(step5Q2ReqTA);
 
         jLabel10.setText("Requirements:");
 
         jLabel11.setText("Evidence:");
 
-        jTextArea7.setColumns(20);
-        jTextArea7.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea7.setLineWrap(true);
-        jTextArea7.setRows(3);
-        jTextArea7.setWrapStyleWord(true);
-        jScrollPane7.setViewportView(jTextArea7);
+        step5Q2EviTA.setColumns(20);
+        step5Q2EviTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q2EviTA.setLineWrap(true);
+        step5Q2EviTA.setRows(3);
+        step5Q2EviTA.setWrapStyleWord(true);
+        jScrollPane7.setViewportView(step5Q2EviTA);
 
         jLabel12.setText("Rationale for Finding: ");
 
-        jTextArea8.setColumns(20);
-        jTextArea8.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea8.setLineWrap(true);
-        jTextArea8.setRows(3);
-        jTextArea8.setWrapStyleWord(true);
-        jScrollPane8.setViewportView(jTextArea8);
+        step5Q2FindingsTA.setColumns(20);
+        step5Q2FindingsTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q2FindingsTA.setLineWrap(true);
+        step5Q2FindingsTA.setRows(3);
+        step5Q2FindingsTA.setWrapStyleWord(true);
+        jScrollPane8.setViewportView(step5Q2FindingsTA);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -595,18 +595,18 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder("Type"));
 
-        buttonGroup3.add(jRadioButton6);
-        jRadioButton6.setText("C");
+        buttonGroup3.add(step5Q2TypeRBc);
+        step5Q2TypeRBc.setText("C");
 
-        buttonGroup3.add(jRadioButton7);
-        jRadioButton7.setText("P");
+        buttonGroup3.add(step5Q2TypeRBp);
+        step5Q2TypeRBp.setText("P");
 
-        buttonGroup3.add(jRadioButton8);
-        jRadioButton8.setText("OFI");
+        buttonGroup3.add(step5Q2TypeRBofi);
+        step5Q2TypeRBofi.setText("OFI");
 
-        buttonGroup3.add(jRadioButton29);
-        jRadioButton29.setSelected(true);
-        jRadioButton29.setText("NONE");
+        buttonGroup3.add(step5Q2TypeRBdefault);
+        step5Q2TypeRBdefault.setSelected(true);
+        step5Q2TypeRBdefault.setText("NONE");
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -614,23 +614,23 @@ public class Step5 extends javax.swing.JFrame {
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton7)
-                    .addComponent(jRadioButton6)
-                    .addComponent(jRadioButton8)
-                    .addComponent(jRadioButton29))
+                    .addComponent(step5Q2TypeRBp)
+                    .addComponent(step5Q2TypeRBc)
+                    .addComponent(step5Q2TypeRBofi)
+                    .addComponent(step5Q2TypeRBdefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton6)
+                .addComponent(step5Q2TypeRBc)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton7)
+                .addComponent(step5Q2TypeRBp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton8)
+                .addComponent(step5Q2TypeRBofi)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton29)
+                .addComponent(step5Q2TypeRBdefault)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -642,15 +642,15 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel15.setBorder(javax.swing.BorderFactory.createTitledBorder("Major or Minor"));
 
-        buttonGroup4.add(jRadioButton9);
-        jRadioButton9.setText("Major");
+        buttonGroup4.add(step5Q2rbMajor);
+        step5Q2rbMajor.setText("Major");
 
-        buttonGroup4.add(jRadioButton10);
-        jRadioButton10.setText("Minor");
+        buttonGroup4.add(step5Q2rbMinor);
+        step5Q2rbMinor.setText("Minor");
 
-        buttonGroup4.add(jRadioButton28);
-        jRadioButton28.setSelected(true);
-        jRadioButton28.setText("Select One");
+        buttonGroup4.add(step5Q2rbDefault);
+        step5Q2rbDefault.setSelected(true);
+        step5Q2rbDefault.setText("Select One");
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -659,20 +659,20 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton9)
-                    .addComponent(jRadioButton10)
-                    .addComponent(jRadioButton28))
+                    .addComponent(step5Q2rbMajor)
+                    .addComponent(step5Q2rbMinor)
+                    .addComponent(step5Q2rbDefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton9)
+                .addComponent(step5Q2rbMajor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton10)
+                .addComponent(step5Q2rbMinor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton28)
+                .addComponent(step5Q2rbDefault)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
@@ -684,7 +684,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(carTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(carTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(239, 239, 239))
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
@@ -710,7 +710,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
-                    .addComponent(carTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(carTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
@@ -734,30 +734,30 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("tab2", jPanel4);
+        step5tb.addTab("tab2", jPanel4);
 
         jPanel28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel37.setText("CAR #:");
 
-        carTextField5.setText("Enter CAR #");
-        carTextField5.addFocusListener(new java.awt.event.FocusAdapter() {
+        carTextField3.setText("Enter CAR #");
+        carTextField3.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                carTextField5FocusGained(evt);
+                carTextField3FocusGained(evt);
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
-                carTextField5FocusLost(evt);
+                carTextField3FocusLost(evt);
             }
         });
 
         jPanel29.setBorder(javax.swing.BorderFactory.createTitledBorder("ISO 17025 Clause"));
 
-        jTextArea21.setColumns(20);
-        jTextArea21.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea21.setLineWrap(true);
-        jTextArea21.setRows(2);
-        jTextArea21.setWrapStyleWord(true);
-        jScrollPane21.setViewportView(jTextArea21);
+        step5Q3ClauseTA.setColumns(20);
+        step5Q3ClauseTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q3ClauseTA.setLineWrap(true);
+        step5Q3ClauseTA.setRows(2);
+        step5Q3ClauseTA.setWrapStyleWord(true);
+        jScrollPane21.setViewportView(step5Q3ClauseTA);
 
         javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
         jPanel29.setLayout(jPanel29Layout);
@@ -775,32 +775,32 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel30.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe finding as you want it to appear in the CAR system."));
 
-        jTextArea22.setColumns(20);
-        jTextArea22.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea22.setLineWrap(true);
-        jTextArea22.setRows(3);
-        jTextArea22.setWrapStyleWord(true);
-        jScrollPane22.setViewportView(jTextArea22);
+        step5Q3ReqTA.setColumns(20);
+        step5Q3ReqTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q3ReqTA.setLineWrap(true);
+        step5Q3ReqTA.setRows(3);
+        step5Q3ReqTA.setWrapStyleWord(true);
+        jScrollPane22.setViewportView(step5Q3ReqTA);
 
         jLabel38.setText("Requirements:");
 
         jLabel39.setText("Evidence:");
 
-        jTextArea23.setColumns(20);
-        jTextArea23.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea23.setLineWrap(true);
-        jTextArea23.setRows(3);
-        jTextArea23.setWrapStyleWord(true);
-        jScrollPane23.setViewportView(jTextArea23);
+        step5Q3EviTA.setColumns(20);
+        step5Q3EviTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q3EviTA.setLineWrap(true);
+        step5Q3EviTA.setRows(3);
+        step5Q3EviTA.setWrapStyleWord(true);
+        jScrollPane23.setViewportView(step5Q3EviTA);
 
         jLabel40.setText("Rationale for Finding: ");
 
-        jTextArea24.setColumns(20);
-        jTextArea24.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea24.setLineWrap(true);
-        jTextArea24.setRows(3);
-        jTextArea24.setWrapStyleWord(true);
-        jScrollPane24.setViewportView(jTextArea24);
+        step5Q3FindingsTA.setColumns(20);
+        step5Q3FindingsTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q3FindingsTA.setLineWrap(true);
+        step5Q3FindingsTA.setRows(3);
+        step5Q3FindingsTA.setWrapStyleWord(true);
+        jScrollPane24.setViewportView(step5Q3FindingsTA);
 
         javax.swing.GroupLayout jPanel30Layout = new javax.swing.GroupLayout(jPanel30);
         jPanel30.setLayout(jPanel30Layout);
@@ -840,18 +840,18 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel31.setBorder(javax.swing.BorderFactory.createTitledBorder("Type"));
 
-        buttonGroup5.add(jRadioButton30);
-        jRadioButton30.setText("C");
+        buttonGroup5.add(step5Q3TypeRBc);
+        step5Q3TypeRBc.setText("C");
 
-        buttonGroup5.add(jRadioButton31);
-        jRadioButton31.setText("P");
+        buttonGroup5.add(step5Q3TypeRBp);
+        step5Q3TypeRBp.setText("P");
 
-        buttonGroup5.add(jRadioButton32);
-        jRadioButton32.setText("OFI");
+        buttonGroup5.add(step5Q3TypeRBofi);
+        step5Q3TypeRBofi.setText("OFI");
 
-        buttonGroup5.add(jRadioButton33);
-        jRadioButton33.setSelected(true);
-        jRadioButton33.setText("NONE");
+        buttonGroup5.add(step5Q3TypeRBdefault);
+        step5Q3TypeRBdefault.setSelected(true);
+        step5Q3TypeRBdefault.setText("NONE");
 
         javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
         jPanel31.setLayout(jPanel31Layout);
@@ -859,23 +859,23 @@ public class Step5 extends javax.swing.JFrame {
             jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel31Layout.createSequentialGroup()
                 .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton31)
-                    .addComponent(jRadioButton30)
-                    .addComponent(jRadioButton32)
-                    .addComponent(jRadioButton33))
+                    .addComponent(step5Q3TypeRBp)
+                    .addComponent(step5Q3TypeRBc)
+                    .addComponent(step5Q3TypeRBofi)
+                    .addComponent(step5Q3TypeRBdefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel31Layout.setVerticalGroup(
             jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel31Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton30)
+                .addComponent(step5Q3TypeRBc)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton31)
+                .addComponent(step5Q3TypeRBp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton32)
+                .addComponent(step5Q3TypeRBofi)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton33)
+                .addComponent(step5Q3TypeRBdefault)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -887,15 +887,15 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel32.setBorder(javax.swing.BorderFactory.createTitledBorder("Major or Minor"));
 
-        buttonGroup6.add(jRadioButton34);
-        jRadioButton34.setText("Major");
+        buttonGroup6.add(step5Q3rbMajor);
+        step5Q3rbMajor.setText("Major");
 
-        buttonGroup6.add(jRadioButton35);
-        jRadioButton35.setText("Minor");
+        buttonGroup6.add(step5Q3rbMinor);
+        step5Q3rbMinor.setText("Minor");
 
-        buttonGroup6.add(jRadioButton36);
-        jRadioButton36.setSelected(true);
-        jRadioButton36.setText("Select One");
+        buttonGroup6.add(step5Q3rbDefault);
+        step5Q3rbDefault.setSelected(true);
+        step5Q3rbDefault.setText("Select One");
 
         javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
         jPanel32.setLayout(jPanel32Layout);
@@ -904,20 +904,20 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(jPanel32Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton34)
-                    .addComponent(jRadioButton35)
-                    .addComponent(jRadioButton36))
+                    .addComponent(step5Q3rbMajor)
+                    .addComponent(step5Q3rbMinor)
+                    .addComponent(step5Q3rbDefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel32Layout.setVerticalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel32Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton34)
+                .addComponent(step5Q3rbMajor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton35)
+                .addComponent(step5Q3rbMinor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton36)
+                .addComponent(step5Q3rbDefault)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
@@ -929,7 +929,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel37)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(carTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(carTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(239, 239, 239))
             .addGroup(jPanel28Layout.createSequentialGroup()
                 .addContainerGap()
@@ -955,7 +955,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel37)
-                    .addComponent(carTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(carTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel28Layout.createSequentialGroup()
@@ -979,30 +979,30 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("tab3", jPanel28);
+        step5tb.addTab("tab3", jPanel28);
 
         jPanel33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel44.setText("CAR #:");
 
-        carTextField6.setText("Enter CAR #");
-        carTextField6.addFocusListener(new java.awt.event.FocusAdapter() {
+        carTextField4.setText("Enter CAR #");
+        carTextField4.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                carTextField6FocusGained(evt);
+                carTextField4FocusGained(evt);
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
-                carTextField6FocusLost(evt);
+                carTextField4FocusLost(evt);
             }
         });
 
         jPanel34.setBorder(javax.swing.BorderFactory.createTitledBorder("ISO 17025 Clause"));
 
-        jTextArea25.setColumns(20);
-        jTextArea25.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea25.setLineWrap(true);
-        jTextArea25.setRows(2);
-        jTextArea25.setWrapStyleWord(true);
-        jScrollPane25.setViewportView(jTextArea25);
+        step5Q4ClauseTA.setColumns(20);
+        step5Q4ClauseTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q4ClauseTA.setLineWrap(true);
+        step5Q4ClauseTA.setRows(2);
+        step5Q4ClauseTA.setWrapStyleWord(true);
+        jScrollPane25.setViewportView(step5Q4ClauseTA);
 
         javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
         jPanel34.setLayout(jPanel34Layout);
@@ -1020,32 +1020,32 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel35.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe finding as you want it to appear in the CAR system."));
 
-        jTextArea26.setColumns(20);
-        jTextArea26.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea26.setLineWrap(true);
-        jTextArea26.setRows(3);
-        jTextArea26.setWrapStyleWord(true);
-        jScrollPane26.setViewportView(jTextArea26);
+        step5Q4ReqTA.setColumns(20);
+        step5Q4ReqTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q4ReqTA.setLineWrap(true);
+        step5Q4ReqTA.setRows(3);
+        step5Q4ReqTA.setWrapStyleWord(true);
+        jScrollPane26.setViewportView(step5Q4ReqTA);
 
         jLabel45.setText("Requirements:");
 
         jLabel46.setText("Evidence:");
 
-        jTextArea27.setColumns(20);
-        jTextArea27.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea27.setLineWrap(true);
-        jTextArea27.setRows(3);
-        jTextArea27.setWrapStyleWord(true);
-        jScrollPane27.setViewportView(jTextArea27);
+        step5Q4EviTA.setColumns(20);
+        step5Q4EviTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q4EviTA.setLineWrap(true);
+        step5Q4EviTA.setRows(3);
+        step5Q4EviTA.setWrapStyleWord(true);
+        jScrollPane27.setViewportView(step5Q4EviTA);
 
         jLabel47.setText("Rationale for Finding: ");
 
-        jTextArea28.setColumns(20);
-        jTextArea28.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea28.setLineWrap(true);
-        jTextArea28.setRows(3);
-        jTextArea28.setWrapStyleWord(true);
-        jScrollPane28.setViewportView(jTextArea28);
+        step5Q4FindingsTA.setColumns(20);
+        step5Q4FindingsTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q4FindingsTA.setLineWrap(true);
+        step5Q4FindingsTA.setRows(3);
+        step5Q4FindingsTA.setWrapStyleWord(true);
+        jScrollPane28.setViewportView(step5Q4FindingsTA);
 
         javax.swing.GroupLayout jPanel35Layout = new javax.swing.GroupLayout(jPanel35);
         jPanel35.setLayout(jPanel35Layout);
@@ -1085,18 +1085,18 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel36.setBorder(javax.swing.BorderFactory.createTitledBorder("Type"));
 
-        buttonGroup7.add(jRadioButton37);
-        jRadioButton37.setText("C");
+        buttonGroup7.add(step5Q4TypeRBc);
+        step5Q4TypeRBc.setText("C");
 
-        buttonGroup7.add(jRadioButton38);
-        jRadioButton38.setText("P");
+        buttonGroup7.add(step5Q4TypeRBp);
+        step5Q4TypeRBp.setText("P");
 
-        buttonGroup7.add(jRadioButton39);
-        jRadioButton39.setText("OFI");
+        buttonGroup7.add(step5Q4TypeRBofi);
+        step5Q4TypeRBofi.setText("OFI");
 
-        buttonGroup7.add(jRadioButton40);
-        jRadioButton40.setSelected(true);
-        jRadioButton40.setText("NONE");
+        buttonGroup7.add(step5Q4TypeRBdefault);
+        step5Q4TypeRBdefault.setSelected(true);
+        step5Q4TypeRBdefault.setText("NONE");
 
         javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
         jPanel36.setLayout(jPanel36Layout);
@@ -1104,23 +1104,23 @@ public class Step5 extends javax.swing.JFrame {
             jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel36Layout.createSequentialGroup()
                 .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton38)
-                    .addComponent(jRadioButton37)
-                    .addComponent(jRadioButton39)
-                    .addComponent(jRadioButton40))
+                    .addComponent(step5Q4TypeRBp)
+                    .addComponent(step5Q4TypeRBc)
+                    .addComponent(step5Q4TypeRBofi)
+                    .addComponent(step5Q4TypeRBdefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel36Layout.setVerticalGroup(
             jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel36Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton37)
+                .addComponent(step5Q4TypeRBc)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton38)
+                .addComponent(step5Q4TypeRBp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton39)
+                .addComponent(step5Q4TypeRBofi)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton40)
+                .addComponent(step5Q4TypeRBdefault)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1132,15 +1132,15 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel37.setBorder(javax.swing.BorderFactory.createTitledBorder("Major or Minor"));
 
-        buttonGroup8.add(jRadioButton41);
-        jRadioButton41.setText("Major");
+        buttonGroup8.add(step5Q4rbMajor);
+        step5Q4rbMajor.setText("Major");
 
-        buttonGroup8.add(jRadioButton42);
-        jRadioButton42.setText("Minor");
+        buttonGroup8.add(step5Q4rbMinor);
+        step5Q4rbMinor.setText("Minor");
 
-        buttonGroup8.add(jRadioButton43);
-        jRadioButton43.setSelected(true);
-        jRadioButton43.setText("Select One");
+        buttonGroup8.add(step5Q4rbDefault);
+        step5Q4rbDefault.setSelected(true);
+        step5Q4rbDefault.setText("Select One");
 
         javax.swing.GroupLayout jPanel37Layout = new javax.swing.GroupLayout(jPanel37);
         jPanel37.setLayout(jPanel37Layout);
@@ -1149,19 +1149,19 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(jPanel37Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton41)
-                    .addComponent(jRadioButton42)
-                    .addComponent(jRadioButton43)))
+                    .addComponent(step5Q4rbMajor)
+                    .addComponent(step5Q4rbMinor)
+                    .addComponent(step5Q4rbDefault)))
         );
         jPanel37Layout.setVerticalGroup(
             jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel37Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton41)
+                .addComponent(step5Q4rbMajor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton42)
+                .addComponent(step5Q4rbMinor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton43)
+                .addComponent(step5Q4rbDefault)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
@@ -1173,7 +1173,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap(162, Short.MAX_VALUE)
                 .addComponent(jLabel44)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(carTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(carTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(239, 239, 239))
             .addGroup(jPanel33Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1199,7 +1199,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel44)
-                    .addComponent(carTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(carTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel33Layout.createSequentialGroup()
@@ -1223,30 +1223,30 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("tab4", jPanel33);
+        step5tb.addTab("tab4", jPanel33);
 
         jPanel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel51.setText("CAR #:");
 
-        carTextField7.setText("Enter CAR #");
-        carTextField7.addFocusListener(new java.awt.event.FocusAdapter() {
+        carTextField5.setText("Enter CAR #");
+        carTextField5.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                carTextField7FocusGained(evt);
+                carTextField5FocusGained(evt);
             }
             public void focusLost(java.awt.event.FocusEvent evt) {
-                carTextField7FocusLost(evt);
+                carTextField5FocusLost(evt);
             }
         });
 
         jPanel39.setBorder(javax.swing.BorderFactory.createTitledBorder("ISO 17025 Clause"));
 
-        jTextArea29.setColumns(20);
-        jTextArea29.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea29.setLineWrap(true);
-        jTextArea29.setRows(2);
-        jTextArea29.setWrapStyleWord(true);
-        jScrollPane29.setViewportView(jTextArea29);
+        step5Q5ClauseTA.setColumns(20);
+        step5Q5ClauseTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q5ClauseTA.setLineWrap(true);
+        step5Q5ClauseTA.setRows(2);
+        step5Q5ClauseTA.setWrapStyleWord(true);
+        jScrollPane29.setViewportView(step5Q5ClauseTA);
 
         javax.swing.GroupLayout jPanel39Layout = new javax.swing.GroupLayout(jPanel39);
         jPanel39.setLayout(jPanel39Layout);
@@ -1264,32 +1264,32 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel40.setBorder(javax.swing.BorderFactory.createTitledBorder("Describe finding as you want it to appear in the CAR system."));
 
-        jTextArea30.setColumns(20);
-        jTextArea30.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea30.setLineWrap(true);
-        jTextArea30.setRows(3);
-        jTextArea30.setWrapStyleWord(true);
-        jScrollPane30.setViewportView(jTextArea30);
+        step5Q5ReqTA.setColumns(20);
+        step5Q5ReqTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q5ReqTA.setLineWrap(true);
+        step5Q5ReqTA.setRows(3);
+        step5Q5ReqTA.setWrapStyleWord(true);
+        jScrollPane30.setViewportView(step5Q5ReqTA);
 
         jLabel52.setText("Requirements:");
 
         jLabel53.setText("Evidence:");
 
-        jTextArea31.setColumns(20);
-        jTextArea31.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea31.setLineWrap(true);
-        jTextArea31.setRows(3);
-        jTextArea31.setWrapStyleWord(true);
-        jScrollPane31.setViewportView(jTextArea31);
+        step5Q5EviTA.setColumns(20);
+        step5Q5EviTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q5EviTA.setLineWrap(true);
+        step5Q5EviTA.setRows(3);
+        step5Q5EviTA.setWrapStyleWord(true);
+        jScrollPane31.setViewportView(step5Q5EviTA);
 
         jLabel54.setText("Rationale for Finding: ");
 
-        jTextArea32.setColumns(20);
-        jTextArea32.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea32.setLineWrap(true);
-        jTextArea32.setRows(3);
-        jTextArea32.setWrapStyleWord(true);
-        jScrollPane32.setViewportView(jTextArea32);
+        step5Q5FindingsTA.setColumns(20);
+        step5Q5FindingsTA.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step5Q5FindingsTA.setLineWrap(true);
+        step5Q5FindingsTA.setRows(3);
+        step5Q5FindingsTA.setWrapStyleWord(true);
+        jScrollPane32.setViewportView(step5Q5FindingsTA);
 
         javax.swing.GroupLayout jPanel40Layout = new javax.swing.GroupLayout(jPanel40);
         jPanel40.setLayout(jPanel40Layout);
@@ -1329,18 +1329,18 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel41.setBorder(javax.swing.BorderFactory.createTitledBorder("Type"));
 
-        buttonGroup10.add(jRadioButton44);
-        jRadioButton44.setText("C");
+        buttonGroup10.add(step5Q5TypeRBc);
+        step5Q5TypeRBc.setText("C");
 
-        buttonGroup10.add(jRadioButton45);
-        jRadioButton45.setText("P");
+        buttonGroup10.add(step5Q5TypeRBp);
+        step5Q5TypeRBp.setText("P");
 
-        buttonGroup10.add(jRadioButton46);
-        jRadioButton46.setText("OFI");
+        buttonGroup10.add(step5Q5TypeRBofi);
+        step5Q5TypeRBofi.setText("OFI");
 
-        buttonGroup10.add(jRadioButton47);
-        jRadioButton47.setSelected(true);
-        jRadioButton47.setText("NONE");
+        buttonGroup10.add(step5Q5TypeRBdefault);
+        step5Q5TypeRBdefault.setSelected(true);
+        step5Q5TypeRBdefault.setText("NONE");
 
         javax.swing.GroupLayout jPanel41Layout = new javax.swing.GroupLayout(jPanel41);
         jPanel41.setLayout(jPanel41Layout);
@@ -1348,23 +1348,23 @@ public class Step5 extends javax.swing.JFrame {
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton45)
-                    .addComponent(jRadioButton44)
-                    .addComponent(jRadioButton46)
-                    .addComponent(jRadioButton47))
+                    .addComponent(step5Q5TypeRBp)
+                    .addComponent(step5Q5TypeRBc)
+                    .addComponent(step5Q5TypeRBofi)
+                    .addComponent(step5Q5TypeRBdefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel41Layout.setVerticalGroup(
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton44)
+                .addComponent(step5Q5TypeRBc)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton45)
+                .addComponent(step5Q5TypeRBp)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton46)
+                .addComponent(step5Q5TypeRBofi)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton47)
+                .addComponent(step5Q5TypeRBdefault)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1376,15 +1376,15 @@ public class Step5 extends javax.swing.JFrame {
 
         jPanel42.setBorder(javax.swing.BorderFactory.createTitledBorder("Major or Minor"));
 
-        buttonGroup9.add(jRadioButton48);
-        jRadioButton48.setText("Major");
+        buttonGroup9.add(step5Q5rbMajor);
+        step5Q5rbMajor.setText("Major");
 
-        buttonGroup9.add(jRadioButton49);
-        jRadioButton49.setText("Minor");
+        buttonGroup9.add(step5Q5rbMinor);
+        step5Q5rbMinor.setText("Minor");
 
-        buttonGroup9.add(jRadioButton50);
-        jRadioButton50.setSelected(true);
-        jRadioButton50.setText("Select One");
+        buttonGroup9.add(step5Q5rbDefault);
+        step5Q5rbDefault.setSelected(true);
+        step5Q5rbDefault.setText("Select One");
 
         javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
         jPanel42.setLayout(jPanel42Layout);
@@ -1393,20 +1393,20 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(jPanel42Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jRadioButton48)
-                    .addComponent(jRadioButton49)
-                    .addComponent(jRadioButton50))
+                    .addComponent(step5Q5rbMajor)
+                    .addComponent(step5Q5rbMinor)
+                    .addComponent(step5Q5rbDefault))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel42Layout.setVerticalGroup(
             jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel42Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton48)
+                .addComponent(step5Q5rbMajor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton49)
+                .addComponent(step5Q5rbMinor)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton50)
+                .addComponent(step5Q5rbDefault)
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
@@ -1418,7 +1418,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel51)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(carTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(carTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(239, 239, 239))
             .addGroup(jPanel38Layout.createSequentialGroup()
                 .addContainerGap()
@@ -1444,7 +1444,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel51)
-                    .addComponent(carTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(carTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel38Layout.createSequentialGroup()
@@ -1468,7 +1468,7 @@ public class Step5 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("tab5", jPanel38);
+        step5tb.addTab("tab5", jPanel38);
 
         jLabel4.setText("STEP FIVE: Summarize Findings for CAR system");
 
@@ -1481,7 +1481,7 @@ public class Step5 extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTabbedPane1)
+                    .addComponent(step5tb)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel4)
                         .addGap(49, 49, 49)
@@ -1497,7 +1497,7 @@ public class Step5 extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(jButton3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1)
+                .addComponent(step5tb)
                 .addContainerGap())
         );
 
@@ -1541,10 +1541,10 @@ public class Step5 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
         // TODO add your handling code here:
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_cButtonActionPerformed
 
     private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
         // TODO add your handling code here:
@@ -1561,30 +1561,46 @@ public class Step5 extends javax.swing.JFrame {
         hf.helpTextArea.setText("This is where the instructions go for Step 5.");
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void previousButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_previousButtonActionPerformed
         // TODO add your handling code here:
         Step4 ch4 = new Step4();
         ch4.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void carTextFieldFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextFieldFocusGained
-        // TODO add your handling code here:
-        carTextField.setText("");
-    }//GEN-LAST:event_carTextFieldFocusGained
-
-    private void carTextFieldFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextFieldFocusLost
-        // TODO add your handling code here:        
-        
-    }//GEN-LAST:event_carTextFieldFocusLost
+    }//GEN-LAST:event_previousButtonActionPerformed
 
     private void carTextField1FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField1FocusGained
         // TODO add your handling code here:
+        carTextField1.setText("");
     }//GEN-LAST:event_carTextField1FocusGained
 
     private void carTextField1FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField1FocusLost
-        // TODO add your handling code here:
+        // TODO add your handling code here:        
+        
     }//GEN-LAST:event_carTextField1FocusLost
+
+    private void carTextField2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField2FocusGained
+        // TODO add your handling code here:
+    }//GEN-LAST:event_carTextField2FocusGained
+
+    private void carTextField2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_carTextField2FocusLost
+
+    private void carTextField3FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField3FocusGained
+        // TODO add your handling code here:
+    }//GEN-LAST:event_carTextField3FocusGained
+
+    private void carTextField3FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField3FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_carTextField3FocusLost
+
+    private void carTextField4FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField4FocusGained
+        // TODO add your handling code here:
+    }//GEN-LAST:event_carTextField4FocusGained
+
+    private void carTextField4FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField4FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_carTextField4FocusLost
 
     private void carTextField5FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField5FocusGained
         // TODO add your handling code here:
@@ -1593,22 +1609,6 @@ public class Step5 extends javax.swing.JFrame {
     private void carTextField5FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField5FocusLost
         // TODO add your handling code here:
     }//GEN-LAST:event_carTextField5FocusLost
-
-    private void carTextField6FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField6FocusGained
-        // TODO add your handling code here:
-    }//GEN-LAST:event_carTextField6FocusGained
-
-    private void carTextField6FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField6FocusLost
-        // TODO add your handling code here:
-    }//GEN-LAST:event_carTextField6FocusLost
-
-    private void carTextField7FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField7FocusGained
-        // TODO add your handling code here:
-    }//GEN-LAST:event_carTextField7FocusGained
-
-    private void carTextField7FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_carTextField7FocusLost
-        // TODO add your handling code here:
-    }//GEN-LAST:event_carTextField7FocusLost
 
     /**
      * @param args the command line arguments
@@ -1659,13 +1659,12 @@ public class Step5 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup7;
     private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.ButtonGroup buttonGroup9;
-    private javax.swing.JTextField carTextField;
+    private javax.swing.JButton cButton;
     private javax.swing.JTextField carTextField1;
+    private javax.swing.JTextField carTextField2;
+    private javax.swing.JTextField carTextField3;
+    private javax.swing.JTextField carTextField4;
     private javax.swing.JTextField carTextField5;
-    private javax.swing.JTextField carTextField6;
-    private javax.swing.JTextField carTextField7;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -1734,41 +1733,6 @@ public class Step5 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel42;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton10;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton26;
-    private javax.swing.JRadioButton jRadioButton27;
-    private javax.swing.JRadioButton jRadioButton28;
-    private javax.swing.JRadioButton jRadioButton29;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton30;
-    private javax.swing.JRadioButton jRadioButton31;
-    private javax.swing.JRadioButton jRadioButton32;
-    private javax.swing.JRadioButton jRadioButton33;
-    private javax.swing.JRadioButton jRadioButton34;
-    private javax.swing.JRadioButton jRadioButton35;
-    private javax.swing.JRadioButton jRadioButton36;
-    private javax.swing.JRadioButton jRadioButton37;
-    private javax.swing.JRadioButton jRadioButton38;
-    private javax.swing.JRadioButton jRadioButton39;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton40;
-    private javax.swing.JRadioButton jRadioButton41;
-    private javax.swing.JRadioButton jRadioButton42;
-    private javax.swing.JRadioButton jRadioButton43;
-    private javax.swing.JRadioButton jRadioButton44;
-    private javax.swing.JRadioButton jRadioButton45;
-    private javax.swing.JRadioButton jRadioButton46;
-    private javax.swing.JRadioButton jRadioButton47;
-    private javax.swing.JRadioButton jRadioButton48;
-    private javax.swing.JRadioButton jRadioButton49;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton50;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton7;
-    private javax.swing.JRadioButton jRadioButton8;
-    private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane21;
@@ -1789,27 +1753,63 @@ public class Step5 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextArea jTextArea21;
-    private javax.swing.JTextArea jTextArea22;
-    private javax.swing.JTextArea jTextArea23;
-    private javax.swing.JTextArea jTextArea24;
-    private javax.swing.JTextArea jTextArea25;
-    private javax.swing.JTextArea jTextArea26;
-    private javax.swing.JTextArea jTextArea27;
-    private javax.swing.JTextArea jTextArea28;
-    private javax.swing.JTextArea jTextArea29;
-    private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea30;
-    private javax.swing.JTextArea jTextArea31;
-    private javax.swing.JTextArea jTextArea32;
-    private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea7;
-    private javax.swing.JTextArea jTextArea8;
     private javax.swing.JButton nextButton;
+    private javax.swing.JButton previousButton;
+    private javax.swing.JTextArea step5Q1ClauseTA;
+    private javax.swing.JTextArea step5Q1EviTA;
+    private javax.swing.JTextArea step5Q1FindingsTA;
+    private javax.swing.JTextArea step5Q1ReqTA;
+    private javax.swing.JRadioButton step5Q1TypeRBc;
+    private javax.swing.JRadioButton step5Q1TypeRBdefault;
+    private javax.swing.JRadioButton step5Q1TypeRBofi;
+    private javax.swing.JRadioButton step5Q1TypeRBp;
+    private javax.swing.JRadioButton step5Q1rbDefault;
+    private javax.swing.JRadioButton step5Q1rbMajor;
+    private javax.swing.JRadioButton step5Q1rbMinor;
+    private javax.swing.JTextArea step5Q2ClauseTA;
+    private javax.swing.JTextArea step5Q2EviTA;
+    private javax.swing.JTextArea step5Q2FindingsTA;
+    private javax.swing.JTextArea step5Q2ReqTA;
+    private javax.swing.JRadioButton step5Q2TypeRBc;
+    private javax.swing.JRadioButton step5Q2TypeRBdefault;
+    private javax.swing.JRadioButton step5Q2TypeRBofi;
+    private javax.swing.JRadioButton step5Q2TypeRBp;
+    private javax.swing.JRadioButton step5Q2rbDefault;
+    private javax.swing.JRadioButton step5Q2rbMajor;
+    private javax.swing.JRadioButton step5Q2rbMinor;
+    private javax.swing.JTextArea step5Q3ClauseTA;
+    private javax.swing.JTextArea step5Q3EviTA;
+    private javax.swing.JTextArea step5Q3FindingsTA;
+    private javax.swing.JTextArea step5Q3ReqTA;
+    private javax.swing.JRadioButton step5Q3TypeRBc;
+    private javax.swing.JRadioButton step5Q3TypeRBdefault;
+    private javax.swing.JRadioButton step5Q3TypeRBofi;
+    private javax.swing.JRadioButton step5Q3TypeRBp;
+    private javax.swing.JRadioButton step5Q3rbDefault;
+    private javax.swing.JRadioButton step5Q3rbMajor;
+    private javax.swing.JRadioButton step5Q3rbMinor;
+    private javax.swing.JTextArea step5Q4ClauseTA;
+    private javax.swing.JTextArea step5Q4EviTA;
+    private javax.swing.JTextArea step5Q4FindingsTA;
+    private javax.swing.JTextArea step5Q4ReqTA;
+    private javax.swing.JRadioButton step5Q4TypeRBc;
+    private javax.swing.JRadioButton step5Q4TypeRBdefault;
+    private javax.swing.JRadioButton step5Q4TypeRBofi;
+    private javax.swing.JRadioButton step5Q4TypeRBp;
+    private javax.swing.JRadioButton step5Q4rbDefault;
+    private javax.swing.JRadioButton step5Q4rbMajor;
+    private javax.swing.JRadioButton step5Q4rbMinor;
+    private javax.swing.JTextArea step5Q5ClauseTA;
+    private javax.swing.JTextArea step5Q5EviTA;
+    private javax.swing.JTextArea step5Q5FindingsTA;
+    private javax.swing.JTextArea step5Q5ReqTA;
+    private javax.swing.JRadioButton step5Q5TypeRBc;
+    private javax.swing.JRadioButton step5Q5TypeRBdefault;
+    private javax.swing.JRadioButton step5Q5TypeRBofi;
+    private javax.swing.JRadioButton step5Q5TypeRBp;
+    private javax.swing.JRadioButton step5Q5rbDefault;
+    private javax.swing.JRadioButton step5Q5rbMajor;
+    private javax.swing.JRadioButton step5Q5rbMinor;
+    private javax.swing.JTabbedPane step5tb;
     // End of variables declaration//GEN-END:variables
 }
