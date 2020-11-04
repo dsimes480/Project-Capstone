@@ -327,14 +327,14 @@ public class Step1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField auditDateTextField;
-    private javax.swing.JTable auditDocumentsTable;
-    private javax.swing.JTextField auditNumTextField;
-    private javax.swing.JTextField auditSiteTextField;
-    private javax.swing.JTextArea auditTextArea;
-    private javax.swing.JTextField auditorTextField;
-    private javax.swing.JTextArea clausesStandardTextArea;
-    private javax.swing.JButton closeButton;
+    public javax.swing.JTextField auditDateTextField;
+    public javax.swing.JTable auditDocumentsTable;
+    public javax.swing.JTextField auditNumTextField;
+    public javax.swing.JTextField auditSiteTextField;
+    public javax.swing.JTextArea auditTextArea;
+    public javax.swing.JTextField auditorTextField;
+    public javax.swing.JTextArea clausesStandardTextArea;
+    public javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -351,8 +351,8 @@ public class Step1 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextField leadAudTextField;
-    private javax.swing.JButton nextButton;
-    private javax.swing.JMenuItem step1Help;
+    public javax.swing.JTextField leadAudTextField;
+    public javax.swing.JButton nextButton;
+    public javax.swing.JMenuItem step1Help;
     // End of variables declaration//GEN-END:variables
 }

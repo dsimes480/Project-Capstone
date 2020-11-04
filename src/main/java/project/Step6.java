@@ -281,8 +281,8 @@ public class Step6 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField approvedTF;
-    private javax.swing.JButton closeButton;
+    public javax.swing.JTextField approvedTF;
+    public javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -294,9 +294,9 @@ public class Step6 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JButton notesPageButton;
-    private javax.swing.JButton previousButton;
-    private javax.swing.JMenuItem step6Help;
-    private javax.swing.JTextField submissionTF;
+    public javax.swing.JButton notesPageButton;
+    public javax.swing.JButton previousButton;
+    public javax.swing.JMenuItem step6Help;
+    public javax.swing.JTextField submissionTF;
     // End of variables declaration//GEN-END:variables
 }

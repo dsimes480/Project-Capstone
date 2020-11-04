@@ -227,8 +227,8 @@ public class NotesPage extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton NextButton;
-    private javax.swing.JButton closeButton;
+    public javax.swing.JButton NextButton;
+    public javax.swing.JButton closeButton;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
@@ -236,8 +236,8 @@ public class NotesPage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JMenuItem notesHelp;
-    private javax.swing.JTextArea notesPageTA;
-    private javax.swing.JButton previousButton;
+    public javax.swing.JMenuItem notesHelp;
+    public javax.swing.JTextArea notesPageTA;
+    public javax.swing.JButton previousButton;
     // End of variables declaration//GEN-END:variables
 }

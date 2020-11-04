@@ -214,9 +214,9 @@ public class FinalThoughts extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton PreviousButton;
-    private javax.swing.JMenuItem finalThoughtHelp;
-    private javax.swing.JTextArea finalThoughtsTA;
+    public javax.swing.JButton PreviousButton;
+    public javax.swing.JMenuItem finalThoughtHelp;
+    public javax.swing.JTextArea finalThoughtsTA;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
@@ -224,6 +224,6 @@ public class FinalThoughts extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JButton reportButton;
+    public javax.swing.JButton reportButton;
     // End of variables declaration//GEN-END:variables
 }

@@ -41,6 +41,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="step5HelpActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -133,6 +136,9 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="previousButtonActionPerformed"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="closeButton">
           <Properties>
@@ -141,6 +147,9 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeButtonActionPerformed"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="nextButton">
           <Properties>
@@ -149,6 +158,9 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextButtonActionPerformed"/>
           </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
       </SubComponents>
     </Container>
@@ -296,6 +308,9 @@
                     <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField1FocusGained"/>
                     <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField1FocusLost"/>
                   </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel8">
                   <Properties>
@@ -340,6 +355,9 @@
                             <Property name="rows" type="int" value="2"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -414,6 +432,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -444,6 +465,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -469,6 +493,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -529,6 +556,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="C"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q1TypeRBp">
                       <Properties>
@@ -537,6 +567,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="P"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q1TypeRBofi">
                       <Properties>
@@ -545,6 +578,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="OFI"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q1TypeRBdefault">
                       <Properties>
@@ -554,6 +590,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="NONE"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -616,6 +655,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Major"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q1rbMinor">
                       <Properties>
@@ -624,6 +666,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Minor"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q1rbDefault">
                       <Properties>
@@ -633,6 +678,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="Select One"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -739,6 +787,9 @@
                     <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField2FocusGained"/>
                     <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField2FocusLost"/>
                   </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel12">
                   <Properties>
@@ -783,6 +834,9 @@
                             <Property name="rows" type="int" value="2"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -857,6 +911,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -887,6 +944,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -912,6 +972,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -964,6 +1027,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="C"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q2TypeRBp">
                       <Properties>
@@ -972,6 +1038,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="P"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q2TypeRBofi">
                       <Properties>
@@ -980,6 +1049,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="OFI"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q2TypeRBdefault">
                       <Properties>
@@ -989,6 +1061,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="NONE"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1052,6 +1127,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Major"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q2rbMinor">
                       <Properties>
@@ -1060,6 +1138,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Minor"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q2rbDefault">
                       <Properties>
@@ -1069,6 +1150,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="Select One"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1175,6 +1259,9 @@
                     <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField3FocusGained"/>
                     <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField3FocusLost"/>
                   </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel29">
                   <Properties>
@@ -1219,6 +1306,9 @@
                             <Property name="rows" type="int" value="2"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1293,6 +1383,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1323,6 +1416,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1348,6 +1444,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1400,6 +1499,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="C"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q3TypeRBp">
                       <Properties>
@@ -1408,6 +1510,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="P"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q3TypeRBofi">
                       <Properties>
@@ -1416,6 +1521,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="OFI"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q3TypeRBdefault">
                       <Properties>
@@ -1425,6 +1533,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="NONE"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1488,6 +1599,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Major"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q3rbMinor">
                       <Properties>
@@ -1496,6 +1610,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Minor"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q3rbDefault">
                       <Properties>
@@ -1505,6 +1622,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="Select One"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1611,6 +1731,9 @@
                     <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField4FocusGained"/>
                     <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField4FocusLost"/>
                   </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel34">
                   <Properties>
@@ -1655,6 +1778,9 @@
                             <Property name="rows" type="int" value="2"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1729,6 +1855,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1759,6 +1888,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1784,6 +1916,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -1836,6 +1971,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="C"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q4TypeRBp">
                       <Properties>
@@ -1844,6 +1982,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="P"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q4TypeRBofi">
                       <Properties>
@@ -1852,6 +1993,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="OFI"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q4TypeRBdefault">
                       <Properties>
@@ -1861,6 +2005,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="NONE"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1923,6 +2070,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Major"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q4rbMinor">
                       <Properties>
@@ -1931,6 +2081,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Minor"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q4rbDefault">
                       <Properties>
@@ -1940,6 +2093,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="Select One"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -2046,6 +2202,9 @@
                     <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField5FocusGained"/>
                     <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="carTextField5FocusLost"/>
                   </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel39">
                   <Properties>
@@ -2090,6 +2249,9 @@
                             <Property name="rows" type="int" value="2"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -2164,6 +2326,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -2194,6 +2359,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -2219,6 +2387,9 @@
                             <Property name="rows" type="int" value="3"/>
                             <Property name="wrapStyleWord" type="boolean" value="true"/>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -2271,6 +2442,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="C"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q5TypeRBp">
                       <Properties>
@@ -2279,6 +2453,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="P"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q5TypeRBofi">
                       <Properties>
@@ -2287,6 +2464,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="OFI"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q5TypeRBdefault">
                       <Properties>
@@ -2296,6 +2476,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="NONE"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -2359,6 +2542,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Major"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q5rbMinor">
                       <Properties>
@@ -2367,6 +2553,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Minor"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JRadioButton" name="step5Q5rbDefault">
                       <Properties>
@@ -2376,6 +2565,9 @@
                         <Property name="selected" type="boolean" value="true"/>
                         <Property name="text" type="java.lang.String" value="Select One"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -2392,6 +2584,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Add Tab"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
         </Component>
       </SubComponents>
     </Container>

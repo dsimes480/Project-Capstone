@@ -183,6 +183,10 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref10Q3rbNo = new javax.swing.JRadioButton();
         step3Ref10Q3rbNA = new javax.swing.JRadioButton();
         step3Ref10Q3rbObs = new javax.swing.JRadioButton();
+        jScrollPane54 = new javax.swing.JScrollPane();
+        step3Ref10Q3NotesTA1 = new javax.swing.JTextArea();
+        step3Ref10Q3rbObs1 = new javax.swing.JRadioButton();
+        step3Ref10Q3rbNA1 = new javax.swing.JRadioButton();
         jPanel99 = new javax.swing.JPanel();
         jScrollPane49 = new javax.swing.JScrollPane();
         step3Ref10Q3NotesTA = new javax.swing.JTextArea();
@@ -455,7 +459,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel60Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane23, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane23, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel60Layout.setVerticalGroup(
@@ -582,7 +586,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel63Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane25, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane25, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel63Layout.setVerticalGroup(
@@ -686,7 +690,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel78Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel78Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane35, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane35, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel78Layout.setVerticalGroup(
@@ -790,7 +794,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel81Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel81Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane37, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane37, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel81Layout.setVerticalGroup(
@@ -894,7 +898,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel84Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel84Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane39, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane39, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel84Layout.setVerticalGroup(
@@ -998,7 +1002,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel87Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel87Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel87Layout.setVerticalGroup(
@@ -1102,7 +1106,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel90Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel90Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane43, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane43, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel90Layout.setVerticalGroup(
@@ -1229,7 +1233,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel75Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel75Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane33, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane33, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel75Layout.setVerticalGroup(
@@ -1356,7 +1360,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel93Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel93Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane45, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane45, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel93Layout.setVerticalGroup(
@@ -1460,7 +1464,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel96Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel96Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane47, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane47, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel96Layout.setVerticalGroup(
@@ -1517,11 +1521,24 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref10Q3rbNo.setText("No");
 
         buttonGroup10.add(step3Ref10Q3rbNA);
-        step3Ref10Q3rbNA.setSelected(true);
         step3Ref10Q3rbNA.setText("N/A");
 
         buttonGroup10.add(step3Ref10Q3rbObs);
         step3Ref10Q3rbObs.setText("Obs");
+
+        step3Ref10Q3NotesTA1.setColumns(20);
+        step3Ref10Q3NotesTA1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        step3Ref10Q3NotesTA1.setLineWrap(true);
+        step3Ref10Q3NotesTA1.setRows(5);
+        step3Ref10Q3NotesTA1.setWrapStyleWord(true);
+        jScrollPane54.setViewportView(step3Ref10Q3NotesTA1);
+
+        buttonGroup10.add(step3Ref10Q3rbObs1);
+        step3Ref10Q3rbObs1.setText("Obs");
+
+        buttonGroup10.add(step3Ref10Q3rbNA1);
+        step3Ref10Q3rbNA1.setSelected(true);
+        step3Ref10Q3rbNA1.setText("N/A");
 
         javax.swing.GroupLayout jPanel98Layout = new javax.swing.GroupLayout(jPanel98);
         jPanel98.setLayout(jPanel98Layout);
@@ -1533,7 +1550,22 @@ public class Step3Ref7 extends javax.swing.JFrame {
                     .addComponent(step3Ref10Q3rbNo)
                     .addComponent(step3Ref10Q3rbNA)
                     .addComponent(step3Ref10Q3rbObs))
-                .addGap(0, 26, Short.MAX_VALUE))
+                .addGap(0, 542, Short.MAX_VALUE))
+            .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel98Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jScrollPane54, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                    .addContainerGap()))
+            .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel98Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(step3Ref10Q3rbObs1)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel98Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(step3Ref10Q3rbNA1)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         jPanel98Layout.setVerticalGroup(
             jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1547,6 +1579,21 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(step3Ref10Q3rbObs)
                 .addContainerGap(10, Short.MAX_VALUE))
+            .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel98Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jScrollPane54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel98Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(step3Ref10Q3rbObs1)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel98Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(step3Ref10Q3rbNA1)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         jPanel99.setBorder(javax.swing.BorderFactory.createTitledBorder("Evidence or Notes Sheet Ref. #"));
@@ -1564,7 +1611,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel99Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel99Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane49, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane49, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel99Layout.setVerticalGroup(
@@ -1584,7 +1631,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel99, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel97Layout.createSequentialGroup()
-                        .addComponent(jScrollPane48)
+                        .addComponent(jScrollPane48, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel98, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -1668,7 +1715,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel102Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel102Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane51, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane51, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel102Layout.setVerticalGroup(
@@ -1772,7 +1819,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
             jPanel105Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel105Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane53, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                .addComponent(jScrollPane53, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel105Layout.setVerticalGroup(
@@ -2254,7 +2301,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel112, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel27Layout.createSequentialGroup()
-                        .addComponent(jScrollPane58, javax.swing.GroupLayout.DEFAULT_SIZE, 498, Short.MAX_VALUE)
+                        .addComponent(jScrollPane58, javax.swing.GroupLayout.DEFAULT_SIZE, 539, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -2381,7 +2428,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel113Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel115, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel113Layout.createSequentialGroup()
-                        .addComponent(jScrollPane60, javax.swing.GroupLayout.DEFAULT_SIZE, 498, Short.MAX_VALUE)
+                        .addComponent(jScrollPane60, javax.swing.GroupLayout.DEFAULT_SIZE, 539, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel114, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -2485,7 +2532,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel116Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel118, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel116Layout.createSequentialGroup()
-                        .addComponent(jScrollPane62, javax.swing.GroupLayout.DEFAULT_SIZE, 498, Short.MAX_VALUE)
+                        .addComponent(jScrollPane62, javax.swing.GroupLayout.DEFAULT_SIZE, 539, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel117, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -2612,7 +2659,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel119Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel121, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel119Layout.createSequentialGroup()
-                        .addComponent(jScrollPane64, javax.swing.GroupLayout.DEFAULT_SIZE, 488, Short.MAX_VALUE)
+                        .addComponent(jScrollPane64, javax.swing.GroupLayout.DEFAULT_SIZE, 529, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel120, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -2716,7 +2763,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel122Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel124, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel122Layout.createSequentialGroup()
-                        .addComponent(jScrollPane66, javax.swing.GroupLayout.DEFAULT_SIZE, 488, Short.MAX_VALUE)
+                        .addComponent(jScrollPane66, javax.swing.GroupLayout.DEFAULT_SIZE, 529, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel123, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -2820,7 +2867,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel125Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel127, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel125Layout.createSequentialGroup()
-                        .addComponent(jScrollPane68, javax.swing.GroupLayout.DEFAULT_SIZE, 488, Short.MAX_VALUE)
+                        .addComponent(jScrollPane68, javax.swing.GroupLayout.DEFAULT_SIZE, 529, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel126, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -2947,7 +2994,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel128Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel130, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel128Layout.createSequentialGroup()
-                        .addComponent(jScrollPane70, javax.swing.GroupLayout.DEFAULT_SIZE, 440, Short.MAX_VALUE)
+                        .addComponent(jScrollPane70, javax.swing.GroupLayout.DEFAULT_SIZE, 481, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel129, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -3023,7 +3070,6 @@ public class Step3Ref7 extends javax.swing.JFrame {
         step3Ref15Q2NotesTA.setLineWrap(true);
         step3Ref15Q2NotesTA.setRows(5);
         step3Ref15Q2NotesTA.setWrapStyleWord(true);
-        jScrollPane73.setViewportView(step3Ref15Q2NotesTA);
 
         javax.swing.GroupLayout jPanel133Layout = new javax.swing.GroupLayout(jPanel133);
         jPanel133.setLayout(jPanel133Layout);
@@ -3033,13 +3079,23 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jScrollPane73)
                 .addContainerGap())
+            .addGroup(jPanel133Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel133Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(step3Ref15Q2NotesTA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         jPanel133Layout.setVerticalGroup(
             jPanel133Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel133Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane73, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(77, Short.MAX_VALUE))
+            .addGroup(jPanel133Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel133Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(step3Ref15Q2NotesTA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout jPanel131Layout = new javax.swing.GroupLayout(jPanel131);
@@ -3051,7 +3107,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel131Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel133, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel131Layout.createSequentialGroup()
-                        .addComponent(jScrollPane72, javax.swing.GroupLayout.DEFAULT_SIZE, 440, Short.MAX_VALUE)
+                        .addComponent(jScrollPane72, javax.swing.GroupLayout.DEFAULT_SIZE, 481, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel132, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -3065,7 +3121,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                     .addComponent(jScrollPane72))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel133, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
 
         step3Ref2Q9TP.addTab("Nonconforming work: 2", jPanel131);
@@ -3155,7 +3211,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel134Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel136, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel134Layout.createSequentialGroup()
-                        .addComponent(jScrollPane74, javax.swing.GroupLayout.DEFAULT_SIZE, 440, Short.MAX_VALUE)
+                        .addComponent(jScrollPane74, javax.swing.GroupLayout.DEFAULT_SIZE, 481, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel135, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -3259,7 +3315,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
                 .addGroup(jPanel137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel139, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel137Layout.createSequentialGroup()
-                        .addComponent(jScrollPane76, javax.swing.GroupLayout.DEFAULT_SIZE, 440, Short.MAX_VALUE)
+                        .addComponent(jScrollPane76, javax.swing.GroupLayout.DEFAULT_SIZE, 481, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jPanel138, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(24, 24, 24))
@@ -3478,7 +3534,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup7;
     private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.ButtonGroup buttonGroup9;
-    private javax.swing.JButton closeButton;
+    public javax.swing.JButton closeButton;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
@@ -3584,7 +3640,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane36;
     private javax.swing.JScrollPane jScrollPane37;
     private javax.swing.JScrollPane jScrollPane38;
-    private javax.swing.JScrollPane jScrollPane39;
+    public javax.swing.JScrollPane jScrollPane39;
     private javax.swing.JScrollPane jScrollPane40;
     private javax.swing.JScrollPane jScrollPane41;
     private javax.swing.JScrollPane jScrollPane42;
@@ -3599,6 +3655,7 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane51;
     private javax.swing.JScrollPane jScrollPane52;
     private javax.swing.JScrollPane jScrollPane53;
+    private javax.swing.JScrollPane jScrollPane54;
     private javax.swing.JScrollPane jScrollPane56;
     private javax.swing.JScrollPane jScrollPane57;
     private javax.swing.JScrollPane jScrollPane58;
@@ -3624,117 +3681,120 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane76;
     private javax.swing.JScrollPane jScrollPane77;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JButton nextButton;
-    private javax.swing.JButton previousButton;
-    private javax.swing.JMenuItem step3HelpPT2;
-    private javax.swing.JTextArea step3Ref10Q1NotesTA;
-    private javax.swing.JTextArea step3Ref10Q1TA;
-    private javax.swing.JRadioButton step3Ref10Q1rbNA;
-    private javax.swing.JRadioButton step3Ref10Q1rbNo;
-    private javax.swing.JRadioButton step3Ref10Q1rbObs;
-    private javax.swing.JRadioButton step3Ref10Q1rbYes;
-    private javax.swing.JTextArea step3Ref10Q2NotesTA;
-    private javax.swing.JTextArea step3Ref10Q2TA;
-    private javax.swing.JRadioButton step3Ref10Q2rbNA;
-    private javax.swing.JRadioButton step3Ref10Q2rbNo;
-    private javax.swing.JRadioButton step3Ref10Q2rbObs;
-    private javax.swing.JRadioButton step3Ref10Q2rbYes;
+    public javax.swing.JButton nextButton;
+    public javax.swing.JButton previousButton;
+    public javax.swing.JMenuItem step3HelpPT2;
+    public javax.swing.JTextArea step3Ref10Q1NotesTA;
+    public javax.swing.JTextArea step3Ref10Q1TA;
+    public javax.swing.JRadioButton step3Ref10Q1rbNA;
+    public javax.swing.JRadioButton step3Ref10Q1rbNo;
+    public javax.swing.JRadioButton step3Ref10Q1rbObs;
+    public javax.swing.JRadioButton step3Ref10Q1rbYes;
+    public javax.swing.JTextArea step3Ref10Q2NotesTA;
+    public javax.swing.JTextArea step3Ref10Q2TA;
+    public javax.swing.JRadioButton step3Ref10Q2rbNA;
+    public javax.swing.JRadioButton step3Ref10Q2rbNo;
+    public javax.swing.JRadioButton step3Ref10Q2rbObs;
+    public javax.swing.JRadioButton step3Ref10Q2rbYes;
     private javax.swing.JTextArea step3Ref10Q3NotesTA;
-    private javax.swing.JTextArea step3Ref10Q3TA;
-    private javax.swing.JRadioButton step3Ref10Q3rbNA;
-    private javax.swing.JRadioButton step3Ref10Q3rbNo;
-    private javax.swing.JRadioButton step3Ref10Q3rbObs;
-    private javax.swing.JRadioButton step3Ref10Q3rbYes;
-    private javax.swing.JTextArea step3Ref10Q4NotesTA;
-    private javax.swing.JTextArea step3Ref10Q4TA;
-    private javax.swing.JRadioButton step3Ref10Q4rbNA;
-    private javax.swing.JRadioButton step3Ref10Q4rbNo;
-    private javax.swing.JRadioButton step3Ref10Q4rbObs;
-    private javax.swing.JRadioButton step3Ref10Q4rbYes;
-    private javax.swing.JTextArea step3Ref10Q5NotesTA;
-    private javax.swing.JTextArea step3Ref10Q5TA;
-    private javax.swing.JRadioButton step3Ref10Q5rbNA;
-    private javax.swing.JRadioButton step3Ref10Q5rbNo;
-    private javax.swing.JRadioButton step3Ref10Q5rbObs;
-    private javax.swing.JRadioButton step3Ref10Q5rbYes;
-    private javax.swing.JTextArea step3Ref11Q1NotesTA;
-    private javax.swing.JTextArea step3Ref11Q1TA;
-    private javax.swing.JRadioButton step3Ref11Q1rbNA;
-    private javax.swing.JRadioButton step3Ref11Q1rbNo;
-    private javax.swing.JRadioButton step3Ref11Q1rbObs;
-    private javax.swing.JRadioButton step3Ref11Q1rbYes;
-    private javax.swing.JTextArea step3Ref11Q2NotesTA;
-    private javax.swing.JTextArea step3Ref11Q2TA;
-    private javax.swing.JRadioButton step3Ref11Q2rbNA;
-    private javax.swing.JRadioButton step3Ref11Q2rbNo;
-    private javax.swing.JRadioButton step3Ref11Q2rbObs;
-    private javax.swing.JRadioButton step3Ref11Q2rbYes;
-    private javax.swing.JTextArea step3Ref11Q3NotesTA;
-    private javax.swing.JTextArea step3Ref11Q3TA;
-    private javax.swing.JRadioButton step3Ref11Q3rbNA;
-    private javax.swing.JRadioButton step3Ref11Q3rbNo;
-    private javax.swing.JRadioButton step3Ref11Q3rbObs;
-    private javax.swing.JRadioButton step3Ref11Q3rbYes;
-    private javax.swing.JTextArea step3Ref12Q1NotesTA;
-    private javax.swing.JTextArea step3Ref12Q1TA;
-    private javax.swing.JRadioButton step3Ref12Q1rbNA;
-    private javax.swing.JRadioButton step3Ref12Q1rbNo;
-    private javax.swing.JRadioButton step3Ref12Q1rbObs;
-    private javax.swing.JRadioButton step3Ref12Q1rbYes;
-    private javax.swing.JTextArea step3Ref13Q1NotesTA;
-    private javax.swing.JTextArea step3Ref13Q1TA;
-    private javax.swing.JRadioButton step3Ref13Q1rbNA;
-    private javax.swing.JRadioButton step3Ref13Q1rbNo;
-    private javax.swing.JRadioButton step3Ref13Q1rbObs;
-    private javax.swing.JRadioButton step3Ref13Q1rbYes;
-    private javax.swing.JTextArea step3Ref13Q2NotesTA;
-    private javax.swing.JTextArea step3Ref13Q2TA;
-    private javax.swing.JRadioButton step3Ref13Q2rbNA;
-    private javax.swing.JRadioButton step3Ref13Q2rbNo;
-    private javax.swing.JRadioButton step3Ref13Q2rbObs;
-    private javax.swing.JRadioButton step3Ref13Q2rbYes;
-    private javax.swing.JTextArea step3Ref14Q1NotesTA;
-    private javax.swing.JTextArea step3Ref14Q1TA;
-    private javax.swing.JRadioButton step3Ref14Q1rbNA;
-    private javax.swing.JRadioButton step3Ref14Q1rbNo;
-    private javax.swing.JRadioButton step3Ref14Q1rbObs;
-    private javax.swing.JRadioButton step3Ref14Q1rbYes;
-    private javax.swing.JTextArea step3Ref14Q2NotesTA;
-    private javax.swing.JTextArea step3Ref14Q2TA;
-    private javax.swing.JRadioButton step3Ref14Q2rbNA;
-    private javax.swing.JRadioButton step3Ref14Q2rbNo;
-    private javax.swing.JRadioButton step3Ref14Q2rbObs;
-    private javax.swing.JRadioButton step3Ref14Q2rbYes;
-    private javax.swing.JTextArea step3Ref14Q3NotesTA;
-    private javax.swing.JTextArea step3Ref14Q3TA;
-    private javax.swing.JRadioButton step3Ref14Q3rbNA;
-    private javax.swing.JRadioButton step3Ref14Q3rbNo;
-    private javax.swing.JRadioButton step3Ref14Q3rbObs;
-    private javax.swing.JRadioButton step3Ref14Q3rbYes;
-    private javax.swing.JTextArea step3Ref15Q1NotesTA;
-    private javax.swing.JTextArea step3Ref15Q1TA;
-    private javax.swing.JRadioButton step3Ref15Q1rbNA;
-    private javax.swing.JRadioButton step3Ref15Q1rbNo;
-    private javax.swing.JRadioButton step3Ref15Q1rbObs;
-    private javax.swing.JRadioButton step3Ref15Q1rbYes;
-    private javax.swing.JTextArea step3Ref15Q2NotesTA;
-    private javax.swing.JTextArea step3Ref15Q2TA;
-    private javax.swing.JRadioButton step3Ref15Q2rbNA;
-    private javax.swing.JRadioButton step3Ref15Q2rbNo;
-    private javax.swing.JRadioButton step3Ref15Q2rbObs;
-    private javax.swing.JRadioButton step3Ref15Q2rbYes;
-    private javax.swing.JTextArea step3Ref15Q3NotesTA;
-    private javax.swing.JTextArea step3Ref15Q3TA;
-    private javax.swing.JRadioButton step3Ref15Q3rbNA;
-    private javax.swing.JRadioButton step3Ref15Q3rbNo;
-    private javax.swing.JRadioButton step3Ref15Q3rbObs;
-    private javax.swing.JRadioButton step3Ref15Q3rbYes;
-    private javax.swing.JTextArea step3Ref15Q4NotesTA;
-    private javax.swing.JTextArea step3Ref15Q4TA;
-    private javax.swing.JRadioButton step3Ref15Q4rbNA;
-    private javax.swing.JRadioButton step3Ref15Q4rbNo;
-    private javax.swing.JRadioButton step3Ref15Q4rbObs;
-    private javax.swing.JRadioButton step3Ref15Q4rbYes;
+    public javax.swing.JTextArea step3Ref10Q3NotesTA1;
+    public javax.swing.JTextArea step3Ref10Q3TA;
+    public javax.swing.JRadioButton step3Ref10Q3rbNA;
+    private javax.swing.JRadioButton step3Ref10Q3rbNA1;
+    public javax.swing.JRadioButton step3Ref10Q3rbNo;
+    public javax.swing.JRadioButton step3Ref10Q3rbObs;
+    private javax.swing.JRadioButton step3Ref10Q3rbObs1;
+    public javax.swing.JRadioButton step3Ref10Q3rbYes;
+    public javax.swing.JTextArea step3Ref10Q4NotesTA;
+    public javax.swing.JTextArea step3Ref10Q4TA;
+    public javax.swing.JRadioButton step3Ref10Q4rbNA;
+    public javax.swing.JRadioButton step3Ref10Q4rbNo;
+    public javax.swing.JRadioButton step3Ref10Q4rbObs;
+    public javax.swing.JRadioButton step3Ref10Q4rbYes;
+    public javax.swing.JTextArea step3Ref10Q5NotesTA;
+    public javax.swing.JTextArea step3Ref10Q5TA;
+    public javax.swing.JRadioButton step3Ref10Q5rbNA;
+    public javax.swing.JRadioButton step3Ref10Q5rbNo;
+    public javax.swing.JRadioButton step3Ref10Q5rbObs;
+    public javax.swing.JRadioButton step3Ref10Q5rbYes;
+    public javax.swing.JTextArea step3Ref11Q1NotesTA;
+    public javax.swing.JTextArea step3Ref11Q1TA;
+    public javax.swing.JRadioButton step3Ref11Q1rbNA;
+    public javax.swing.JRadioButton step3Ref11Q1rbNo;
+    public javax.swing.JRadioButton step3Ref11Q1rbObs;
+    public javax.swing.JRadioButton step3Ref11Q1rbYes;
+    public javax.swing.JTextArea step3Ref11Q2NotesTA;
+    public javax.swing.JTextArea step3Ref11Q2TA;
+    public javax.swing.JRadioButton step3Ref11Q2rbNA;
+    public javax.swing.JRadioButton step3Ref11Q2rbNo;
+    public javax.swing.JRadioButton step3Ref11Q2rbObs;
+    public javax.swing.JRadioButton step3Ref11Q2rbYes;
+    public javax.swing.JTextArea step3Ref11Q3NotesTA;
+    public javax.swing.JTextArea step3Ref11Q3TA;
+    public javax.swing.JRadioButton step3Ref11Q3rbNA;
+    public javax.swing.JRadioButton step3Ref11Q3rbNo;
+    public javax.swing.JRadioButton step3Ref11Q3rbObs;
+    public javax.swing.JRadioButton step3Ref11Q3rbYes;
+    public javax.swing.JTextArea step3Ref12Q1NotesTA;
+    public javax.swing.JTextArea step3Ref12Q1TA;
+    public javax.swing.JRadioButton step3Ref12Q1rbNA;
+    public javax.swing.JRadioButton step3Ref12Q1rbNo;
+    public javax.swing.JRadioButton step3Ref12Q1rbObs;
+    public javax.swing.JRadioButton step3Ref12Q1rbYes;
+    public javax.swing.JTextArea step3Ref13Q1NotesTA;
+    public javax.swing.JTextArea step3Ref13Q1TA;
+    public javax.swing.JRadioButton step3Ref13Q1rbNA;
+    public javax.swing.JRadioButton step3Ref13Q1rbNo;
+    public javax.swing.JRadioButton step3Ref13Q1rbObs;
+    public javax.swing.JRadioButton step3Ref13Q1rbYes;
+    public javax.swing.JTextArea step3Ref13Q2NotesTA;
+    public javax.swing.JTextArea step3Ref13Q2TA;
+    public javax.swing.JRadioButton step3Ref13Q2rbNA;
+    public javax.swing.JRadioButton step3Ref13Q2rbNo;
+    public javax.swing.JRadioButton step3Ref13Q2rbObs;
+    public javax.swing.JRadioButton step3Ref13Q2rbYes;
+    public javax.swing.JTextArea step3Ref14Q1NotesTA;
+    public javax.swing.JTextArea step3Ref14Q1TA;
+    public javax.swing.JRadioButton step3Ref14Q1rbNA;
+    public javax.swing.JRadioButton step3Ref14Q1rbNo;
+    public javax.swing.JRadioButton step3Ref14Q1rbObs;
+    public javax.swing.JRadioButton step3Ref14Q1rbYes;
+    public javax.swing.JTextArea step3Ref14Q2NotesTA;
+    public javax.swing.JTextArea step3Ref14Q2TA;
+    public javax.swing.JRadioButton step3Ref14Q2rbNA;
+    public javax.swing.JRadioButton step3Ref14Q2rbNo;
+    public javax.swing.JRadioButton step3Ref14Q2rbObs;
+    public javax.swing.JRadioButton step3Ref14Q2rbYes;
+    public javax.swing.JTextArea step3Ref14Q3NotesTA;
+    public javax.swing.JTextArea step3Ref14Q3TA;
+    public javax.swing.JRadioButton step3Ref14Q3rbNA;
+    public javax.swing.JRadioButton step3Ref14Q3rbNo;
+    public javax.swing.JRadioButton step3Ref14Q3rbObs;
+    public javax.swing.JRadioButton step3Ref14Q3rbYes;
+    public javax.swing.JTextArea step3Ref15Q1NotesTA;
+    public javax.swing.JTextArea step3Ref15Q1TA;
+    public javax.swing.JRadioButton step3Ref15Q1rbNA;
+    public javax.swing.JRadioButton step3Ref15Q1rbNo;
+    public javax.swing.JRadioButton step3Ref15Q1rbObs;
+    public javax.swing.JRadioButton step3Ref15Q1rbYes;
+    public javax.swing.JTextArea step3Ref15Q2NotesTA;
+    public javax.swing.JTextArea step3Ref15Q2TA;
+    public javax.swing.JRadioButton step3Ref15Q2rbNA;
+    public javax.swing.JRadioButton step3Ref15Q2rbNo;
+    public javax.swing.JRadioButton step3Ref15Q2rbObs;
+    public javax.swing.JRadioButton step3Ref15Q2rbYes;
+    public javax.swing.JTextArea step3Ref15Q3NotesTA;
+    public javax.swing.JTextArea step3Ref15Q3TA;
+    public javax.swing.JRadioButton step3Ref15Q3rbNA;
+    public javax.swing.JRadioButton step3Ref15Q3rbNo;
+    public javax.swing.JRadioButton step3Ref15Q3rbObs;
+    public javax.swing.JRadioButton step3Ref15Q3rbYes;
+    public javax.swing.JTextArea step3Ref15Q4NotesTA;
+    public javax.swing.JTextArea step3Ref15Q4TA;
+    public javax.swing.JRadioButton step3Ref15Q4rbNA;
+    public javax.swing.JRadioButton step3Ref15Q4rbNo;
+    public javax.swing.JRadioButton step3Ref15Q4rbObs;
+    public javax.swing.JRadioButton step3Ref15Q4rbYes;
     private javax.swing.JTabbedPane step3Ref2Q1TP;
     private javax.swing.JTabbedPane step3Ref2Q2TP;
     private javax.swing.JTabbedPane step3Ref2Q3TP;
@@ -3745,53 +3805,53 @@ public class Step3Ref7 extends javax.swing.JFrame {
     private javax.swing.JTabbedPane step3Ref2Q8TP;
     private javax.swing.JTabbedPane step3Ref2Q9TP;
     private javax.swing.JTabbedPane step3Ref2tp;
-    private javax.swing.JTextArea step3Ref7Q1NotesTA;
-    private javax.swing.JTextArea step3Ref7Q1TA;
-    private javax.swing.JRadioButton step3Ref7Q1rbNA;
-    private javax.swing.JRadioButton step3Ref7Q1rbNo;
-    private javax.swing.JRadioButton step3Ref7Q1rbObs;
-    private javax.swing.JRadioButton step3Ref7Q1rbYes;
-    private javax.swing.JTextArea step3Ref8Q1NotesTA;
-    private javax.swing.JTextArea step3Ref8Q1TA;
-    private javax.swing.JRadioButton step3Ref8Q1rbNA;
-    private javax.swing.JRadioButton step3Ref8Q1rbNo;
-    private javax.swing.JRadioButton step3Ref8Q1rbObs;
-    private javax.swing.JRadioButton step3Ref8Q1rbYes;
-    private javax.swing.JTextArea step3Ref8Q2NotesTA;
-    private javax.swing.JTextArea step3Ref8Q2TA;
-    private javax.swing.JRadioButton step3Ref8Q2rbNA;
-    private javax.swing.JRadioButton step3Ref8Q2rbNo;
-    private javax.swing.JRadioButton step3Ref8Q2rbObs;
-    private javax.swing.JRadioButton step3Ref8Q2rbYes;
-    private javax.swing.JTextArea step3Ref8Q3NotesTA;
-    private javax.swing.JTextArea step3Ref8Q3TA;
-    private javax.swing.JRadioButton step3Ref8Q3rbNA;
-    private javax.swing.JRadioButton step3Ref8Q3rbNo;
-    private javax.swing.JRadioButton step3Ref8Q3rbObs;
-    private javax.swing.JRadioButton step3Ref8Q3rbYes;
+    public javax.swing.JTextArea step3Ref7Q1NotesTA;
+    public javax.swing.JTextArea step3Ref7Q1TA;
+    public javax.swing.JRadioButton step3Ref7Q1rbNA;
+    public javax.swing.JRadioButton step3Ref7Q1rbNo;
+    public javax.swing.JRadioButton step3Ref7Q1rbObs;
+    public javax.swing.JRadioButton step3Ref7Q1rbYes;
+    public javax.swing.JTextArea step3Ref8Q1NotesTA;
+    public javax.swing.JTextArea step3Ref8Q1TA;
+    public javax.swing.JRadioButton step3Ref8Q1rbNA;
+    public javax.swing.JRadioButton step3Ref8Q1rbNo;
+    public javax.swing.JRadioButton step3Ref8Q1rbObs;
+    public javax.swing.JRadioButton step3Ref8Q1rbYes;
+    public javax.swing.JTextArea step3Ref8Q2NotesTA;
+    public javax.swing.JTextArea step3Ref8Q2TA;
+    public javax.swing.JRadioButton step3Ref8Q2rbNA;
+    public javax.swing.JRadioButton step3Ref8Q2rbNo;
+    public javax.swing.JRadioButton step3Ref8Q2rbObs;
+    public javax.swing.JRadioButton step3Ref8Q2rbYes;
+    public javax.swing.JTextArea step3Ref8Q3NotesTA;
+    public javax.swing.JTextArea step3Ref8Q3TA;
+    public javax.swing.JRadioButton step3Ref8Q3rbNA;
+    public javax.swing.JRadioButton step3Ref8Q3rbNo;
+    public javax.swing.JRadioButton step3Ref8Q3rbObs;
+    public javax.swing.JRadioButton step3Ref8Q3rbYes;
     private javax.swing.JTextArea step3Ref8Q4NotesTA;
-    private javax.swing.JTextArea step3Ref8Q4TA;
-    private javax.swing.JRadioButton step3Ref8Q4rbNA;
-    private javax.swing.JRadioButton step3Ref8Q4rbNo;
-    private javax.swing.JRadioButton step3Ref8Q4rbObs;
-    private javax.swing.JRadioButton step3Ref8Q4rbYes;
-    private javax.swing.JTextArea step3Ref8Q5NotesTA;
-    private javax.swing.JTextArea step3Ref8Q5TA;
-    private javax.swing.JRadioButton step3Ref8Q5rbNA;
-    private javax.swing.JRadioButton step3Ref8Q5rbNo;
-    private javax.swing.JRadioButton step3Ref8Q5rbObs;
-    private javax.swing.JRadioButton step3Ref8Q5rbYes;
-    private javax.swing.JTextArea step3Ref8Q6NotesTA;
-    private javax.swing.JTextArea step3Ref8Q6TA;
-    private javax.swing.JRadioButton step3Ref8Q6rbNA;
-    private javax.swing.JRadioButton step3Ref8Q6rbNo;
-    private javax.swing.JRadioButton step3Ref8Q6rbYes;
-    private javax.swing.JRadioButton step3Ref8Q6rbobs;
-    private javax.swing.JTextArea step3Ref9Q1NotesTA;
-    private javax.swing.JTextArea step3Ref9Q1TA;
-    private javax.swing.JRadioButton step3Ref9Q1rbNA;
-    private javax.swing.JRadioButton step3Ref9Q1rbNo;
-    private javax.swing.JRadioButton step3Ref9Q1rbObs;
-    private javax.swing.JRadioButton step3Ref9Q1rbYes;
+    public javax.swing.JTextArea step3Ref8Q4TA;
+    public javax.swing.JRadioButton step3Ref8Q4rbNA;
+    public javax.swing.JRadioButton step3Ref8Q4rbNo;
+    public javax.swing.JRadioButton step3Ref8Q4rbObs;
+    public javax.swing.JRadioButton step3Ref8Q4rbYes;
+    public javax.swing.JTextArea step3Ref8Q5NotesTA;
+    public javax.swing.JTextArea step3Ref8Q5TA;
+    public javax.swing.JRadioButton step3Ref8Q5rbNA;
+    public javax.swing.JRadioButton step3Ref8Q5rbNo;
+    public javax.swing.JRadioButton step3Ref8Q5rbObs;
+    public javax.swing.JRadioButton step3Ref8Q5rbYes;
+    public javax.swing.JTextArea step3Ref8Q6NotesTA;
+    public javax.swing.JTextArea step3Ref8Q6TA;
+    public javax.swing.JRadioButton step3Ref8Q6rbNA;
+    public javax.swing.JRadioButton step3Ref8Q6rbNo;
+    public javax.swing.JRadioButton step3Ref8Q6rbYes;
+    public javax.swing.JRadioButton step3Ref8Q6rbobs;
+    public javax.swing.JTextArea step3Ref9Q1NotesTA;
+    public javax.swing.JTextArea step3Ref9Q1TA;
+    public javax.swing.JRadioButton step3Ref9Q1rbNA;
+    public javax.swing.JRadioButton step3Ref9Q1rbNo;
+    public javax.swing.JRadioButton step3Ref9Q1rbObs;
+    public javax.swing.JRadioButton step3Ref9Q1rbYes;
     // End of variables declaration//GEN-END:variables
 }

@@ -1402,13 +1402,13 @@ public class mainMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem aboutMenu;
-    private javax.swing.JButton eButton;
-    private javax.swing.JButton finalThoughtsButton;
+    public javax.swing.JMenuItem aboutMenu;
+    public javax.swing.JButton eButton;
+    public javax.swing.JButton finalThoughtsButton;
     private javax.swing.JMenu helpMenu;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenuItem jMenuItem1;
+    public javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -1421,27 +1421,27 @@ public class mainMenu extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JTextArea mainCh1TextArea;
-    private javax.swing.JTextArea mainCh2TextArea;
-    private javax.swing.JTextArea mainCh3TextArea;
-    private javax.swing.JTextArea mainCh4TextArea;
-    private javax.swing.JTextArea mainCh5TextArea;
-    private javax.swing.JTextArea mainCh6TextArea;
-    private javax.swing.JTextArea mainCh7TextArea;
-    private javax.swing.JTextArea mainCh8TextArea;
+    public javax.swing.JTextArea mainCh1TextArea;
+    public javax.swing.JTextArea mainCh2TextArea;
+    public javax.swing.JTextArea mainCh3TextArea;
+    public javax.swing.JTextArea mainCh4TextArea;
+    public javax.swing.JTextArea mainCh5TextArea;
+    public javax.swing.JTextArea mainCh6TextArea;
+    public javax.swing.JTextArea mainCh7TextArea;
+    public javax.swing.JTextArea mainCh8TextArea;
     private javax.swing.JTabbedPane mainTabbedPane;
     private javax.swing.JMenuBar menuBar;
-    private javax.swing.JMenuItem menuExit;
-    private javax.swing.JButton notesButton;
-    private javax.swing.JButton openAuditButton;
-    private javax.swing.JButton reportButton;
-    private javax.swing.JButton sNewAuditButton;
-    private javax.swing.JButton step1Button;
-    private javax.swing.JButton step2Button;
-    private javax.swing.JButton step3Button;
-    private javax.swing.JButton step4Button;
-    private javax.swing.JButton step5Button;
-    private javax.swing.JButton step6Button;
+    public javax.swing.JMenuItem menuExit;
+    public javax.swing.JButton notesButton;
+    public javax.swing.JButton openAuditButton;
+    public javax.swing.JButton reportButton;
+    public javax.swing.JButton sNewAuditButton;
+    public javax.swing.JButton step1Button;
+    public javax.swing.JButton step2Button;
+    public javax.swing.JButton step3Button;
+    public javax.swing.JButton step4Button;
+    public javax.swing.JButton step5Button;
+    public javax.swing.JButton step6Button;
     private javax.swing.JLabel titleLabel;
     // End of variables declaration//GEN-END:variables
 }

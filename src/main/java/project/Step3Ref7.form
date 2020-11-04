@@ -73,6 +73,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="step3HelpPT2ActionPerformed"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -296,6 +299,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory perform reviews of requests, contract and tenders, and document appropriately.&#x9;"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -346,6 +352,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref7Q1rbNo">
                               <Properties>
@@ -354,6 +363,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref7Q1rbNA">
                               <Properties>
@@ -363,6 +375,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref7Q1rbObs">
                               <Properties>
@@ -371,6 +386,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -388,7 +406,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane23" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane23" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -421,6 +439,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -538,6 +559,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory select the appropriate methods for testing/calibration"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -588,6 +612,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q1rbNo">
                               <Properties>
@@ -596,6 +623,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q1rbNA">
                               <Properties>
@@ -605,6 +635,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q1rbObs">
                               <Properties>
@@ -613,6 +646,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -630,7 +666,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane25" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane25" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -663,6 +699,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -731,6 +770,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory control access to procedures?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -781,6 +823,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q2rbNo">
                               <Properties>
@@ -789,6 +834,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q2rbNA">
                               <Properties>
@@ -798,6 +846,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q2rbObs">
                               <Properties>
@@ -806,6 +857,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -823,7 +877,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane35" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane35" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -856,6 +910,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -924,6 +981,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory limit access to obsolete procedures/revisions?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -974,6 +1034,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q3rbNo">
                               <Properties>
@@ -982,6 +1045,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q3rbNA">
                               <Properties>
@@ -991,6 +1057,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q3rbObs">
                               <Properties>
@@ -999,6 +1068,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1016,7 +1088,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane37" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane37" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -1049,6 +1121,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -1117,6 +1192,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory validate procedures/software for calibration?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1167,6 +1245,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q4rbNo">
                               <Properties>
@@ -1175,6 +1256,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q4rbNA">
                               <Properties>
@@ -1184,6 +1268,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q4rbObs">
                               <Properties>
@@ -1192,6 +1279,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1209,7 +1299,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane39" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane39" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -1227,6 +1317,7 @@
                           <SubComponents>
                             <Container class="javax.swing.JScrollPane" name="jScrollPane39">
                               <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                 <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                               </AuxValues>
 
@@ -1310,6 +1401,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory use manufacturer procedures, or use nationally/internationally recognized processes/methods for testing/calibration?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1360,6 +1454,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q5rbNo">
                               <Properties>
@@ -1368,6 +1465,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q5rbNA">
                               <Properties>
@@ -1377,6 +1477,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q5rbObs">
                               <Properties>
@@ -1385,6 +1488,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1402,7 +1508,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane41" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane41" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -1435,6 +1541,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -1503,6 +1612,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory maintain a log of procedure/software validation?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1553,6 +1665,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q6rbNo">
                               <Properties>
@@ -1561,6 +1676,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q6rbNA">
                               <Properties>
@@ -1570,6 +1688,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref8Q6rbobs">
                               <Properties>
@@ -1578,6 +1699,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1595,7 +1719,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane43" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane43" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -1628,6 +1752,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -1745,6 +1872,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory maintain technical records?  Do the records include evaluations of Measurment Uncertainty?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1795,6 +1925,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref9Q1rbNo">
                               <Properties>
@@ -1803,6 +1936,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref9Q1rbNA">
                               <Properties>
@@ -1812,6 +1948,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref9Q1rbObs">
                               <Properties>
@@ -1820,6 +1959,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -1837,7 +1979,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane33" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane33" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -1870,6 +2012,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -1987,6 +2132,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory have a procedure for monitoring results?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2037,6 +2185,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q1rbNo">
                               <Properties>
@@ -2045,6 +2196,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q1rbNA">
                               <Properties>
@@ -2054,6 +2208,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q1rbObs">
                               <Properties>
@@ -2062,6 +2219,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2079,7 +2239,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane45" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane45" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -2112,6 +2272,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -2180,6 +2343,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory track trends?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2230,6 +2396,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q2rbNo">
                               <Properties>
@@ -2238,6 +2407,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q2rbNA">
                               <Properties>
@@ -2247,6 +2419,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q2rbObs">
                               <Properties>
@@ -2255,6 +2430,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2272,7 +2450,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane47" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane47" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -2305,6 +2483,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -2329,7 +2510,7 @@
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="jPanel99" alignment="1" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jScrollPane48" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane48" pref="23" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel98" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -2373,6 +2554,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory perform process reviews?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2395,7 +2579,28 @@
                                           <Component id="step3Ref10Q3rbNA" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="step3Ref10Q3rbObs" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="0" pref="26" max="32767" attributes="0"/>
+                                      <EmptySpace min="0" pref="542" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jScrollPane54" pref="565" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="step3Ref10Q3rbObs1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="step3Ref10Q3rbNA1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -2412,6 +2617,27 @@
                                       <Component id="step3Ref10Q3rbObs" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace pref="10" max="32767" attributes="0"/>
                                   </Group>
+                                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane54" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="step3Ref10Q3rbObs1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" rootIndex="3" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="step3Ref10Q3rbNA1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
@@ -2423,6 +2649,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q3rbNo">
                               <Properties>
@@ -2431,15 +2660,20 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q3rbNA">
                               <Properties>
                                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                                   <ComponentRef name="buttonGroup10"/>
                                 </Property>
-                                <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q3rbObs">
                               <Properties>
@@ -2447,6 +2681,49 @@
                                   <ComponentRef name="buttonGroup10"/>
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                            <Container class="javax.swing.JScrollPane" name="jScrollPane54">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JTextArea" name="step3Ref10Q3NotesTA1">
+                                  <Properties>
+                                    <Property name="columns" type="int" value="20"/>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Times New Roman" size="14" style="0"/>
+                                    </Property>
+                                    <Property name="lineWrap" type="boolean" value="true"/>
+                                    <Property name="rows" type="int" value="5"/>
+                                    <Property name="wrapStyleWord" type="boolean" value="true"/>
+                                  </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Component class="javax.swing.JRadioButton" name="step3Ref10Q3rbObs1">
+                              <Properties>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="buttonGroup10"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Obs"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="step3Ref10Q3rbNA1">
+                              <Properties>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="buttonGroup10"/>
+                                </Property>
+                                <Property name="selected" type="boolean" value="true"/>
+                                <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
                             </Component>
                           </SubComponents>
@@ -2465,7 +2742,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane49" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane49" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -2566,6 +2843,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory track nonconformities?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2616,6 +2896,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q4rbNo">
                               <Properties>
@@ -2624,6 +2907,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q4rbNA">
                               <Properties>
@@ -2633,6 +2919,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q4rbObs">
                               <Properties>
@@ -2641,6 +2930,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2658,7 +2950,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane51" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane51" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -2691,6 +2983,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -2759,6 +3054,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory participate in Proficiency or Interlaboratory comparisons?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2809,6 +3107,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q5rbNo">
                               <Properties>
@@ -2817,6 +3118,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q5rbNA">
                               <Properties>
@@ -2826,6 +3130,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref10Q5rbObs">
                               <Properties>
@@ -2834,6 +3141,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -2851,7 +3161,7 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jScrollPane53" pref="565" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane53" pref="606" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -2884,6 +3194,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -3001,6 +3314,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory review results prior to release?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3051,6 +3367,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q1rbNo">
                               <Properties>
@@ -3059,6 +3378,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q1rbNA">
                               <Properties>
@@ -3068,6 +3390,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q1rbObs">
                               <Properties>
@@ -3076,6 +3401,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3126,6 +3454,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -3194,6 +3525,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory provide results unambiguously?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3244,6 +3578,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q2rbNo">
                               <Properties>
@@ -3252,6 +3589,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q2rbNA">
                               <Properties>
@@ -3261,6 +3601,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q2rbObs">
                               <Properties>
@@ -3269,6 +3612,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3319,6 +3665,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -3387,6 +3736,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory retain reports?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3437,6 +3789,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q3rbNo">
                               <Properties>
@@ -3445,6 +3800,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q3rbNA">
                               <Properties>
@@ -3454,6 +3812,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref11Q3rbObs">
                               <Properties>
@@ -3462,6 +3823,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3512,6 +3876,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -3585,7 +3952,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel112" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane58" pref="498" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane58" pref="539" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel33" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -3629,6 +3996,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory provide information in calibration certificates identified by ISO 17025 in addition to applicable government, regulatory, or contractual requirements"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3679,6 +4049,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref12Q1rbNo">
                               <Properties>
@@ -3687,6 +4060,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref12Q1rbNA">
                               <Properties>
@@ -3696,6 +4072,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref12Q1rbObs">
                               <Properties>
@@ -3704,6 +4083,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3754,6 +4136,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -3827,7 +4212,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel115" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane60" pref="498" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane60" pref="539" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel114" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -3871,6 +4256,9 @@
                                 <Property name="text" type="java.lang.String" value="Are opinions and interpretations reviewed and approved by appointed personnel?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3921,6 +4309,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref13Q1rbNo">
                               <Properties>
@@ -3929,6 +4320,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref13Q1rbNA">
                               <Properties>
@@ -3938,6 +4332,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref13Q1rbObs">
                               <Properties>
@@ -3946,6 +4343,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -3996,6 +4396,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -4020,7 +4423,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel118" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane62" pref="498" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane62" pref="539" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel117" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -4064,6 +4467,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory identify, document, track and report amendments to reports?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4114,6 +4520,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref13Q2rbNo">
                               <Properties>
@@ -4122,6 +4531,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref13Q2rbNA">
                               <Properties>
@@ -4131,6 +4543,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref13Q2rbObs">
                               <Properties>
@@ -4139,6 +4554,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4189,6 +4607,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -4262,7 +4683,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel121" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane64" pref="488" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane64" pref="529" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel120" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -4306,6 +4727,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory have a complaint program?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4356,6 +4780,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q1rbNo">
                               <Properties>
@@ -4364,6 +4791,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q1rbNA">
                               <Properties>
@@ -4373,6 +4803,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q1rbObs">
                               <Properties>
@@ -4381,6 +4814,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4431,6 +4867,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -4455,7 +4894,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel124" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane66" pref="488" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane66" pref="529" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel123" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -4499,6 +4938,9 @@
                                 <Property name="text" type="java.lang.String" value="Is the complaint program adhered to?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4549,6 +4991,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q2rbNo">
                               <Properties>
@@ -4557,6 +5002,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q2rbNA">
                               <Properties>
@@ -4566,6 +5014,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q2rbObs">
                               <Properties>
@@ -4574,6 +5025,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4624,6 +5078,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -4648,7 +5105,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel127" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane68" pref="488" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane68" pref="529" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel126" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -4692,6 +5149,9 @@
                                 <Property name="text" type="java.lang.String" value="Are complaints logged, followed up, and reported as required?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4742,6 +5202,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q3rbNo">
                               <Properties>
@@ -4750,6 +5213,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q3rbNA">
                               <Properties>
@@ -4759,6 +5225,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref14Q3rbObs">
                               <Properties>
@@ -4767,6 +5236,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4817,6 +5289,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -4897,7 +5372,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel130" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane70" pref="440" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane70" pref="481" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel129" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -4941,6 +5416,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory track nonconforming work?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -4991,6 +5469,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q1rbNo">
                               <Properties>
@@ -4999,6 +5480,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q1rbNA">
                               <Properties>
@@ -5008,6 +5492,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q1rbObs">
                               <Properties>
@@ -5016,6 +5503,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5066,6 +5556,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -5090,7 +5583,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel133" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane72" pref="440" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane72" pref="481" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel132" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -5109,7 +5602,7 @@
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="jPanel133" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="75" max="32767" attributes="0"/>
+                                  <EmptySpace pref="97" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -5134,6 +5627,9 @@
                                 <Property name="text" type="java.lang.String" value="Does the laboratory take corrective action on nonconforming work?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5184,6 +5680,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q2rbNo">
                               <Properties>
@@ -5192,6 +5691,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q2rbNA">
                               <Properties>
@@ -5201,6 +5703,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q2rbObs">
                               <Properties>
@@ -5209,6 +5714,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5229,6 +5737,13 @@
                                       <Component id="jScrollPane73" max="32767" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
+                                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="step3Ref15Q2NotesTA" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
@@ -5236,7 +5751,14 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jScrollPane73" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
+                                      <EmptySpace pref="77" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="step3Ref15Q2NotesTA" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -5248,20 +5770,21 @@
                               </AuxValues>
 
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                              <SubComponents>
-                                <Component class="javax.swing.JTextArea" name="step3Ref15Q2NotesTA">
-                                  <Properties>
-                                    <Property name="columns" type="int" value="20"/>
-                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                      <Font name="Times New Roman" size="14" style="0"/>
-                                    </Property>
-                                    <Property name="lineWrap" type="boolean" value="true"/>
-                                    <Property name="rows" type="int" value="5"/>
-                                    <Property name="wrapStyleWord" type="boolean" value="true"/>
-                                  </Properties>
-                                </Component>
-                              </SubComponents>
                             </Container>
+                            <Component class="javax.swing.JTextArea" name="step3Ref15Q2NotesTA">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Times New Roman" size="14" style="0"/>
+                                </Property>
+                                <Property name="lineWrap" type="boolean" value="true"/>
+                                <Property name="rows" type="int" value="5"/>
+                                <Property name="wrapStyleWord" type="boolean" value="true"/>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
                           </SubComponents>
                         </Container>
                       </SubComponents>
@@ -5283,7 +5806,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel136" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane74" pref="440" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane74" pref="481" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel135" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -5327,6 +5850,9 @@
                                 <Property name="text" type="java.lang.String" value="Is nonconforming work identified in a log and evaluated for trends?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5377,6 +5903,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q3rbNo">
                               <Properties>
@@ -5385,6 +5914,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q3rbNA">
                               <Properties>
@@ -5394,6 +5926,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q3rbObs">
                               <Properties>
@@ -5402,6 +5937,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5452,6 +5990,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -5476,7 +6017,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel139" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jScrollPane76" pref="440" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane76" pref="481" max="32767" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="jPanel138" min="-2" max="-2" attributes="0"/>
                                       </Group>
@@ -5520,6 +6061,9 @@
                                 <Property name="text" type="java.lang.String" value="Are customers notified regarding impact due to nonconforming work?"/>
                                 <Property name="wrapStyleWord" type="boolean" value="true"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5570,6 +6114,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Yes"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q4rbNo">
                               <Properties>
@@ -5578,6 +6125,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="No"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q4rbNA">
                               <Properties>
@@ -5587,6 +6137,9 @@
                                 <Property name="selected" type="boolean" value="true"/>
                                 <Property name="text" type="java.lang.String" value="N/A"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="step3Ref15Q4rbObs">
                               <Properties>
@@ -5595,6 +6148,9 @@
                                 </Property>
                                 <Property name="text" type="java.lang.String" value="Obs"/>
                               </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
                             </Component>
                           </SubComponents>
                         </Container>
@@ -5645,6 +6201,9 @@
                                     <Property name="rows" type="int" value="5"/>
                                     <Property name="wrapStyleWord" type="boolean" value="true"/>
                                   </Properties>
+                                  <AuxValues>
+                                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                                  </AuxValues>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -5661,6 +6220,9 @@
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextButtonActionPerformed"/>
                   </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
               </SubComponents>
             </Container>
@@ -5675,6 +6237,9 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="previousButtonActionPerformed"/>
       </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JButton" name="closeButton">
       <Properties>
@@ -5683,6 +6248,9 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeButtonActionPerformed"/>
       </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>
